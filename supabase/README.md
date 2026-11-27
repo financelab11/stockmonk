@@ -110,7 +110,7 @@ pnpm db:migrate:portfolios  # apply the portfolio migration directly
 pnpm sync:portfolios        # upsert 105 portfolios and their relational rows
 ```
 
-Current portfolio table load: 105 portfolios, 2,234 constituents, 24,960
+Current portfolio table load: 105 portfolios, 2,234 constituents, 98,280
 simulated benchmark performance rows, 157 construction/proposed-review events,
 76 review changes, 105 reports and 2,234 score snapshots.
 

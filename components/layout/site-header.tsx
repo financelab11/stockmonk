@@ -5,7 +5,7 @@ import { MobileNav } from "./mobile-nav";
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-surface/95">
+    <header className="sticky top-0 z-50 border-b border-line bg-surface">
       <div className="bg-brand-deep text-white">
         <div className="container-page flex h-7 items-center justify-between text-[10px] font-medium tracking-wide">
           <p className="truncate">

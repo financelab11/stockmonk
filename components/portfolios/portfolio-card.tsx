@@ -26,7 +26,7 @@ export function PortfolioCard({
     value == null ? "text-muted" : value >= 0 ? "text-positive" : "text-danger";
 
   return (
-    <article className="card group relative h-full transition-shadow hover:shadow-md">
+    <article className="card group relative h-full transition-[border-color,box-shadow] duration-200 hover:border-line-strong hover:shadow-sm">
       <Link
         href={`/portfolio/${portfolio.slug}`}
         className="flex h-full flex-col p-4 sm:p-[18px]"
@@ -38,13 +38,13 @@ export function PortfolioCard({
             size={44}
           />
           <div className="min-w-0 flex-1">
-            <p className="text-[9.5px] font-bold uppercase tracking-[0.12em] text-brand">
+            <p className="text-[10.5px] font-medium text-brand">
               {portfolio.primaryCategory}
             </p>
-            <h3 className="mt-1 line-clamp-2 text-[15.5px] font-semibold leading-snug tracking-[-0.01em] text-ink">
+            <h3 className="display mt-1 line-clamp-2 text-[18px] leading-[1.15] tracking-[-0.015em] text-ink transition-colors group-hover:text-brand-deep">
               {portfolio.name}
             </h3>
-            <p className="mt-1 line-clamp-3 text-[11.8px] leading-relaxed text-muted">
+            <p className="mt-1.5 line-clamp-3 font-serif text-[13px] leading-[1.55] text-ink-soft">
               {portfolio.description}
             </p>
           </div>
@@ -52,20 +52,20 @@ export function PortfolioCard({
 
         <dl className="mt-3.5 grid grid-cols-3 gap-1 border-y border-line py-2.5">
           <div>
-            <dt className="stat-label text-[9px]">Min. investment</dt>
-            <dd className="tabular mt-0.5 text-[12.5px] font-semibold text-ink">
+            <dt className="stat-label text-[10px]">Min. investment</dt>
+            <dd className="tabular mt-0.5 text-[13px] font-semibold text-ink">
               {formatCurrency(portfolio.minimumInvestment, 0)}
             </dd>
           </div>
           <div className="border-l border-line pl-2.5">
-            <dt className="stat-label text-[9px]">{period} return</dt>
-            <dd className={`tabular mt-0.5 text-[12.5px] font-semibold ${tone}`}>
+            <dt className="stat-label text-[10px]">{period} return</dt>
+            <dd className={`tabular mt-0.5 text-[13px] font-semibold ${tone}`}>
               {formatSignedPercent(value)}
             </dd>
-            <dd className="text-[8px] font-normal text-faint">simulated</dd>
+            <dd className="text-[8.5px] font-normal text-faint">simulated</dd>
           </div>
           <div className="border-l border-line pl-2.5">
-            <dt className="stat-label text-[9px]">Volatility</dt>
+            <dt className="stat-label text-[10px]">Volatility</dt>
             <dd className="mt-1">
               <VolatilityBadge level={portfolio.volatility} />
             </dd>

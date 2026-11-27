@@ -40,14 +40,11 @@ export function PortfolioHeader({ portfolio }: { portfolio: PortfolioDetail }) {
             />
             <div className="min-w-0">
               <div className="flex flex-wrap items-center gap-1.5">
-                <span className="rounded-full bg-brand-soft px-2 py-0.5 text-[9px] font-bold uppercase tracking-[0.1em] text-brand">
+                <span className="rounded-full bg-brand-soft px-2.5 py-1 text-[10px] font-medium text-brand">
                   {portfolio.primaryCategory}
                 </span>
-                <span className="rounded-full border border-line bg-surface px-2 py-0.5 text-[9px] font-semibold text-muted">
-                  US stocks only
-                </span>
                 {portfolio.strategyType !== portfolio.primaryCategory && (
-                  <span className="rounded-full border border-line bg-surface px-2 py-0.5 text-[9px] font-semibold text-muted">
+                  <span className="rounded-full border border-line bg-surface px-2.5 py-1 text-[10px] font-medium text-muted">
                     {portfolio.strategyType}
                   </span>
                 )}
@@ -55,17 +52,17 @@ export function PortfolioHeader({ portfolio }: { portfolio: PortfolioDetail }) {
               <h1 className="display mt-1.5 text-[27px] leading-[1.06] tracking-[-0.03em] text-ink sm:text-[34px]">
                 {portfolio.name}
               </h1>
-              <p className="mt-1 text-[10.5px] text-muted">
+              <p className="mt-1.5 text-[11px] text-muted">
                 Managed by{" "}
-                <span className="font-semibold text-ink-soft">
+                <span className="font-medium text-ink-soft">
                   Stockmonk Quant Research
                 </span>{" "}
-                | Model portfolio | {portfolio.holdingsCount} holdings
+                · Model portfolio · {portfolio.holdingsCount} holdings
               </p>
-              <p className="mt-2 max-w-3xl text-[12.5px] leading-relaxed text-ink-soft">
+              <p className="mt-2 max-w-3xl font-serif text-[13.5px] leading-[1.6] text-ink-soft">
                 {portfolio.description}
               </p>
-              <div className="mt-2 flex flex-wrap gap-1">
+              <div className="mt-2.5 flex flex-wrap gap-1.5">
                 {portfolio.tags
                   .filter(
                     (tag) =>
@@ -76,7 +73,7 @@ export function PortfolioHeader({ portfolio }: { portfolio: PortfolioDetail }) {
                   .map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-full bg-surface px-2 py-0.5 text-[9px] font-semibold text-muted ring-1 ring-line"
+                      className="rounded-full bg-surface px-2 py-0.5 text-[10px] font-medium text-muted ring-1 ring-line"
                     >
                       {tag}
                     </span>
@@ -99,39 +96,39 @@ export function PortfolioHeader({ portfolio }: { portfolio: PortfolioDetail }) {
 
         <dl className="mt-4 grid grid-cols-3 gap-y-3 rounded-xl border border-line bg-surface px-3 py-3 sm:grid-cols-6 sm:gap-0 sm:divide-x sm:divide-line sm:px-0">
           <div className="min-w-0 sm:px-4 sm:first:pl-4">
-            <dt className="stat-label text-[9px]">Minimum investment</dt>
+            <dt className="stat-label text-[10px]">Min. investment</dt>
             <dd className="tabular mt-0.5 text-[14px] font-semibold text-ink">
               {formatCurrency(portfolio.minimumInvestment, 0)}
             </dd>
           </div>
           <div className="min-w-0 sm:px-4">
-            <dt className="stat-label text-[9px]">1Y return</dt>
+            <dt className="stat-label text-[10px]">1Y return</dt>
             <dd className={`tabular mt-0.5 text-[14px] font-semibold ${returnTone}`}>
               {formatSignedPercent(portfolio.return1y)}
             </dd>
-            <dd className="text-[8.5px] text-faint">Simulated</dd>
+            <dd className="text-[9px] text-faint">Simulated</dd>
           </div>
           <div className="min-w-0 sm:px-4">
-            <dt className="stat-label text-[9px]">Volatility</dt>
+            <dt className="stat-label text-[10px]">Volatility</dt>
             <dd className="mt-1">
               <VolatilityBadge level={portfolio.volatility} />
             </dd>
           </div>
           <div className="min-w-0 sm:px-4">
-            <dt className="stat-label text-[9px]">Holdings</dt>
+            <dt className="stat-label text-[10px]">Holdings</dt>
             <dd className="tabular mt-0.5 text-[14px] font-semibold text-ink">
               {portfolio.holdingsCount}
             </dd>
           </div>
           <div className="min-w-0 sm:px-4">
-            <dt className="stat-label text-[9px]">Rebalancing</dt>
+            <dt className="stat-label text-[10px]">Rebalancing</dt>
             <dd className="mt-0.5 inline-flex items-center gap-1 text-[12px] font-semibold text-ink">
               <RefreshCw aria-hidden="true" className="size-3 text-muted" />
               {portfolio.rebalanceFrequency}
             </dd>
           </div>
           <div className="min-w-0 sm:px-4">
-            <dt className="stat-label text-[9px]">Benchmark</dt>
+            <dt className="stat-label text-[10px]">Benchmark</dt>
             <dd
               className="mt-0.5 flex min-w-0 items-start gap-1 text-[11px] font-semibold leading-tight text-ink"
               title={portfolio.benchmark.name}

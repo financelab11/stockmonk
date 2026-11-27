@@ -4,10 +4,7 @@ import { ArrowRight, Bookmark, Layers, ShieldCheck, Sigma } from "lucide-react";
 import { PortfolioDiscovery } from "@/components/portfolios/portfolio-discovery";
 import { Disclaimer } from "@/components/ui/disclaimer";
 import { JsonLd } from "@/components/seo/json-ld";
-import {
-  getPortfolioCategoryCounts,
-  getPortfolioIndex,
-} from "@/lib/portfolios/data";
+import { getPortfolioIndex } from "@/lib/portfolios/data";
 import { breadcrumbJsonLd, websiteJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -25,29 +22,6 @@ export const metadata: Metadata = {
 
 export default function PortfolioPage() {
   const index = getPortfolioIndex();
-  const categoryCounts = getPortfolioCategoryCounts();
-  const stats = [
-    {
-      label: "Model portfolios",
-      value: index.portfolios.length.toLocaleString("en-US"),
-      hint: "Distinct US equity strategies",
-    },
-    {
-      label: "Primary categories",
-      value: String(categoryCounts.length),
-      hint: "Plus cross-cutting theme tags",
-    },
-    {
-      label: "US companies",
-      value: index.universeSize.toLocaleString("en-US"),
-      hint: "Existing Stockmonk coverage",
-    },
-    {
-      label: "Research-covered",
-      value: index.researchUniverseSize.toLocaleString("en-US"),
-      hint: "With a full company report",
-    },
-  ];
 
   return (
     <>
@@ -96,8 +70,7 @@ export default function PortfolioPage() {
               <p className="mt-2.5 max-w-2xl text-[13px] leading-relaxed text-white/75 sm:text-[14px]">
                 Discover research-backed US equity model portfolios built around
                 powerful investment themes, quantitative factors and fundamental
-                strategies. Track performance, understand every holding and
-                explore systematic rebalancing.
+                strategies.
               </p>
               <div className="mt-4 flex flex-wrap items-center gap-2">
                 <a href="#portfolios" className="btn btn-brand">
@@ -113,14 +86,13 @@ export default function PortfolioPage() {
               </div>
               <p className="mt-3 flex items-center gap-1.5 text-[10.5px] text-white/60">
                 <ShieldCheck aria-hidden="true" className="size-3.5" />
-                No buy, sell or hold ratings. Model portfolios, not personal
-                advice.
+                Model portfolios, not personal advice.
               </p>
             </div>
 
             <div className="hidden rounded-2xl border border-white/15 bg-white/[0.07] p-4 backdrop-blur-sm lg:block">
               <div className="flex items-center justify-between">
-                <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-white/55">
+                <p className="text-[11px] font-medium text-white/70">
                   Construction engine
                 </p>
                 <Layers aria-hidden="true" className="size-4 text-white/55" />
@@ -143,50 +115,12 @@ export default function PortfolioPage() {
                   </div>
                 ))}
               </dl>
-              <p className="mt-3 text-[10px] leading-relaxed text-white/55">
-                Every holding is verified against the existing Stockmonk
-                universe. No ETFs, mutual funds or invented tickers.
-              </p>
             </div>
           </div>
         </div>
       </header>
 
-      <section className="border-b border-line bg-paper">
-        <div className="container-page grid grid-cols-2 divide-x divide-line md:grid-cols-4">
-          {stats.map((stat) => (
-            <div key={stat.label} className="px-3 py-3.5 first:pl-0 md:px-5">
-              <p className="stat-label text-[9px]">{stat.label}</p>
-              <p className="tabular mt-0.5 text-[19px] font-semibold tracking-[-0.02em] text-ink">
-                {stat.value}
-              </p>
-              <p className="mt-0.5 hidden text-[9.5px] text-muted sm:block">
-                {stat.hint}
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <div className="container-page flex flex-col gap-2 pt-5 pb-1 sm:flex-row sm:items-center sm:justify-between">
-        <p className="max-w-2xl text-[12px] leading-relaxed text-muted">
-          Every strategy reuses the same Growth, Quality, Valuation and
-          Technical evidence as the{" "}
-          <Link href="/screener" className="font-semibold text-brand hover:text-brand-deep">
-            Stockmonk screener
-          </Link>
-          . Methodologies are versioned and logged, not generated per page.
-        </p>
-        <Link
-          href="/framework/scores"
-          className="inline-flex shrink-0 items-center gap-1 text-[11px] font-semibold text-brand hover:text-brand-deep"
-        >
-          Read the score methodology
-          <ArrowRight aria-hidden="true" className="size-3.5" />
-        </Link>
-      </div>
-
-      <div className="pt-4">
+      <div className="pt-5">
         <PortfolioDiscovery portfolios={index.portfolios} />
       </div>
 
@@ -199,11 +133,6 @@ export default function PortfolioPage() {
           <h2 className="display mt-2 text-[28px] tracking-[-0.025em] text-ink sm:text-[34px]">
             Systematic construction, transparent reviews.
           </h2>
-          <p className="mt-2 text-[13px] leading-relaxed text-muted">
-            Stockmonk does not publish ratings or price targets. Portfolios are
-            rules-based models that show their evidence, their current
-            constituents and their proposed changes.
-          </p>
         </div>
         <div className="mt-5 grid gap-3 md:grid-cols-3">
           {[
@@ -224,13 +153,13 @@ export default function PortfolioPage() {
             },
           ].map((item) => (
             <article key={item.step} className="card p-4">
-              <span className="tabular text-[10px] font-bold text-brand">
+              <span className="tabular text-[11px] font-medium text-brand">
                 {item.step}
               </span>
-              <h3 className="mt-2 text-[14px] font-semibold text-ink">
+              <h3 className="display mt-2 text-[17px] leading-[1.2] text-ink">
                 {item.title}
               </h3>
-              <p className="mt-1.5 text-[11.5px] leading-relaxed text-muted">
+              <p className="mt-1.5 text-[12.5px] leading-[1.6] text-muted">
                 {item.body}
               </p>
             </article>

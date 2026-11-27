@@ -77,9 +77,7 @@ export function SectorDonut({
           })}
         </svg>
         <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center">
-          <span className="text-[9px] font-semibold uppercase tracking-[0.12em] text-faint">
-            Sectors
-          </span>
+          <span className="text-[10px] font-medium text-faint">Sectors</span>
           <span className="tabular text-[20px] font-semibold text-ink">
             {allocations.length}
           </span>
@@ -90,17 +88,17 @@ export function SectorDonut({
         {data.map((item, index) => (
           <li
             key={item.label}
-            className="flex items-center gap-1.5 text-[10.5px] text-ink-soft"
+            className="flex items-center gap-2 text-[11.5px] text-ink-soft"
           >
             <span
               className="size-2 shrink-0 rounded-full"
               style={{ backgroundColor: COLORS[index % COLORS.length] }}
             />
             <span className="min-w-0 truncate">{item.label}</span>
-            <span className="ml-auto shrink-0 tabular font-semibold text-ink">
+            <span className="ml-auto shrink-0 tabular font-medium text-ink">
               {(item.weight * 100).toFixed(1)}%
             </span>
-            <span className="w-8 shrink-0 text-right tabular text-[9px] text-muted">
+            <span className="w-8 shrink-0 text-right tabular text-[10px] text-muted">
               {item.count}
             </span>
           </li>
@@ -140,13 +138,13 @@ export function MarketCapBars({
       </div>
       <ul className="mt-3 grid grid-cols-2 gap-x-4 gap-y-1.5 sm:grid-cols-4">
         {data.map((item, index) => (
-          <li key={item.label} className="flex items-center gap-1.5 text-[10.5px]">
+          <li key={item.label} className="flex items-center gap-2 text-[11.5px]">
             <span
               className="size-2 shrink-0 rounded-full"
               style={{ backgroundColor: COLORS[index % COLORS.length] }}
             />
             <span className="truncate text-muted">{item.label}</span>
-            <span className="ml-auto tabular font-semibold text-ink">
+            <span className="ml-auto tabular font-medium text-ink">
               {(item.weight * 100).toFixed(1)}%
             </span>
           </li>

@@ -134,7 +134,7 @@ function FilterGroup({
 }) {
   return (
     <fieldset>
-      <legend className="text-[11px] font-bold uppercase tracking-[0.12em] text-ink-soft">
+      <legend className="text-[12px] font-semibold text-ink-soft">
         {title}
       </legend>
       <div className="mt-2 flex flex-wrap gap-1.5">
@@ -506,16 +506,9 @@ export function PortfolioDiscovery({
         </div>
       )}
 
-      <p className="mt-4 text-[9.5px] leading-relaxed text-muted">
-        Returns shown on cards are simulated from the current constituents at
-        target weights, price-only and before fees. They are not live
-        performance. Open a portfolio for its methodology, benchmark and risk
-        metrics.
-      </p>
-
       {filterOpen && (
         <div
-          className="fixed inset-0 z-[70] flex items-end justify-center bg-night/45 p-0 sm:items-center sm:p-6"
+          className="portfolio-fade-in fixed inset-0 z-[70] flex items-end justify-center bg-night/45 p-0 sm:items-center sm:p-6"
           role="presentation"
           onMouseDown={(event) => {
             if (event.target === event.currentTarget) setFilterOpen(false);
@@ -525,7 +518,7 @@ export function PortfolioDiscovery({
             role="dialog"
             aria-modal="true"
             aria-labelledby="portfolio-filter-title"
-            className="flex max-h-[88vh] w-full max-w-xl flex-col rounded-t-2xl border border-line bg-surface shadow-float sm:rounded-2xl"
+            className="portfolio-sheet-in flex max-h-[88vh] w-full max-w-xl flex-col rounded-t-2xl border border-line bg-surface shadow-float sm:rounded-2xl"
           >
             <div className="flex items-center justify-between border-b border-line px-4 py-3">
               <div>
@@ -623,7 +616,7 @@ export function PortfolioDiscovery({
                 }
               />
               <fieldset>
-                <legend className="text-[11px] font-bold uppercase tracking-[0.12em] text-ink-soft">
+                <legend className="text-[12px] font-semibold text-ink-soft">
                   Returns
                 </legend>
                 <div className="mt-2">
@@ -667,7 +660,7 @@ export function PortfolioDiscovery({
 
       {sortOpen && (
         <div
-          className="fixed inset-0 z-[70] flex items-end justify-center bg-night/45 sm:hidden"
+          className="portfolio-fade-in fixed inset-0 z-[70] flex items-end justify-center bg-night/45 sm:hidden"
           role="presentation"
           onMouseDown={(event) => {
             if (event.target === event.currentTarget) setSortOpen(false);
@@ -677,7 +670,7 @@ export function PortfolioDiscovery({
             role="dialog"
             aria-modal="true"
             aria-label="Sort portfolios"
-            className="w-full rounded-t-2xl border border-line bg-surface pb-[env(safe-area-inset-bottom)] shadow-float"
+            className="portfolio-sheet-in w-full rounded-t-2xl border border-line bg-surface pb-[env(safe-area-inset-bottom)] shadow-float"
           >
             <div className="flex items-center justify-between border-b border-line px-4 py-3">
               <h2 className="text-[15px] font-semibold text-ink">Sort by</h2>

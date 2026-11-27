@@ -24,7 +24,7 @@ export function ExpandableText({
         {visible.map((paragraph, index) => (
           <p
             key={`${index}-${paragraph.slice(0, 24)}`}
-            className="text-[12.5px] leading-relaxed text-ink-soft"
+            className="text-[13.5px] leading-[1.7] text-ink-soft"
           >
             {paragraph}
           </p>

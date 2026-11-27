@@ -142,20 +142,25 @@ export function PortfolioPerformancePanel({
     <section className="overflow-hidden rounded-xl border border-line bg-night text-white shadow-card">
       <div className="flex flex-col gap-3 border-b border-white/10 px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-[9px] font-bold uppercase tracking-[0.14em] text-white/60">
-            Performance analytics
-          </p>
+          <div className="flex items-center gap-2">
+            <p className="text-[11px] font-medium text-white/60">
+              Performance analytics
+            </p>
+            <span className="rounded-full border border-white/15 px-2 py-0.5 text-[9px] text-white/55">
+              Simulated
+            </span>
+          </div>
           <h2 className="display mt-0.5 text-[22px] tracking-[-0.02em] text-white">
             Portfolio vs benchmark
           </h2>
         </div>
         <div className="flex flex-wrap items-center gap-2">
-          <label className="inline-flex items-center gap-1.5 text-[10px] text-white/55">
+          <label className="inline-flex items-center gap-1.5 text-[11px] text-white/60">
             Benchmark
             <select
               value={benchmark.id}
               onChange={(event) => setBenchmarkId(event.target.value)}
-              className="h-8 rounded-full border border-white/15 bg-night-soft px-2.5 text-[10.5px] font-semibold text-white outline-none"
+              className="h-8 rounded-full border border-white/15 bg-night-soft px-2.5 text-[10.5px] font-medium text-white outline-none"
             >
               {benchmarkOptions.map((option) => (
                 <option key={option.id} value={option.id}>
@@ -232,6 +237,7 @@ export function PortfolioPerformancePanel({
               />
               <Tooltip
                 contentStyle={tooltipStyle}
+                cursor={{ stroke: CHART.axis, strokeDasharray: "3 3" }}
                 labelFormatter={(value) => formatDate(String(value))}
                 formatter={(value, name) => [
                   `${Number(value).toFixed(2)}%`,
@@ -270,26 +276,17 @@ export function PortfolioPerformancePanel({
       <div className="grid grid-cols-2 gap-px border-t border-white/10 bg-white/10 sm:grid-cols-4 lg:grid-cols-7">
         {summaryRows.map(([label, value]) => (
           <div key={label} className="bg-night px-3 py-2.5">
-            <p className="text-[8.5px] font-semibold uppercase tracking-[0.1em] text-white/60">
-              {label}
-            </p>
-            <p className="tabular mt-0.5 text-[12px] font-semibold text-white/90">
+            <p className="text-[10px] font-medium text-white/60">{label}</p>
+            <p className="tabular mt-0.5 text-[12.5px] font-semibold text-white/90">
               {value}
             </p>
           </div>
         ))}
       </div>
 
-      <div className="border-t border-white/10 px-4 py-3">
-        <p className="text-[10px] leading-relaxed text-white/60">
-          {performance.basis} Source: {performance.source}. Inception{" "}
-          {formatDate(performance.inception)}; data as of{" "}
-          {formatDate(performance.asOf)}. Volatility is annualised daily
-          standard deviation; the Sharpe ratio uses a 4.3% risk-free rate.
-          Past performance does not guarantee future results.
-        </p>
-        <details className="mt-2">
-          <summary className="cursor-pointer text-[10px] font-semibold text-white/60">
+      <div className="border-t border-white/10 px-4 py-2.5">
+        <details>
+          <summary className="cursor-pointer text-[10.5px] font-medium text-white/60">
             View chart data
           </summary>
           <div className="mt-2 overflow-x-auto">

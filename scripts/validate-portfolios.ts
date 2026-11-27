@@ -180,6 +180,54 @@ for (const summary of index.portfolios) {
     if (detail.performance.asOf == null) {
       fail(`${summary.slug}: performance asOf is missing`);
     }
+    const periodDays: Record<string, number> = {
+      "1M": 30,
+      "6M": 182,
+      "1Y": 365,
+      MAX: 3650,
+    };
+    for (const benchmark of detail.performance.benchmarks) {
+      const lastPoint = benchmark.series.at(-1);
+      if (!lastPoint || benchmark.series.length < 20) {
+        fail(`${summary.slug}: ${benchmark.id} chart series too short`);
+        continue;
+      }
+      for (const metric of benchmark.metrics) {
+        const days = periodDays[metric.period];
+        if (days == null) continue;
+        const cutoff = new Date(
+          new Date(`${lastPoint.date}T00:00:00Z`).getTime() -
+            days * 86_400_000,
+        )
+          .toISOString()
+          .slice(0, 10);
+        const window = benchmark.series.filter(
+          (point) => point.date >= cutoff,
+        );
+        const first = window[0];
+        if (!first) continue;
+        const chartPortfolioReturn =
+          (100 + lastPoint.portfolio) / (100 + first.portfolio) - 1;
+        const chartBenchmarkReturn =
+          (100 + lastPoint.benchmark) / (100 + first.benchmark) - 1;
+        if (
+          metric.portfolioReturn != null &&
+          Math.abs(chartPortfolioReturn - metric.portfolioReturn) > 0.0005
+        ) {
+          fail(
+            `${summary.slug}: ${benchmark.id} ${metric.period} chart return ${chartPortfolioReturn} != metric ${metric.portfolioReturn}`,
+          );
+        }
+        if (
+          metric.benchmarkReturn != null &&
+          Math.abs(chartBenchmarkReturn - metric.benchmarkReturn) > 0.0005
+        ) {
+          fail(
+            `${summary.slug}: ${benchmark.id} ${metric.period} chart benchmark ${chartBenchmarkReturn} != metric ${metric.benchmarkReturn}`,
+          );
+        }
+      }
+    }
   }
   if (detail.performance.basis.toLowerCase().includes("simulated") === false) {
     warnings.push(`${summary.slug}: performance basis is not labelled simulated`);
@@ -199,6 +247,17 @@ for (const summary of index.portfolios) {
   }
   if (detail.rebalance.events.length === 0) {
     fail(`${summary.slug}: rebalance timeline is empty`);
+  }
+  for (const [label, date] of [
+    ["lastRebalanced", detail.rebalance.lastRebalanced],
+    ["nextRebalance", detail.rebalance.nextRebalance],
+    ...detail.rebalance.events.map(
+      (event) => [`event ${event.title}`, event.date] as const,
+    ),
+  ] as const) {
+    if (!/^\d{4}-\d{2}-01$/.test(date)) {
+      fail(`${summary.slug}: ${label} ${date} is not the first of a month`);
+    }
   }
 }
 

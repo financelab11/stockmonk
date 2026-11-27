@@ -716,15 +716,11 @@ function benchmarkSeriesFor(
     periodMetrics(dates, portfolio, normalized, 365),
     periodMetrics(dates, portfolio, normalized, 3650, "MAX"),
   ].filter((item): item is PortfolioPeriodMetrics => item != null);
-  const series: PortfolioSeriesPoint[] = [];
-  for (let index = 0; index < dates.length; index += 1) {
-    if (index % 4 !== 0 && index !== dates.length - 1) continue;
-    series.push({
-      date: dates[index],
-      portfolio: Math.round((portfolio[index] - 100) * 100) / 100,
-      benchmark: Math.round((normalized[index] - 100) * 100) / 100,
-    });
-  }
+  const series: PortfolioSeriesPoint[] = dates.map((date, index) => ({
+    date,
+    portfolio: Math.round((portfolio[index] - 100) * 10_000) / 10_000,
+    benchmark: Math.round((normalized[index] - 100) * 10_000) / 10_000,
+  }));
   return {
     id: benchmarkId,
     name: PORTFOLIO_BENCHMARKS[benchmarkId] ?? benchmarkId,
@@ -1058,6 +1054,10 @@ function addMonths(date: string, months: number): string {
   return value.toISOString().slice(0, 10);
 }
 
+function firstOfMonth(date: string): string {
+  return `${date.slice(0, 7)}-01`;
+}
+
 function main() {
   const rawRows = readJson<RawRow[]>(SCREENER);
   const search = readJson<Array<{ ticker: string; industry: string }>>(SEARCH);
@@ -1168,6 +1168,8 @@ function main() {
       id: item.id,
       name: item.name,
     }));
+    const generatedDate = generatedAt.slice(0, 10);
+    const constructedDate = firstOfMonth(generatedDate);
 
     const summary: PortfolioSummary = {
       slug: spec.slug,
@@ -1191,8 +1193,8 @@ function main() {
       },
       performanceBasis: performance.basis,
       performanceAvailable: performance.available,
-      createdAt: generatedAt.slice(0, 10),
-      updatedAt: generatedAt.slice(0, 10),
+      createdAt: constructedDate,
+      updatedAt: generatedDate,
       popularity: spec.popularity,
     };
     const detail: PortfolioDetail = {
@@ -1214,14 +1216,14 @@ function main() {
       benchmarkOptions,
       rebalance: {
         frequency: spec.rebalanceFrequency,
-        lastRebalanced: generatedAt.slice(0, 10),
+        lastRebalanced: constructedDate,
         nextRebalance: addMonths(
-          generatedAt.slice(0, 10),
+          constructedDate,
           spec.rebalanceFrequency === "Monthly" ? 1 : 3,
         ),
         events: [
           {
-            date: generatedAt.slice(0, 10),
+            date: constructedDate,
             title: "Initial construction",
             summary: `${constituents.length} companies selected from the ${universe.length}-name Stockmonk universe.`,
           },

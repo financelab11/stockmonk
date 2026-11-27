@@ -11,6 +11,7 @@ import {
   Target,
 } from "lucide-react";
 import { PortfolioPerformancePanel } from "./performance-panel";
+import { ExpandablePanel } from "./expandable-panel";
 import { ExpandableText } from "./expandable-text";
 import { formatDate } from "@/lib/format";
 import type { PortfolioDetail } from "@/lib/portfolios/types";
@@ -45,7 +46,7 @@ function SectionHeading({
         {title}
       </h2>
       {description && (
-        <p className="mt-1.5 max-w-2xl text-[12px] leading-relaxed text-muted">
+        <p className="mt-1.5 max-w-2xl text-[13px] leading-[1.6] text-muted">
           {description}
         </p>
       )}
@@ -102,8 +103,8 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
                 key={label}
                 className="flex items-baseline justify-between gap-3 border-b border-line/70 pb-2 last:border-0 last:pb-0"
               >
-                <dt className="text-[10px] text-muted">{label}</dt>
-                <dd className="text-right text-[10.5px] font-semibold text-ink">
+                <dt className="text-[11px] text-muted">{label}</dt>
+                <dd className="text-right text-[12px] font-medium text-ink">
                   {value}
                 </dd>
               </div>
@@ -113,7 +114,7 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
             {displayTags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full bg-paper-deep px-2 py-0.5 text-[9px] font-semibold text-muted"
+                className="rounded-full bg-paper-deep px-2 py-0.5 text-[10px] font-medium text-muted"
               >
                 {tag}
               </span>
@@ -131,101 +132,136 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
         }
       />
 
-      <section className="grid gap-3 lg:grid-cols-[1.2fr_0.8fr]">
-        <div className="card p-4 sm:p-5">
-          <SectionHeading
-            kicker="Methodology"
-            title="How the holdings were selected"
-            description={t.summary}
-          />
-          <div className="mt-4 space-y-2.5">
-            {SCORE_LABELS.map((score) => {
-              const value = t.scoreWeights[score.key];
-              return (
-                <div key={score.key}>
-                  <div className="flex items-center justify-between text-[10.5px]">
-                    <span className="font-semibold text-ink-soft">
-                      {score.label} score
-                    </span>
-                    <span className="tabular text-muted">{value}%</span>
-                  </div>
-                  <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-paper-deep">
-                    <div
-                      className={`h-full rounded-full ${score.tone}`}
-                      style={{ width: `${Math.min(100, value)}%` }}
-                    />
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-          <div className="mt-4 space-y-2">
-            {t.paragraphs.map((paragraph, index) => (
-              <p key={index} className="text-[11.5px] leading-relaxed text-muted">
-                {paragraph}
-              </p>
-            ))}
-          </div>
-          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+      <section className="grid gap-3 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
+        <ExpandablePanel
+          eyebrow="Methodology"
+          title="How the holdings were selected"
+          expandLabel="Read methodology"
+          collapseLabel="Show less methodology"
+          preview={
             <div>
-              <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-ink-soft">
-                Selection criteria
+              <p className="text-[13px] leading-[1.65] text-ink-soft">
+                {t.summary}
               </p>
-              <ul className="mt-1.5 space-y-1">
-                {t.selectionCriteria.map((criterion) => (
-                  <li
-                    key={criterion}
-                    className="flex gap-1.5 text-[10.5px] leading-relaxed text-muted"
-                  >
-                    <CheckCircle2
-                      aria-hidden="true"
-                      className="mt-0.5 size-3 shrink-0 text-positive"
-                    />
-                    {criterion}
-                  </li>
-                ))}
-              </ul>
+              <div className="mt-3 flex flex-wrap gap-1.5">
+                <span className="rounded-full bg-paper-deep px-2.5 py-1 text-[10px] text-muted">
+                  Methodology {t.version}
+                </span>
+                <span className="rounded-full bg-paper-deep px-2.5 py-1 text-[10px] text-muted">
+                  {t.selectionCriteria.length} selection criteria
+                </span>
+                <span className="rounded-full bg-paper-deep px-2.5 py-1 text-[10px] text-muted">
+                  {t.constraints.length} risk controls
+                </span>
+              </div>
             </div>
-            <div>
-              <p className="text-[10px] font-bold uppercase tracking-[0.1em] text-ink-soft">
-                Position sizing & controls
-              </p>
-              <p className="mt-1.5 text-[10.5px] leading-relaxed text-muted">
-                {t.weighting}.
-              </p>
-              <ul className="mt-1.5 space-y-1">
-                {t.constraints.map((constraint) => (
-                  <li
-                    key={constraint}
-                    className="flex gap-1.5 text-[10.5px] leading-relaxed text-muted"
-                  >
-                    <Target
-                      aria-hidden="true"
-                      className="mt-0.5 size-3 shrink-0 text-brand"
-                    />
-                    {constraint}
-                  </li>
-                ))}
-              </ul>
+          }
+        >
+          <div className="space-y-4">
+            <div className="space-y-2.5">
+              {SCORE_LABELS.map((score) => {
+                const value = t.scoreWeights[score.key];
+                return (
+                  <div key={score.key}>
+                    <div className="flex items-center justify-between text-[12px]">
+                      <span className="font-medium text-ink-soft">
+                        {score.label} score
+                      </span>
+                      <span className="tabular text-muted">{value}%</span>
+                    </div>
+                    <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-paper-deep">
+                      <div
+                        className={`h-full rounded-full ${score.tone}`}
+                        style={{ width: `${Math.min(100, value)}%` }}
+                      />
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="space-y-3">
+              {t.paragraphs.map((paragraph, index) => (
+                <p
+                  key={index}
+                  className="text-[13px] leading-[1.7] text-ink-soft"
+                >
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div>
+                <p className="text-[12px] font-semibold text-ink-soft">
+                  Selection criteria
+                </p>
+                <ul className="mt-2 space-y-1.5">
+                  {t.selectionCriteria.map((criterion) => (
+                    <li
+                      key={criterion}
+                      className="flex gap-2 text-[12.5px] leading-[1.6] text-muted"
+                    >
+                      <CheckCircle2
+                        aria-hidden="true"
+                        className="mt-1 size-3.5 shrink-0 text-positive"
+                      />
+                      {criterion}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <p className="text-[12px] font-semibold text-ink-soft">
+                  Position sizing and controls
+                </p>
+                <p className="mt-2 text-[12.5px] leading-[1.6] text-muted">
+                  {t.weighting}.
+                </p>
+                <ul className="mt-2 space-y-1.5">
+                  {t.constraints.map((constraint) => (
+                    <li
+                      key={constraint}
+                      className="flex gap-2 text-[12.5px] leading-[1.6] text-muted"
+                    >
+                      <Target
+                        aria-hidden="true"
+                        className="mt-1 size-3.5 shrink-0 text-brand"
+                      />
+                      {constraint}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
+        </ExpandablePanel>
 
-        <div className="card p-4 sm:p-5">
-          <SectionHeading
-            kicker="Investment rationale"
-            title="The evidence behind the theme"
-          />
-          <div className="mt-3 space-y-4">
+        <ExpandablePanel
+          eyebrow="Investment rationale"
+          title="The evidence behind the theme"
+          expandLabel="Read investment rationale"
+          collapseLabel="Show less rationale"
+          preview={
             <div>
-              <h3 className="text-[11px] font-bold uppercase tracking-[0.08em] text-ink-soft">
+              <p className="text-[13px] leading-[1.65] text-ink-soft">
+                {portfolio.rationale.opportunity[0]}
+              </p>
+              <p className="mt-2 text-[11.5px] leading-relaxed text-muted">
+                {portfolio.rationale.whyTheseCompanies.length} company notes
+                and {portfolio.rationale.risks.length} principal risks.
+              </p>
+            </div>
+          }
+        >
+          <div className="space-y-5">
+            <div>
+              <h3 className="text-[12px] font-semibold text-ink-soft">
                 Investment opportunity
               </h3>
-              <ul className="mt-1.5 space-y-1.5">
+              <ul className="mt-2 space-y-2">
                 {portfolio.rationale.opportunity.map((item, index) => (
                   <li
                     key={index}
-                    className="text-[11px] leading-relaxed text-muted"
+                    className="text-[13px] leading-[1.7] text-ink-soft"
                   >
                     {item}
                   </li>
@@ -233,34 +269,34 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
               </ul>
             </div>
             <div>
-              <h3 className="text-[11px] font-bold uppercase tracking-[0.08em] text-ink-soft">
+              <h3 className="text-[12px] font-semibold text-ink-soft">
                 Why these companies
               </h3>
-              <ul className="mt-1.5 space-y-1.5">
+              <ul className="mt-2 space-y-2">
                 {portfolio.rationale.whyTheseCompanies.map((item, index) => (
                   <li
                     key={index}
-                    className="flex gap-1.5 text-[11px] leading-relaxed text-muted"
+                    className="flex gap-2 text-[13px] leading-[1.7] text-ink-soft"
                   >
-                    <span className="mt-1.5 size-1 shrink-0 rounded-full bg-brand" />
+                    <span className="mt-2 size-1 shrink-0 rounded-full bg-brand" />
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
             <div>
-              <h3 className="text-[11px] font-bold uppercase tracking-[0.08em] text-ink-soft">
+              <h3 className="text-[12px] font-semibold text-ink-soft">
                 Principal risks
               </h3>
-              <ul className="mt-1.5 space-y-1.5">
+              <ul className="mt-2 space-y-2">
                 {portfolio.rationale.risks.map((item, index) => (
                   <li
                     key={index}
-                    className="flex gap-1.5 text-[11px] leading-relaxed text-muted"
+                    className="flex gap-2 text-[13px] leading-[1.7] text-ink-soft"
                   >
                     <CircleAlert
                       aria-hidden="true"
-                      className="mt-0.5 size-3 shrink-0 text-amber"
+                      className="mt-1 size-3.5 shrink-0 text-amber"
                     />
                     {item}
                   </li>
@@ -268,14 +304,14 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
               </ul>
             </div>
             <div>
-              <h3 className="text-[11px] font-bold uppercase tracking-[0.08em] text-ink-soft">
+              <h3 className="text-[12px] font-semibold text-ink-soft">
                 What could invalidate the thesis
               </h3>
-              <ul className="mt-1.5 space-y-1.5">
+              <ul className="mt-2 space-y-2">
                 {portfolio.rationale.invalidation.map((item, index) => (
                   <li
                     key={index}
-                    className="text-[11px] leading-relaxed text-muted"
+                    className="text-[13px] leading-[1.7] text-ink-soft"
                   >
                     {item}
                   </li>
@@ -283,7 +319,7 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
               </ul>
             </div>
           </div>
-        </div>
+        </ExpandablePanel>
       </section>
 
       <section className="grid gap-3 lg:grid-cols-[0.8fr_1.2fr]">
@@ -295,22 +331,22 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
           />
           <dl className="mt-3 grid grid-cols-2 gap-2">
             <div className="rounded-lg bg-paper-deep px-3 py-2">
-              <dt className="stat-label text-[9px]">Frequency</dt>
-              <dd className="mt-0.5 text-[12px] font-semibold text-ink">
+              <dt className="stat-label text-[10px]">Frequency</dt>
+              <dd className="mt-0.5 text-[13px] font-medium text-ink">
                 {portfolio.rebalance.frequency}
               </dd>
             </div>
             <div className="rounded-lg bg-paper-deep px-3 py-2">
-              <dt className="stat-label text-[9px]">Constructed</dt>
-              <dd className="mt-0.5 text-[12px] font-semibold text-ink">
+              <dt className="stat-label text-[10px]">Constructed</dt>
+              <dd className="mt-0.5 text-[13px] font-medium text-ink">
                 {formatDate(portfolio.rebalance.lastRebalanced)}
               </dd>
             </div>
             <div className="col-span-2 rounded-lg bg-brand-soft px-3 py-2">
-              <dt className="stat-label text-[9px] text-brand">
+              <dt className="stat-label text-[10px] text-brand">
                 Next scheduled review
               </dt>
-              <dd className="mt-0.5 inline-flex items-center gap-1 text-[12px] font-semibold text-brand-deep">
+              <dd className="mt-0.5 inline-flex items-center gap-1 text-[13px] font-medium text-brand-deep">
                 <CalendarClock aria-hidden="true" className="size-3.5" />
                 {formatDate(portfolio.rebalance.nextRebalance)}
               </dd>
@@ -320,19 +356,19 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
             {portfolio.rebalance.events.map((event) => (
               <li key={`${event.date}-${event.title}`} className="relative">
                 <span className="absolute -left-[21px] top-1 size-2.5 rounded-full border-2 border-surface bg-brand" />
-                <p className="text-[10px] font-semibold text-brand">
+                <p className="text-[11px] font-medium text-brand">
                   {formatDate(event.date)}
                 </p>
-                <p className="mt-0.5 text-[11.5px] font-semibold text-ink">
+                <p className="mt-0.5 text-[12.5px] font-medium text-ink">
                   {event.title}
                 </p>
-                <p className="mt-0.5 text-[10.5px] leading-relaxed text-muted">
+                <p className="mt-0.5 text-[12px] leading-[1.6] text-muted">
                   {event.summary}
                 </p>
               </li>
             ))}
           </ol>
-          <p className="mt-3 rounded-lg border border-dashed border-line px-3 py-2 text-[9.5px] leading-relaxed text-muted">
+          <p className="mt-3 rounded-lg border border-dashed border-line px-3 py-2.5 text-[11px] leading-[1.6] text-muted">
             No later rebalance has been executed. The review below is a
             proposal-only snapshot, not a trade record.
           </p>
@@ -350,7 +386,7 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
               description={portfolio.review.note}
             />
             <span
-              className={`rounded-full px-2.5 py-1 text-[9px] font-bold uppercase tracking-[0.08em] ${
+              className={`rounded-full px-2.5 py-1 text-[10px] font-medium ${
                 portfolio.review.status === "proposed"
                   ? "bg-amber-soft text-amber"
                   : "bg-positive-soft text-positive"
@@ -372,33 +408,33 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
                   >
                     <div className="flex flex-wrap items-center gap-2">
                       <span
-                        className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[9px] font-bold uppercase tracking-[0.06em] ${style.className}`}
+                        className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-medium ${style.className}`}
                       >
                         <Icon aria-hidden="true" className="size-3" />
                         {change.action}
                       </span>
-                      <span className="text-[11.5px] font-semibold text-ink">
+                      <span className="text-[12.5px] font-medium text-ink">
                         {change.name}
                       </span>
-                      <span className="font-mono text-[9.5px] text-muted">
+                      <span className="font-mono text-[10.5px] text-muted">
                         {change.ticker}
                       </span>
                       {change.currentWeight != null && (
-                        <span className="tabular ml-auto text-[9.5px] text-muted">
+                        <span className="tabular ml-auto text-[10.5px] text-muted">
                           {(change.currentWeight * 100).toFixed(1)}%
                         </span>
                       )}
                       {change.proposedWeight != null && (
-                        <span className="tabular text-[9.5px] font-semibold text-ink">
+                        <span className="tabular text-[10.5px] font-medium text-ink">
                           {(change.proposedWeight * 100).toFixed(1)}% target
                         </span>
                       )}
                     </div>
-                    <ul className="mt-1.5 space-y-0.5">
+                    <ul className="mt-2 space-y-1">
                       {change.reasons.map((reason, index) => (
                         <li
                           key={index}
-                          className="text-[10px] leading-relaxed text-muted"
+                          className="text-[12px] leading-[1.6] text-muted"
                         >
                           {reason}
                         </li>
@@ -409,14 +445,14 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
               })}
             </div>
           ) : (
-            <p className="mt-3 rounded-xl border border-line bg-paper-deep/60 px-3 py-4 text-[11px] leading-relaxed text-muted">
+            <p className="mt-3 rounded-xl border border-line bg-paper-deep/60 px-3 py-4 text-[12.5px] leading-[1.6] text-muted">
               Every current holding still clears the strategy&apos;s screen at
               the latest data date. The next scheduled review will re-run the
               ranking and surface any proposed changes.
             </p>
           )}
 
-          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-[9px] text-muted">
+          <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-[10.5px] text-muted">
             <span>Analysis date: {formatDate(portfolio.review.asOf)}</span>
             <span>Data: latest Stockmonk scores and screener metrics</span>
             <span className="font-semibold text-amber">
@@ -429,14 +465,14 @@ export function PortfolioOverview({ portfolio }: { portfolio: PortfolioDetail })
       <section className="overflow-hidden rounded-xl border border-brand/20 bg-brand-deep px-4 py-5 text-white sm:px-6">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="max-w-2xl">
-            <p className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/10 px-2 py-0.5 text-[9px] font-semibold uppercase tracking-[0.1em] text-white/70">
+            <p className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/10 px-2.5 py-1 text-[10px] font-medium text-white/70">
               <FileText aria-hidden="true" className="size-3" />
               Portfolio research report
             </p>
             <h2 className="display mt-2 text-[24px] tracking-[-0.02em] text-white sm:text-[28px]">
               Get the full story behind every constituent.
             </h2>
-            <p className="mt-1.5 text-[11.5px] leading-relaxed text-white/70">
+            <p className="mt-1.5 text-[12.5px] leading-[1.6] text-white/70">
               Understand why each stock was selected, how it contributes to the
               portfolio and what the latest company fundamentals indicate.
             </p>

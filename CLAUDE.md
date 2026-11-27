@@ -213,6 +213,9 @@ periods.
   actual Yahoo price history, price-only and before fees. It is not a live
   track record. Rebalance events are only recorded events; review proposals are
   rules-based, dated, explainable and explicitly "proposed - not executed".
+  Chart data is stored at full daily resolution and validated against the same
+  benchmark-period return metrics, so the chart endpoint and KPI cannot drift.
+  Construction and scheduled-review dates are always the first of the month.
 - Portfolio bookmarks are local-first under `stockmonk:portfolios:v1` and appear
   in `/watchlist`. `202611270001_portfolios.sql` defines the relational
   persistence shape; no server sync is required for the current UI.

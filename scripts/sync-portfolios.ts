@@ -357,6 +357,10 @@ async function main() {
       scoreRows,
       "portfolio_id,ticker,snapshot_date",
     );
+    await client.query(
+      "delete from public.portfolio_rebalances where portfolio_id = any($1)",
+      [[...portfolioIds.values()]],
+    );
     const rebalanceWritten = await upsert(
       client,
       "portfolio_rebalances",

@@ -6,6 +6,8 @@ import {
   ArrowDown,
   ArrowUp,
   ArrowUpDown,
+  Check,
+  Copy,
   ExternalLink,
   Search,
   X,
@@ -59,6 +61,17 @@ export function PortfolioConstituents({
   const [sort, setSort] = useState<{ key: SortKey; direction: "asc" | "desc" }>(
     { key: "weight", direction: "desc" },
   );
+  const [copiedTicker, setCopiedTicker] = useState<string | null>(null);
+
+  const copyTicker = async (ticker: string) => {
+    try {
+      await navigator.clipboard.writeText(ticker);
+      setCopiedTicker(ticker);
+      window.setTimeout(() => setCopiedTicker(null), 1600);
+    } catch {
+      // Clipboard access may be unavailable.
+    }
+  };
 
   const filtered = useMemo(() => {
     const needle = query.trim().toLowerCase();
@@ -124,11 +137,11 @@ export function PortfolioConstituents({
           <div className="flex items-start justify-between gap-3">
             <div>
               <p className="kicker text-[10px]">Sector composition</p>
-              <h2 className="mt-1 text-[15px] font-semibold text-ink">
+              <h2 className="mt-1 text-[16px] font-medium text-ink">
                 Where the portfolio is invested
               </h2>
             </div>
-            <span className="rounded-full bg-paper-deep px-2 py-0.5 text-[9px] font-semibold text-muted">
+            <span className="rounded-full bg-paper-deep px-2.5 py-1 text-[10px] font-medium text-muted">
               Target weights
             </span>
           </div>
@@ -144,11 +157,11 @@ export function PortfolioConstituents({
           <div className="flex items-start justify-between gap-3">
             <div>
               <p className="kicker text-[10px]">Holdings distribution</p>
-              <h2 className="mt-1 text-[15px] font-semibold text-ink">
+              <h2 className="mt-1 text-[16px] font-medium text-ink">
                 Market-cap mix and concentration
               </h2>
             </div>
-            <span className="rounded-full bg-paper-deep px-2 py-0.5 text-[9px] font-semibold text-muted">
+            <span className="rounded-full bg-paper-deep px-2.5 py-1 text-[10px] font-medium text-muted">
               Calculated
             </span>
           </div>
@@ -157,37 +170,32 @@ export function PortfolioConstituents({
           </div>
           <div className="mt-5 grid grid-cols-2 gap-2 border-t border-line pt-3">
             <div>
-              <p className="stat-label text-[9px]">Top 10 weight</p>
-              <p className="tabular mt-0.5 text-[15px] font-semibold text-ink">
+              <p className="stat-label text-[10px]">Top 10 weight</p>
+              <p className="tabular mt-0.5 text-[16px] font-medium text-ink">
                 {(allocations.top10Weight * 100).toFixed(1)}%
               </p>
             </div>
             <div className="min-w-0">
-              <p className="stat-label text-[9px]">Largest sector</p>
-              <p className="mt-0.5 truncate text-[13px] font-semibold text-ink">
+              <p className="stat-label text-[10px]">Largest sector</p>
+              <p className="mt-0.5 truncate text-[14px] font-medium text-ink">
                 {allocations.sectors[0]?.label ?? "N/A"}
               </p>
-              <p className="tabular text-[9px] text-muted">
+              <p className="tabular text-[10px] text-muted">
                 {((allocations.sectors[0]?.weight ?? 0) * 100).toFixed(1)}%
               </p>
             </div>
           </div>
-          <p className="mt-3 text-[9.5px] leading-relaxed text-muted">
-            Market-cap buckets use current market capitalisation. Allocations
-            are calculated from the current target weights and will change at a
-            rebalance.
-          </p>
         </div>
       </section>
 
       <section className="card overflow-hidden">
         <div className="flex flex-col gap-2 border-b border-line px-4 py-3 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h2 className="text-[15px] font-semibold text-ink">
+            <h2 className="text-[16px] font-medium text-ink">
               Stocks &amp; weights
             </h2>
-            <p className="text-[10px] text-muted">
-              {constituents.length} holdings |{" "}
+            <p className="text-[11px] text-muted">
+              {constituents.length} holdings ·{" "}
               {Math.round(totalWeight * 10_000) / 100}% allocated
             </p>
           </div>
@@ -244,13 +252,13 @@ export function PortfolioConstituents({
             <caption className="sr-only">
               Portfolio constituents, weights and one-year price returns
             </caption>
-            <thead className="bg-paper-deep text-[9px] uppercase tracking-[0.1em] text-muted">
+            <thead className="bg-paper-deep text-[10px] font-medium text-muted">
               <tr>
                 <th scope="col" className="px-4 py-2 font-semibold" aria-sort={ariaSort("name")}>
                   <button
                     type="button"
                     onClick={() => changeSort("name")}
-                    className="inline-flex items-center gap-1"
+                    className="inline-flex items-center gap-1 transition-colors hover:text-ink"
                   >
                     Stock
                     <SortIcon active={sort.key === "name"} direction={sort.direction} />
@@ -260,7 +268,7 @@ export function PortfolioConstituents({
                   <button
                     type="button"
                     onClick={() => changeSort("sector")}
-                    className="inline-flex items-center gap-1"
+                    className="inline-flex items-center gap-1 transition-colors hover:text-ink"
                   >
                     Sector
                     <SortIcon active={sort.key === "sector"} direction={sort.direction} />
@@ -270,7 +278,7 @@ export function PortfolioConstituents({
                   <button
                     type="button"
                     onClick={() => changeSort("marketCap")}
-                    className="inline-flex items-center gap-1"
+                    className="inline-flex items-center gap-1 transition-colors hover:text-ink"
                   >
                     Market cap
                     <SortIcon active={sort.key === "marketCap"} direction={sort.direction} />
@@ -280,7 +288,7 @@ export function PortfolioConstituents({
                   <button
                     type="button"
                     onClick={() => changeSort("weight")}
-                    className="inline-flex items-center gap-1"
+                    className="inline-flex items-center gap-1 transition-colors hover:text-ink"
                   >
                     Weight
                     <SortIcon active={sort.key === "weight"} direction={sort.direction} />
@@ -290,7 +298,7 @@ export function PortfolioConstituents({
                   <button
                     type="button"
                     onClick={() => changeSort("return1y")}
-                    className="inline-flex items-center gap-1"
+                    className="inline-flex items-center gap-1 transition-colors hover:text-ink"
                   >
                     1Y return
                     <SortIcon active={sort.key === "return1y"} direction={sort.direction} />
@@ -310,7 +318,7 @@ export function PortfolioConstituents({
                 return (
                   <tr
                     key={item.ticker}
-                    className="border-t border-line/80 align-middle hover:bg-paper-deep/60"
+                    className="border-t border-line/80 align-middle transition-colors hover:bg-brand-soft/30"
                   >
                     <td className="px-4 py-2.5">
                       <div className="flex items-center gap-2.5">
@@ -318,23 +326,35 @@ export function PortfolioConstituents({
                         <div className="min-w-0">
                           <Link
                             href={href}
-                            className="block truncate text-[11.5px] font-semibold text-ink hover:text-brand"
+                            className="flex min-h-6 items-center truncate text-[12px] font-medium text-ink transition-colors hover:text-brand"
                           >
                             {item.name}
                           </Link>
                           <div className="mt-0.5 flex items-center gap-1.5">
                             <Link
                               href={href}
-                              className="inline-flex min-h-6 min-w-6 items-center font-mono text-[9.5px] text-muted hover:text-brand"
+                              className="inline-flex min-h-6 min-w-6 items-center font-mono text-[10px] text-muted hover:text-brand"
                             >
                               {item.ticker}
                             </Link>
+                            <button
+                              type="button"
+                              onClick={() => copyTicker(item.ticker)}
+                              aria-label={`Copy ${item.ticker} ticker`}
+                              className="inline-flex size-6 items-center justify-center rounded text-faint transition-colors hover:bg-paper-deep hover:text-ink"
+                            >
+                              {copiedTicker === item.ticker ? (
+                                <Check aria-hidden="true" className="size-3 text-positive" />
+                              ) : (
+                                <Copy aria-hidden="true" className="size-3" />
+                              )}
+                            </button>
                             {item.research ? (
-                              <span className="rounded bg-brand-soft px-1 py-0.5 text-[8px] font-bold text-brand">
+                              <span className="rounded bg-brand-soft px-1.5 py-0.5 text-[9px] font-medium text-brand">
                                 Report
                               </span>
                             ) : (
-                              <span className="rounded bg-paper-deep px-1 py-0.5 text-[8px] font-semibold text-muted">
+                              <span className="rounded bg-paper-deep px-1.5 py-0.5 text-[9px] font-medium text-muted">
                                 Scores
                               </span>
                             )}
@@ -342,14 +362,14 @@ export function PortfolioConstituents({
                         </div>
                       </div>
                     </td>
-                    <td className="max-w-[170px] truncate px-3 py-2.5 text-[10.5px] text-muted">
+                    <td className="max-w-[170px] truncate px-3 py-2.5 text-[11.5px] text-muted">
                       {item.sector}
                     </td>
-                    <td className="tabular px-3 py-2.5 text-right text-[10.5px] text-ink-soft">
+                    <td className="tabular px-3 py-2.5 text-right text-[11.5px] text-ink-soft">
                       {formatCompactCurrency(item.marketCap)}
                     </td>
                     <td className="px-3 py-2.5 text-right">
-                      <span className="tabular text-[11px] font-semibold text-ink">
+                      <span className="tabular text-[12px] font-medium text-ink">
                         {(item.weight * 100).toFixed(1)}%
                       </span>
                       <span className="mt-1 block h-1 w-full overflow-hidden rounded-full bg-paper-deep">
@@ -359,7 +379,7 @@ export function PortfolioConstituents({
                         />
                       </span>
                     </td>
-                    <td className={`tabular px-4 py-2.5 text-right text-[11px] font-semibold ${tone}`}>
+                    <td className={`tabular px-4 py-2.5 text-right text-[12px] font-medium ${tone}`}>
                       {formatSignedPercent(item.return1y)}
                     </td>
                   </tr>
@@ -368,15 +388,13 @@ export function PortfolioConstituents({
             </tbody>
             <tfoot>
               <tr className="border-t border-line bg-paper-deep">
-                <td colSpan={3} className="px-4 py-2 text-[10px] font-semibold text-muted">
+                <td colSpan={3} className="px-4 py-2 text-[11px] font-medium text-muted">
                   Total target allocation
                 </td>
-                <td className="tabular px-3 py-2 text-right text-[11px] font-semibold text-ink">
+                <td className="tabular px-3 py-2 text-right text-[12px] font-medium text-ink">
                   {(totalWeight * 100).toFixed(1)}%
                 </td>
-                <td className="px-4 py-2 text-right text-[9px] text-muted">
-                  Price-only
-                </td>
+                <td />
               </tr>
             </tfoot>
           </table>
@@ -392,35 +410,55 @@ export function PortfolioConstituents({
                   ? "text-positive"
                   : "text-danger";
             return (
-              <div key={item.ticker} className="p-3.5">
+              <div
+                key={item.ticker}
+                className="p-3.5 transition-colors hover:bg-brand-soft/20"
+              >
                 <div className="flex items-start gap-2.5">
                   <StockLogo ticker={item.ticker} size={34} />
                   <div className="min-w-0 flex-1">
-                    <Link href={href} className="block truncate text-[12px] font-semibold text-ink">
+                    <Link
+                      href={href}
+                      className="flex min-h-6 items-center truncate text-[13px] font-medium text-ink"
+                    >
                       {item.name}
                     </Link>
-                    <p className="font-mono text-[9.5px] text-muted">
-                      {item.ticker} | {item.sector}
-                    </p>
+                    <div className="mt-0.5 flex items-center gap-1.5">
+                      <span className="font-mono text-[10.5px] text-muted">
+                        {item.ticker} · {item.sector}
+                      </span>
+                      <button
+                        type="button"
+                        onClick={() => copyTicker(item.ticker)}
+                        aria-label={`Copy ${item.ticker} ticker`}
+                        className="inline-flex size-6 items-center justify-center rounded text-faint transition-colors hover:bg-paper-deep hover:text-ink"
+                      >
+                        {copiedTicker === item.ticker ? (
+                          <Check aria-hidden="true" className="size-3 text-positive" />
+                        ) : (
+                          <Copy aria-hidden="true" className="size-3" />
+                        )}
+                      </button>
+                    </div>
                   </div>
                   <div className="text-right">
-                    <p className="tabular text-[13px] font-semibold text-ink">
+                    <p className="tabular text-[14px] font-medium text-ink">
                       {(item.weight * 100).toFixed(1)}%
                     </p>
-                    <p className="text-[8.5px] text-faint">weight</p>
+                    <p className="text-[9.5px] text-faint">weight</p>
                   </div>
                 </div>
                 <div className="mt-2 flex items-center justify-between gap-2 border-t border-line pt-2">
-                  <div className="flex items-center gap-2 text-[9.5px] text-muted">
+                  <div className="flex items-center gap-2 text-[10.5px] text-muted">
                     <span>{formatCompactCurrency(item.marketCap)}</span>
-                    <span aria-hidden="true">|</span>
-                    <span className={`tabular font-semibold ${tone}`}>
+                    <span aria-hidden="true">·</span>
+                    <span className={`tabular font-medium ${tone}`}>
                       {formatSignedPercent(item.return1y)} 1Y
                     </span>
                   </div>
                   <Link
                     href={href}
-                    className="inline-flex items-center gap-0.5 text-[9.5px] font-semibold text-brand"
+                    className="inline-flex items-center gap-0.5 text-[10.5px] font-medium text-brand"
                   >
                     {item.research ? "Research" : "Scores"}
                     <ExternalLink aria-hidden="true" className="size-3" />
@@ -443,11 +481,6 @@ export function PortfolioConstituents({
           </p>
         )}
 
-        <p className="border-t border-line px-4 py-2.5 text-[9.5px] leading-relaxed text-muted">
-          Stock returns are trailing one-year price returns, not total returns.
-          Research-covered companies link to their Stockmonk report; other
-          holdings link to the available score evidence.
-        </p>
       </section>
     </div>
   );

@@ -64,6 +64,17 @@ test.describe("portfolio module", () => {
       page.getByText("Investment horizon", { exact: true }),
     ).toBeVisible();
     await expect(page.locator("svg.recharts-surface").first()).toBeVisible();
+    await expect(page.getByText("Nov 1, 2026").first()).toBeVisible();
+    await expect(page.getByText("Feb 1, 2027").first()).toBeVisible();
+
+    const methodologyButton = page.getByRole("button", {
+      name: "Read methodology",
+    });
+    await methodologyButton.click();
+    await expect(
+      page.getByRole("button", { name: "Show less methodology" }),
+    ).toBeVisible();
+    await expect(page.getByText("Selection criteria")).toBeVisible();
 
     await page.getByRole("link", { name: /^Constituents/ }).click();
     await page.waitForURL("**?tab=constituents");
@@ -72,6 +83,9 @@ test.describe("portfolio module", () => {
     await expect(
       page.getByRole("link", { name: "Micron Technology, Inc." }).first(),
     ).toHaveAttribute("href", "/stocks/MU");
+    await expect(
+      page.locator('button[aria-label="Copy MU ticker"]').first(),
+    ).toBeAttached();
 
     await page.getByRole("link", { name: "Overview" }).click();
     await page.waitForURL("**?tab=overview");

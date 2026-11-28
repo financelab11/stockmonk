@@ -18,15 +18,19 @@ import {
 } from "lucide-react";
 
 const ITEMS = [
-  { href: "/portfolio", label: "Portfolio", icon: Briefcase },
   { href: "/discover", label: "Discover", icon: Compass },
+  { href: "/portfolio", label: "Portfolio", icon: Briefcase },
   { href: "/screener", label: "Screener", icon: SlidersHorizontal },
 ] as const;
 
 const MORE_LINKS = [
   { href: "/watchlist", label: "Watchlist", icon: Star },
   { href: "/framework", label: "Research methodology", icon: BookOpen },
-  { href: "/editorial-guidelines", label: "Editorial guidelines", icon: FileText },
+  {
+    href: "/editorial-guidelines",
+    label: "Editorial guidelines",
+    icon: FileText,
+  },
   { href: "/data-sources", label: "Data sources", icon: Database },
   { href: "/about", label: "About Stockmonk", icon: Info },
   { href: "/discover#pro", label: "Stockmonk Pro", icon: Sparkles },
@@ -79,15 +83,13 @@ export function MobileNav() {
       {moreOpen && (
         <div
           ref={moreRef}
-          className="fixed inset-x-0 bottom-[calc(56px+env(safe-area-inset-bottom))] z-50 mx-2 rounded-2xl border border-line bg-surface p-2 shadow-float lg:hidden"
+          className="fixed inset-x-0 bottom-[calc(56px+env(safe-area-inset-bottom))] z-50 mx-2 rounded-xl border border-hairline bg-warm p-2 shadow-float lg:hidden"
           role="dialog"
           aria-modal="true"
           aria-label="More navigation"
         >
           <div className="flex items-center justify-between px-2 py-1">
-            <p className="text-[10px] font-bold uppercase tracking-[0.12em] text-muted">
-              More
-            </p>
+            <p className="text-[11px] font-semibold text-steel">More</p>
             <button
               type="button"
               onClick={() => setMoreOpen(false)}
@@ -128,7 +130,7 @@ export function MobileNav() {
 
       <nav
         aria-label="Mobile"
-        className="fixed inset-x-0 bottom-0 z-50 border-t border-line bg-surface pb-[env(safe-area-inset-bottom)] lg:hidden"
+        className="fixed inset-x-0 bottom-0 z-50 border-t border-hairline bg-warm pb-[env(safe-area-inset-bottom)] lg:hidden"
       >
         <div className="grid grid-cols-4">
           {ITEMS.map((item) => {

@@ -129,6 +129,26 @@ pnpm build:screener`.
   Discover, Screener, More; Watchlist is inside More. Header search is a US-only
   global overlay (`/` or Cmd/Ctrl+K).
 
+## Homepage
+
+- `app/page.tsx` is a server-rendered product surface. It reads the existing
+  screener rows, score dataset, research bundles and portfolio index through
+  `lib/homepage-data.ts`; it does not maintain a separate universe.
+- Small client islands handle the intelligence tabs, portfolio category
+  filters, hero company switcher and local workspace. Everything else is a
+  server component.
+- `lib/home-portfolio-filters.ts` is shared by the homepage selector and the
+  portfolio showcase so category counts and cards cannot drift.
+- `lib/events.ts` emits provider-agnostic analytics events to `dataLayer`, a
+  `stockmonk:analytics` DOM event and an optional
+  `NEXT_PUBLIC_ANALYTICS_ENDPOINT` beacon. No personal data is collected.
+- The watchlist and saved portfolios remain local-first. `lib/recently-viewed.ts`
+  powers research continuity, and the homepage install prompt uses the existing
+  PWA service worker rather than a separate install flow.
+- Authenticated personalisation, email digests and signup events are deferred
+  until the app has an auth UI and email provider; the current workspace never
+  fabricates user statistics.
+
 ## Refreshing the datasets
 
 ```bash

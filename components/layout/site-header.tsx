@@ -1,25 +1,11 @@
-import { CircleUserRound } from "lucide-react";
 import { GlobalSearch } from "@/components/search/global-search";
 import { MainNav } from "./main-nav";
 import { MobileNav } from "./mobile-nav";
+import { WatchlistNavLink } from "./watchlist-nav-link";
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-line bg-surface">
-      <div className="bg-brand-deep text-white">
-        <div className="container-page flex h-7 items-center justify-between text-[10px] font-medium tracking-wide">
-          <p className="truncate">
-            Filings, financials and sourced estimates. No recommendations.
-          </p>
-          <a
-            href="/editorial-guidelines"
-            className="hidden shrink-0 text-white/80 underline decoration-white/30 underline-offset-2 hover:text-white sm:block"
-          >
-            How we work
-          </a>
-        </div>
-      </div>
-
+    <header className="sticky top-0 z-50 border-b border-hairline bg-warm">
       <div className="container-page flex h-16 items-center gap-3">
         <a
           href="/"
@@ -29,36 +15,24 @@ export function SiteHeader() {
           <img
             src="/brand/logo-mark.webp"
             alt=""
-            width={36}
-            height={36}
+            width={32}
+            height={32}
             fetchPriority="high"
             decoding="async"
-            className="size-9 rounded-[10px] ring-1 ring-brand-deep/15"
+            className="size-8 rounded-[9px] ring-1 ring-graphite/10"
           />
-          <span className="display text-[25px] leading-none tracking-[-0.03em] text-ink">
+          <span className="font-serif text-[23px] leading-none tracking-[-0.03em] text-graphite">
             Stockmonk
           </span>
         </a>
 
-        <div className="ml-4 hidden lg:block">
+        <div className="ml-4">
           <MainNav />
         </div>
 
         <div className="ml-auto flex items-center gap-2">
           <GlobalSearch />
-          <a
-            href="/discover#pro"
-            className="btn btn-brand hidden h-10 min-h-0 px-4 text-[13px] md:inline-flex"
-          >
-            Go Pro
-          </a>
-          <a
-            href="/watchlist"
-            className="relative hidden size-10 items-center justify-center rounded-full border border-line text-ink-soft transition-colors hover:border-line-strong hover:text-ink sm:inline-flex"
-            aria-label="Open watchlist"
-          >
-            <CircleUserRound aria-hidden="true" className="size-[18px]" />
-          </a>
+          <WatchlistNavLink />
         </div>
       </div>
 

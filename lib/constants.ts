@@ -1,9 +1,9 @@
 export const SITE = {
   name: "Stockmonk",
   legalName: "Stockmonk Research",
-  tagline: "Independent equity research for learners.",
+  tagline: "US equity research, screening and model portfolios.",
   description:
-    "Equity research built from SEC filings: business breakdowns, sourced fundamentals and third-party analyst estimates for US companies.",
+    "The investment intelligence platform for discovering, analysing and tracking US equities. Company research, four-factor scores, a US stock screener and systematic model portfolios.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://stockmonk.app",
   email: "hello@stockmonk.app",
   twitter: "@stockmonk",
@@ -16,9 +16,10 @@ export const DISCLAIMER_SHORT =
   "Informational and educational only. Not investment advice.";
 
 export const NAV_LINKS = [
-  { href: "/portfolio", label: "Portfolio" },
   { href: "/discover", label: "Discover" },
   { href: "/screener", label: "Screener" },
+  { href: "/portfolio", label: "Portfolios" },
+  { href: "/watchlist", label: "Watchlist" },
 ] as const;
 
 export const FOOTER_COLUMNS = [

@@ -32,6 +32,19 @@
   --color-sky: #0e7490;
   --color-violet: #8b3dff;
 
+  /* Homepage surface system: warm neutral canvas, graphite type, restrained
+     emerald accent and a muted blue secondary. Existing pages keep the
+     original tokens above. */
+  --color-canvas: #f6f5f1;
+  --color-warm: #fffdf8;
+  --color-graphite: #17191d;
+  --color-graphite-soft: #2a2e35;
+  --color-hairline: #e4e0d8;
+  --color-accent: #0f766e;
+  --color-accent-soft: #e8f2ee;
+  --color-steel: #55616d;
+  --color-steel-soft: #eef1f3;
+
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-newsreader), Georgia, "Times New Roman", serif;
   --font-mono:
@@ -350,6 +363,150 @@
   .btn-quiet:hover {
     background: var(--color-paper-deep);
     color: var(--color-ink);
+  }
+
+  /* Homepage components. These are intentionally flatter and warmer than the
+     legacy cards so the homepage reads as one system. */
+  .home-card {
+    background: var(--color-warm);
+    border: 1px solid var(--color-hairline);
+    border-radius: 0.875rem;
+  }
+
+  .home-card-hover {
+    transition:
+      border-color 180ms var(--ease-out-soft),
+      background-color 180ms var(--ease-out-soft);
+  }
+
+  .home-card-hover:hover {
+    border-color: #c9c3b8;
+    background: #ffffff;
+  }
+
+  .home-label {
+    font-size: 0.6875rem;
+    line-height: 1.3;
+    font-weight: 500;
+    color: var(--color-steel);
+  }
+
+  .home-eyebrow {
+    font-family: var(--font-serif);
+    font-size: 0.8125rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: var(--color-accent);
+  }
+
+  .home-rule {
+    border-color: var(--color-hairline);
+  }
+
+  .home-link {
+    color: var(--color-accent);
+    font-weight: 600;
+    text-underline-offset: 3px;
+  }
+
+  .home-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+
+  .home-button {
+    display: inline-flex;
+    min-height: 2.625rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.625rem 1rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1;
+    transition:
+      background-color 160ms var(--ease-out-soft),
+      border-color 160ms var(--ease-out-soft),
+      color 160ms var(--ease-out-soft);
+  }
+
+  .home-button-primary {
+    background: var(--color-graphite);
+    border: 1px solid var(--color-graphite);
+    color: #ffffff;
+  }
+
+  .home-button-primary:hover {
+    background: var(--color-graphite-soft);
+    border-color: var(--color-graphite-soft);
+  }
+
+  .home-button-secondary {
+    background: transparent;
+    border: 1px solid #cfc9bf;
+    color: var(--color-graphite);
+  }
+
+  .home-button-secondary:hover {
+    background: #ffffff;
+    border-color: #a8a198;
+  }
+
+  .home-score-track {
+    height: 0.25rem;
+    overflow: hidden;
+    border-radius: 999px;
+    background: #e8e4dd;
+  }
+
+  .home-score-fill {
+    height: 100%;
+    border-radius: 999px;
+    background: var(--color-accent);
+  }
+
+  .home-tab {
+    border-bottom: 2px solid transparent;
+    color: var(--color-steel);
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.65rem 0.15rem;
+    white-space: nowrap;
+    transition:
+      color 160ms var(--ease-out-soft),
+      border-color 160ms var(--ease-out-soft);
+  }
+
+  .home-tab[data-active="true"] {
+    border-color: var(--color-graphite);
+    color: var(--color-graphite);
+  }
+
+  .home-tab:hover {
+    color: var(--color-graphite);
+  }
+
+  .home-table th {
+    font-size: 0.625rem;
+    font-weight: 600;
+    color: var(--color-steel);
+    padding-bottom: 0.5rem;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .home-table td {
+    border-top: 1px solid var(--color-hairline);
+    padding-block: 0.6rem;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .home-table th:first-child,
+  .home-table td:first-child {
+    text-align: left;
   }
 
   .chip {
@@ -776,4 +933,3 @@
 .portfolio-sheet-in {
   animation: portfolio-sheet-in 200ms var(--ease-out-soft);
 }
-

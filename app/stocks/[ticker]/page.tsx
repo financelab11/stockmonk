@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { ResearchArticle } from "@/components/article/research-article";
 import { SupportingProfile } from "@/components/article/supporting-profile";
+import { RecentlyViewedTracker } from "@/components/home/recently-viewed-tracker";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getStockStory } from "@/content/stocks";
 import { generateStockStory } from "@/lib/generated-story";
@@ -139,6 +140,7 @@ export default async function StockPage({
     return (
       <>
         <JsonLd data={jsonLd} />
+        <RecentlyViewedTracker ticker={data.ticker} />
         <ResearchArticle bundle={bundle} story={story} related={related} />
       </>
     );
@@ -167,6 +169,7 @@ export default async function StockPage({
   return (
     <>
       <JsonLd data={jsonLd} />
+      <RecentlyViewedTracker ticker={data.ticker} />
       <SupportingProfile
         data={data}
         prices={getPrices(data.ticker, "1Y")}

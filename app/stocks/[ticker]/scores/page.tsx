@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/seo/json-ld";
+import { RecentlyViewedTracker } from "@/components/home/recently-viewed-tracker";
 import { ScoreEvidenceTable } from "@/components/scores/score-evidence-table";
 import { V2Scorecard } from "@/components/scores/v2-scorecard";
 import { Disclaimer } from "@/components/ui/disclaimer";
@@ -78,6 +79,7 @@ export default async function ScoreEvidencePage({
   return (
     <>
       <JsonLd data={breadcrumbJsonLd(crumbs)} />
+      <RecentlyViewedTracker ticker={record.ticker} />
 
       <div className="container-page max-w-[1100px] py-8">
         <nav
@@ -90,7 +92,10 @@ export default async function ScoreEvidencePage({
           <span aria-hidden="true">›</span>
           {hasResearch ? (
             <>
-              <Link href={`/stocks/${record.ticker}`} className="hover:text-ink">
+              <Link
+                href={`/stocks/${record.ticker}`}
+                className="hover:text-ink"
+              >
                 {record.ticker}
               </Link>
               <span aria-hidden="true">›</span>

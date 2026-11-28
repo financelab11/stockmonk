@@ -1,4 +1,16 @@
+import fs from "node:fs";
+import path from "node:path";
 import { expect, test } from "@playwright/test";
+
+const portfolioIndex = JSON.parse(
+  fs.readFileSync(
+    path.join(process.cwd(), "public", "data", "portfolios", "index.json"),
+    "utf8",
+  ),
+) as { portfolios: Array<{ volatility: string }> };
+const highVolatilityCount = portfolioIndex.portfolios.filter(
+  (portfolio) => portfolio.volatility === "High",
+).length;
 
 test.describe("portfolio module", () => {
   test("discovers, searches, filters and sorts the 105 portfolios", async ({
@@ -33,7 +45,9 @@ test.describe("portfolio module", () => {
     const dialog = page.getByRole("dialog", { name: "Filters" });
     await dialog.getByRole("button", { name: "High", exact: true }).click();
     await dialog.getByRole("button", { name: "Apply filters" }).click();
-    await expect(page.locator("#portfolios article.card")).toHaveCount(22);
+    await expect(page.locator("#portfolios article.card")).toHaveCount(
+      Math.min(highVolatilityCount, 24),
+    );
 
     if ((page.viewportSize()?.width ?? 1280) >= 640) {
       await page
@@ -44,9 +58,7 @@ test.describe("portfolio module", () => {
       ).toHaveValue("return-desc");
     } else {
       await page.locator('button[aria-label="Sort portfolios"]').click();
-      await page
-        .getByRole("button", { name: "Returns: high to low" })
-        .click();
+      await page.getByRole("button", { name: "Returns: high to low" }).click();
     }
   });
 
@@ -89,7 +101,9 @@ test.describe("portfolio module", () => {
 
     await page.getByRole("link", { name: "Overview" }).click();
     await page.waitForURL("**?tab=overview");
-    await expect(page.getByText("How the holdings were selected")).toBeVisible();
+    await expect(
+      page.getByText("How the holdings were selected"),
+    ).toBeVisible();
   });
 
   test("opens the portfolio research report with linked constituents", async ({

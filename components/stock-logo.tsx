@@ -1,3 +1,5 @@
+"use client";
+
 import { logoFileName } from "@/lib/logo-filename";
 
 const PALETTE = [
@@ -60,6 +62,9 @@ export function StockLogo({
           loading={priority ? "eager" : "lazy"}
           decoding="async"
           className="relative size-full bg-white object-contain p-[16%]"
+          onError={(event) => {
+            event.currentTarget.style.display = "none";
+          }}
         />
       )}
     </span>

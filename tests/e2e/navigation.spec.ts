@@ -66,7 +66,7 @@ test.describe("navigation", () => {
     await expect(page).toHaveURL(/\/stocks\/NVDA/, { timeout: 15_000 });
   });
 
-  test("mobile bar starts with Portfolio, Discover and Screener", async ({
+  test("mobile bar starts with Discover, Portfolio and Screener", async ({
     page,
   }) => {
     const width = page.viewportSize()?.width ?? 1280;
@@ -78,8 +78,8 @@ test.describe("navigation", () => {
     await page.goto("/portfolio", { waitUntil: "networkidle" });
     const nav = page.getByRole("navigation", { name: "Mobile" });
     await expect(nav.getByRole("link")).toHaveText([
-      "Portfolio",
       "Discover",
+      "Portfolio",
       "Screener",
     ]);
 

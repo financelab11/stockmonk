@@ -1,200 +1,359 @@
 import type { Metadata } from "next";
-import { ArrowRight, BookOpenCheck, Database, FileCheck2 } from "lucide-react";
-import { HeroSearch } from "@/components/home/hero-search";
-import { ProFeatures } from "@/components/home/pro-features";
-import { RecentlyResearched } from "@/components/home/recently-researched";
-import { Spotlight } from "@/components/home/spotlight";
-import { SectionHeader } from "@/components/ui/section-header";
-import { ProCTA } from "@/components/ui/pro-cta";
+import { ArrowRight, Search } from "lucide-react";
+import { FeaturedResearch } from "@/components/home/featured-research";
+import { FinalCta } from "@/components/home/final-cta";
+import { HeroPreview } from "@/components/home/hero-preview";
+import { IntelligenceTable } from "@/components/home/intelligence-table";
+import { Methodology } from "@/components/home/methodology";
+import { PageViewTracker } from "@/components/home/page-view-tracker";
+import { PortfolioShowcase } from "@/components/home/portfolio-showcase";
+import { QuickScreens } from "@/components/home/quick-screens";
+import { HomeSectionHeading } from "@/components/home/section-heading";
+import { ThemeGrid } from "@/components/home/theme-grid";
+import { TrackedLink } from "@/components/home/tracked-link";
+import { WhyStockmonk } from "@/components/home/why-stockmonk";
+import { WorkspacePanel } from "@/components/home/workspace-panel";
 import { JsonLd } from "@/components/seo/json-ld";
-import { Disclaimer } from "@/components/ui/disclaimer";
-import { getMarketSnapshot, getResearchBundles } from "@/lib/data";
-import { getStockStory } from "@/content/stocks";
-import { formatCompactCurrency, formatPercent } from "@/lib/format";
+import { SITE } from "@/lib/constants";
+import { formatDate } from "@/lib/format";
+import {
+  getFeaturedPortfolios,
+  getFeaturedResearch,
+  getFeaturedThemes,
+  getHeroCompanies,
+  getHomepageStatistics,
+  getIntelligenceTabs,
+  getQuickScreens,
+  getWorkspaceSuggestions,
+} from "@/lib/homepage-data";
 import { organizationJsonLd, websiteJsonLd } from "@/lib/seo";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Stockmonk — Independent equity research for learners",
+  title: "StockMonk | US Stock Research, Stock Screener & Model Portfolios",
   description:
-    "Equity research built from SEC filings and financial statements: business breakdowns, sourced fundamentals and third-party analyst estimates.",
+    "Discover and analyse US-listed companies with StockMonk. Explore fundamental research, quantitative stock screening, factor-based rankings and systematic investment portfolios.",
   alternates: { canonical: "/" },
+  keywords: [
+    "US stock research",
+    "stock screener",
+    "equity research",
+    "factor scores",
+    "model portfolios",
+    "fundamental analysis",
+    "Stockmonk",
+  ],
+  openGraph: {
+    type: "website",
+    siteName: SITE.name,
+    locale: "en_US",
+    url: SITE.url,
+    title: "StockMonk | US Stock Research, Stock Screener & Model Portfolios",
+    description:
+      "Discover exceptional US-listed companies, analyse businesses through institutional-grade research and explore systematic investment strategies.",
+    images: [
+      {
+        url: "/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Stockmonk US equity research, screening and model portfolios",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "StockMonk | US Stock Research, Stock Screener & Model Portfolios",
+    description:
+      "Discover US companies, analyse fundamentals with four-factor scores and explore systematic model portfolios.",
+    images: ["/og.png"],
+  },
 };
 
 export default function HomePage() {
-  const bundles = getResearchBundles(10);
-  const snapshot = getMarketSnapshot();
-  const dayIndex = new Date().getUTCDate() % bundles.length;
-  const spotlight = bundles[dayIndex];
-  const spotlightStory = getStockStory(spotlight.data.ticker);
+  const stats = getHomepageStatistics();
+  const heroCompanies = getHeroCompanies();
+  const intelligenceTabs = getIntelligenceTabs();
+  const themes = getFeaturedThemes();
+  const portfolios = getFeaturedPortfolios();
+  const research = getFeaturedResearch();
+  const screens = getQuickScreens();
+  const suggestions = getWorkspaceSuggestions();
 
   return (
     <>
-      <JsonLd data={[organizationJsonLd(), websiteJsonLd()]} />
+      <PageViewTracker />
+      <JsonLd
+        data={[
+          organizationJsonLd(),
+          websiteJsonLd(),
+          {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Stockmonk US equity research",
+            description:
+              "Company research, four-factor scores, a US stock screener and systematic model portfolios.",
+            url: SITE.url,
+            hasPart: [
+              ...portfolios.slice(0, 5).map((portfolio) => ({
+                "@type": "WebPage",
+                name: portfolio.name,
+                url: `${SITE.url}/portfolio/${portfolio.slug}`,
+              })),
+              ...intelligenceTabs[0].rows.slice(0, 5).map((company) => ({
+                "@type": "WebPage",
+                name: `${company.name} (${company.ticker})`,
+                url: `${SITE.url}${company.href}`,
+              })),
+            ],
+          },
+        ]}
+      />
 
-      <section className="hero-indigo relative overflow-hidden text-white">
-        <div className="pointer-events-none absolute -left-32 top-10 size-[420px] rounded-full bg-[#2f6bff]/30 blur-[120px]" />
-        <div className="pointer-events-none absolute -right-20 bottom-0 size-[360px] rounded-full bg-[#8b3dff]/30 blur-[110px]" />
-        <div className="container-page relative grid items-center gap-8 py-12 lg:grid-cols-[1.1fr_0.9fr] lg:py-16">
-          <div className="animate-rise">
-            <h1 className="display mt-4 max-w-xl text-[42px] leading-[1.02] tracking-[-0.03em] sm:text-[52px] lg:text-[58px]">
-              Understand the business.{" "}
-              <span className="display-italic text-[#c9b8ff]">
-                Then the stock.
-              </span>
-            </h1>
-            <p className="mt-4 max-w-lg text-[14px] leading-relaxed text-white/70 sm:text-[15px]">
-              Stockmonk reads annual reports, quarterly filings and financial
-              statements, then lays out what a company sells, how the money
-              moves, and what the market is paying for it.
+      <section className="border-b border-hairline bg-canvas">
+        <div className="container-page grid gap-8 py-8 sm:py-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-10 lg:py-12">
+          <div>
+            <p className="home-eyebrow">
+              US equity research and portfolio intelligence
             </p>
-            <div className="mt-6 flex flex-wrap items-center gap-3">
-              <a href="/discover" className="btn btn-brand">
-                Browse the research
-                <ArrowRight aria-hidden="true" className="size-4" />
-              </a>
-              <a
-                href="/framework"
-                className="btn border border-white/20 bg-white/5 text-white hover:bg-white/10"
+            <h1 className="mt-2 max-w-[620px] font-serif text-[40px] leading-[1.01] tracking-[-0.035em] text-graphite sm:text-[52px] lg:text-[58px]">
+              Your next investment idea starts here.
+            </h1>
+            <p className="mt-3 max-w-[560px] text-[13.5px] leading-relaxed text-steel sm:text-[14.5px]">
+              Discover exceptional businesses. Analyse stocks with
+              institutional-grade research. Explore systematic investment
+              strategies.
+            </p>
+
+            <div className="mt-5 flex flex-wrap items-center gap-2">
+              <TrackedLink
+                href="/portfolio"
+                event="hero_primary_cta_clicked"
+                className="home-button home-button-primary"
               >
-                Read the framework
-              </a>
+                Explore portfolios
+                <ArrowRight aria-hidden="true" className="size-4" />
+              </TrackedLink>
+              <TrackedLink
+                href="/discover"
+                event="hero_secondary_cta_clicked"
+                className="home-button home-button-secondary"
+              >
+                Discover stocks
+              </TrackedLink>
             </div>
-            <HeroSearch />
+
+            <dl className="mt-7 grid max-w-[560px] grid-cols-3 divide-x divide-hairline border-y border-hairline">
+              {[
+                ["US companies", stats.companies.toLocaleString("en-US")],
+                ["Research reports", stats.reports.toLocaleString("en-US")],
+                ["Model strategies", stats.portfolios.toLocaleString("en-US")],
+              ].map(([label, value]) => (
+                <div key={label} className="px-3 py-2.5 first:pl-0 last:pr-0">
+                  <dd className="tabular text-[21px] font-semibold leading-none tracking-[-0.025em] text-graphite">
+                    {value}
+                  </dd>
+                  <dt className="mt-1 text-[10px] text-steel">{label}</dt>
+                </div>
+              ))}
+            </dl>
+
+            <p className="mt-3 text-[10px] leading-relaxed text-steel">
+              Market data{" "}
+              {stats.asOf ? formatDate(stats.asOf) : "refreshed daily"}
+              {stats.scoreAsOf
+                ? ` · four-factor scores ${formatDate(stats.scoreAsOf)}`
+                : ""}
+              . Public research is open; saving a watchlist needs no account.
+            </p>
           </div>
 
-          <div className="relative mx-auto hidden w-full max-w-[400px] sm:block">
-            <div className="absolute inset-6 rounded-[36px] bg-[#8b3dff]/30 blur-3xl" />
-            <div className="relative overflow-hidden rounded-[28px] border border-white/15 bg-white/5 p-3 shadow-float backdrop-blur">
-              <img
-                src="/brand/hero-monk.webp"
-                alt="Stockmonk mascot: a calm monk with an upward arrow"
-                width={720}
-                height={720}
-                fetchPriority="high"
-                decoding="async"
-                className="w-full rounded-[22px]"
-              />
-            </div>
-            <div className="absolute -left-4 top-8 rounded-xl border border-white/15 bg-[#151b3d]/90 px-3 py-2 backdrop-blur">
-              <p className="text-[8.5px] text-white/45">
-                Median revenue growth
-              </p>
-              <p className="tabular mt-0.5 text-[15px] font-semibold text-[#7ef0c6]">
-                {formatPercent(snapshot.medianRevenueGrowth)}
-              </p>
-            </div>
-            <div className="absolute -right-3 bottom-10 rounded-xl border border-white/15 bg-[#151b3d]/90 px-3 py-2 backdrop-blur">
-              <p className="text-[8.5px] text-white/45">Median op margin</p>
-              <p className="tabular mt-0.5 text-[15px] font-semibold text-[#c9b8ff]">
-                {formatPercent(snapshot.medianOperatingMargin)}
-              </p>
-            </div>
-            <div className="absolute -bottom-3 left-8 rounded-xl border border-white/15 bg-[#151b3d]/90 px-3 py-2 backdrop-blur">
-              <p className="text-[8.5px] text-white/45">Coverage market cap</p>
-              <p className="tabular mt-0.5 text-[15px] font-semibold text-white">
-                {formatCompactCurrency(snapshot.totalMarketCap)}
-              </p>
-            </div>
+          <div className="min-w-0">
+            <HeroPreview companies={heroCompanies} />
+            <p className="mt-2 text-[9.5px] leading-relaxed text-steel">
+              Actual company records and score evidence from the Stockmonk
+              dataset. Scores are descriptive, not recommendations.
+            </p>
           </div>
         </div>
       </section>
 
-      <div className="cv-auto">
-        <RecentlyResearched bundles={bundles} />
+      <section
+        aria-labelledby="intelligence-title"
+        className="container-page border-b border-hairline py-8 sm:py-10"
+      >
+        <HomeSectionHeading
+          id="intelligence-title"
+          eyebrow="Daily intelligence"
+          title="Today's investment intelligence"
+          description="Explore companies showing strong fundamental, valuation and technical characteristics across the live coverage universe."
+          href="/screener"
+          linkLabel="Open the screener"
+        />
+        <div className="mt-4">
+          <IntelligenceTable tabs={intelligenceTabs} asOf={stats.asOf} />
+        </div>
+      </section>
 
-        {spotlightStory && (
-          <Spotlight bundle={spotlight} story={spotlightStory} />
-        )}
+      <section
+        aria-labelledby="themes-title"
+        className="container-page border-b border-hairline py-8 sm:py-10"
+      >
+        <HomeSectionHeading
+          id="themes-title"
+          eyebrow="Discover"
+          title="Discover your next investment opportunity"
+          description="Research collections built from the same coverage universe, factor scores and thematic portfolios already in Stockmonk."
+          href="/screener"
+          linkLabel="Explore all themes"
+        />
+        <div className="mt-4">
+          <ThemeGrid themes={themes} />
+        </div>
+      </section>
 
-        <section className="container-page py-10">
-          <div className="rounded-2xl bg-coral-soft p-6 sm:p-8">
-            <div className="grid gap-5 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
-              <div>
-                <h2 className="display text-[30px] leading-[1.08] tracking-[-0.025em] text-ink sm:text-[37px]">
-                  The business comes before the stock price.
-                </h2>
-                <p className="mt-3 max-w-xl text-[13px] leading-relaxed text-ink-soft">
-                  Most market content tells you what to think. We want to show
-                  you how to read the numbers: how a company makes money, what
-                  the margins say, how the balance sheet is financed, and what
-                  the market is already paying for.
-                </p>
-                <a href="/framework" className="btn btn-primary mt-4">
-                  See how we analyse a business
-                  <ArrowRight aria-hidden="true" className="size-4" />
-                </a>
-              </div>
-              <div className="rounded-xl border border-[#f6c5b4] bg-white/70 p-4">
-                <p className="display-italic text-[19px] leading-snug text-ink">
-                  “A stock is not a ticker. It is a claim on a business, and the
-                  business has a financial statement.”
-                </p>
-                <p className="mt-3 text-[10px] font-bold text-muted">
-                  Stockmonk research desk
-                </p>
-              </div>
+      <section
+        aria-labelledby="portfolios-title"
+        className="container-page border-b border-hairline py-8 sm:py-10"
+      >
+        <HomeSectionHeading
+          id="portfolios-title"
+          eyebrow="Model portfolios"
+          title="Explore systematic investment strategies"
+          description="Research-driven model portfolios built around different investment styles, with transparent construction rules and benchmark comparisons."
+          href="/portfolio"
+          linkLabel={`Explore all ${stats.portfolios} portfolios`}
+        />
+        <div className="mt-4">
+          <PortfolioShowcase portfolios={portfolios} />
+        </div>
+      </section>
+
+      <section
+        aria-labelledby="research-title"
+        className="container-page border-b border-hairline py-8 sm:py-10"
+      >
+        <HomeSectionHeading
+          id="research-title"
+          eyebrow="Company research"
+          title="Understand the business. Then the stock."
+          description="A full report connects the business model, financial statements, segment mix, valuation and risk evidence in one place."
+          href="/discover"
+          linkLabel="Browse research"
+        />
+        <div className="mt-4">
+          {research ? (
+            <FeaturedResearch research={research} />
+          ) : (
+            <div className="home-card px-4 py-10 text-center text-[12px] text-steel">
+              Company research is being rebuilt. Browse the research library in
+              the meantime.
             </div>
-          </div>
-        </section>
+          )}
+        </div>
+      </section>
 
-        <section
-          className="container-page py-10"
-          aria-labelledby="different-title"
+      <section
+        aria-labelledby="screener-title"
+        className="container-page border-b border-hairline py-8 sm:py-10"
+      >
+        <HomeSectionHeading
+          id="screener-title"
+          eyebrow="Stock screener"
+          title="Screen thousands of companies. Find what matters."
+          description="Filter US-listed companies using financial fundamentals, factor scores and technical characteristics."
+          href="/screener"
+          linkLabel="Open the full screener"
+        />
+
+        <form
+          action="/screener"
+          method="get"
+          role="search"
+          className="mt-4 flex max-w-2xl items-center gap-2 rounded-lg border border-hairline bg-warm p-1.5"
         >
-          <SectionHeader title="How the research is made" align="center" />
-          <div className="mt-6 grid gap-3 md:grid-cols-3">
-            {[
-              {
-                icon: FileCheck2,
-                title: "Start with the filing",
-                body: "Business descriptions, segment splits and risk factors come from the latest annual report. The source is linked under each section.",
-              },
-              {
-                icon: Database,
-                title: "Rebuild the statements",
-                body: "Revenue, margins, cash flow and balance-sheet items are normalised into consistent periods before any ratio is calculated.",
-              },
-              {
-                icon: BookOpenCheck,
-                title: "Show the limits",
-                body: "The framework documents each formula and flags where a metric does not apply, such as free cash flow for a bank.",
-              },
-            ].map((item, index) => {
-              const Icon = item.icon;
-              return (
-                <div key={item.title} className="card p-5">
-                  <div className="flex items-center justify-between">
-                    <span className="flex size-9 items-center justify-center rounded-xl bg-brand-soft text-brand">
-                      <Icon aria-hidden="true" className="size-4" />
-                    </span>
-                    <span className="display text-[30px] leading-none text-faint">
-                      0{index + 1}
-                    </span>
-                  </div>
-                  <h3 className="mt-3 text-[14px] font-semibold text-ink">
-                    {item.title}
-                  </h3>
-                  <p className="mt-1.5 text-[12px] leading-relaxed text-muted">
-                    {item.body}
-                  </p>
-                </div>
-              );
-            })}
+          <Search
+            aria-hidden="true"
+            className="ml-2 size-4 shrink-0 text-steel"
+          />
+          <label htmlFor="home-screener-search" className="sr-only">
+            Search the US equity screener
+          </label>
+          <input
+            id="home-screener-search"
+            name="q"
+            placeholder="Search a ticker, company or sector"
+            className="h-9 min-w-0 flex-1 bg-transparent text-[12px] text-graphite outline-none placeholder:text-steel"
+          />
+          <button
+            type="submit"
+            className="home-button home-button-primary h-9 min-h-0 px-3"
+          >
+            Search
+          </button>
+        </form>
+
+        <div className="mt-4">
+          <QuickScreens screens={screens} />
+        </div>
+      </section>
+
+      <section
+        aria-labelledby="why-title"
+        className="container-page border-b border-hairline py-8 sm:py-10"
+      >
+        <HomeSectionHeading
+          id="why-title"
+          eyebrow="Why Stockmonk"
+          title="Everything you need to research better investments."
+          description="One data model for company research, quantitative screening and systematic portfolio construction."
+        />
+        <div className="mt-4">
+          <WhyStockmonk />
+        </div>
+      </section>
+
+      <section
+        aria-labelledby="workspace-title"
+        className="border-b border-hairline bg-canvas py-8 sm:py-10"
+      >
+        <div className="container-page">
+          <HomeSectionHeading
+            id="workspace-title"
+            eyebrow="Workspace"
+            title="Your personal investment research workspace."
+            description="Save companies, revisit research and keep model portfolios close. The workspace is local-first and works without an account."
+          />
+          <div className="mt-4">
+            <WorkspacePanel
+              suggestions={suggestions}
+              dataAsOf={stats.asOf}
+              reports={stats.reports}
+            />
           </div>
-        </section>
-
-        <ProFeatures />
-
-        <div className="container-page pb-10">
-          <ProCTA context="page" />
         </div>
+      </section>
 
-        <div className="container-page pb-14">
-          <Disclaimer variant="boxed" />
+      <section
+        aria-labelledby="methodology-title"
+        className="container-page border-b border-hairline py-8 sm:py-10"
+      >
+        <HomeSectionHeading
+          id="methodology-title"
+          eyebrow="Methodology"
+          title="Transparent research. Structured intelligence."
+          description="Every score has a formula, a coverage rule and an evidence trail. The composite is a fixed weighted sum, not an editorial verdict."
+          href="/framework/scores"
+          linkLabel="Read the framework"
+        />
+        <div className="mt-4">
+          <Methodology stats={stats} />
         </div>
-      </div>
+      </section>
+
+      <section className="container-page py-8 sm:py-10">
+        <FinalCta />
+      </section>
     </>
   );
 }

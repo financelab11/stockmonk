@@ -221,7 +221,14 @@ jobs:
 
       - name: Sync normalized research and portfolio tables
         run: |
-          pnpm sync:v2
+          retry() {
+            for attempt in 1 2 3; do
+              "$@" && return 0
+              sleep $((attempt * 15))
+            done
+            return 1
+          }
+          retry pnpm sync:v2
           pnpm sync:portfolios
         env:
           SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}

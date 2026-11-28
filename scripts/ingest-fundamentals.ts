@@ -127,7 +127,9 @@ async function profileFor(symbol: string) {
         symbol,
         "price,assetProfile,summaryDetail,defaultKeyStatistics,financialData",
       );
-      if (summary) return summary;
+      // A null response is a valid "no profile" answer (common for OTC and
+      // community-bank tickers). Only retry thrown network/rate-limit errors.
+      return summary;
     } catch {
       // retry below
     }
@@ -201,9 +203,7 @@ async function main() {
         ? null
         : await yahooChart(symbol, research ? "20y" : "2y").catch(() => null);
       const existingPrices =
-        (await readJson<PricePoint[]>(
-          tickerDir(ticker, "prices.json"),
-        )) ?? [];
+        (await readJson<PricePoint[]>(tickerDir(ticker, "prices.json"))) ?? [];
       const hasYahooPrices = Boolean(chart && chart.points.length >= 30);
       const allPrices: PricePoint[] = archived
         ? [
@@ -405,7 +405,8 @@ async function main() {
         "utf8",
       );
       records.push(tickerDataSchema.parse(record));
-      await writeTicker(record, research);
+      // Write data.json only after factor chips are computed, so an
+      // interrupted run never leaves records with empty percentile chips.
       if (records.length % 25 === 0) {
         console.log(
           `[fundamentals] ${records.length}/${tickers.length} (${ticker})`,
@@ -581,9 +582,7 @@ async function writeTicker(record: TickerData, withChart: boolean) {
   // remains available for the technical score.
   if (!withChart) return;
 
-  const prices = await readJson<PricePoint[]>(
-    tickerDir(ticker, "prices.json"),
-  );
+  const prices = await readJson<PricePoint[]>(tickerDir(ticker, "prices.json"));
   if (!prices) return;
   const ranges = buildRangeFiles(prices, ticker);
   const outDir = path.join(PUBLIC_DATA, "prices", ticker);

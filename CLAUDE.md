@@ -229,12 +229,13 @@ periods.
   in `/watchlist`. `202611270001_portfolios.sql` defines the relational
   persistence shape; no server sync is required for the current UI.
 - Regenerate after changing the screener, scores, benchmark history or any
-  portfolio spec: `pnpm build:portfolios && pnpm build:portfolio-logos &&
-  pnpm validate:portfolios`. `build:web` consumes committed portfolio artifacts
-  and does not need `data/score-inputs` on Vercel.
-- `scripts/apply-portfolio-migration` is applied via Supabase; `pnpm
-  sync:portfolios` upserts categories, portfolios, methodology, constituents,
-  simulated performance, reports, review proposals and score snapshots.
+  portfolio spec: run `pnpm build:portfolios`, `pnpm build:portfolio-logos`
+  and `pnpm validate:portfolios`. `build:web` consumes committed portfolio
+  artifacts and does not need `data/score-inputs` on Vercel.
+- `scripts/apply-portfolio-migration` is applied via Supabase;
+  `pnpm sync:portfolios` upserts categories, portfolios, methodology,
+  constituents, simulated performance, reports, review proposals and score
+  snapshots.
   Bookmarks stay owner-only and local-first in the web UI until auth-backed
   bookmarks are enabled.
 

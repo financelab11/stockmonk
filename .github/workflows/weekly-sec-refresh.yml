@@ -156,9 +156,6 @@ jobs:
           pnpm build:runtime
           pnpm build:seo
 
-      - name: Refresh the story freshness manifest
-        run: pnpm detect:events
-
       - name: Check freshness and content
         run: |
           pnpm audit:freshness

@@ -1,7 +1,7 @@
 {
   "ticker": "NVS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/NVS/analysis",
   "targetMean": 157.1,
   "targetHigh": 185,
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 14309093500,
-      "revenueGrowth": 0.0581,
+      "revenueAvg": 14045187000,
+      "revenueGrowth": 0.0385,
       "epsAvg": 2.21,
       "epsGrowth": 0.1106,
       "analystCount": 1
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 57863978490,
-      "revenueGrowth": 0.021,
+      "revenueAvg": 57763877380,
+      "revenueGrowth": 0.019199999,
       "epsAvg": 9.10643,
       "epsGrowth": 0.014099999,
       "analystCount": 8
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 61709173730,
-      "revenueGrowth": 0.0665,
+      "revenueAvg": 61589308300,
+      "revenueGrowth": 0.066199996,
       "epsAvg": 9.96039,
       "epsGrowth": 0.0938,
       "analystCount": 9

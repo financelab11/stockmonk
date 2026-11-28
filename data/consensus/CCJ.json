@@ -1,11 +1,11 @@
 {
   "ticker": "CCJ",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CCJ/analysis",
-  "targetMean": 114.13675,
-  "targetHigh": 169.71452,
-  "targetLow": 82.55023,
+  "targetMean": 113.735405,
+  "targetHigh": 169.11777,
+  "targetLow": 82.259964,
   "recommendationKey": "buy",
   "analystCount": 9,
   "distribution": {

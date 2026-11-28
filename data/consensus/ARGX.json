@@ -1,7 +1,7 @@
 {
   "ticker": "ARGX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ARGX/analysis",
   "targetMean": 1149.7391,
   "targetHigh": 1353,

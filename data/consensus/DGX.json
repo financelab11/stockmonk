@@ -1,9 +1,9 @@
 {
   "ticker": "DGX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/DGX/analysis",
-  "targetMean": 257.26666,
+  "targetMean": 257.53333,
   "targetHigh": 279,
   "targetLow": 235,
   "recommendationKey": "buy",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 3047544910,
       "revenueGrowth": 0.0861,
-      "epsAvg": 2.68364,
-      "epsGrowth": 0.1089,
+      "epsAvg": 2.68293,
+      "epsGrowth": 0.1086,
       "analystCount": 14
     },
     {
@@ -48,8 +48,8 @@
       "endDate": "2027-12-31",
       "revenueAvg": 12621712570,
       "revenueGrowth": 0.044499997,
-      "epsAvg": 11.98411,
-      "epsGrowth": 0.059,
+      "epsAvg": 11.98036,
+      "epsGrowth": 0.0586,
       "analystCount": 16
     }
   ],
@@ -91,8 +91,8 @@
     "endDate": "2026-12-31",
     "revenueAvg": 3047544910,
     "revenueGrowth": 0.0861,
-    "epsAvg": 2.68364,
-    "epsGrowth": 0.1089,
+    "epsAvg": 2.68293,
+    "epsGrowth": 0.1086,
     "analystCount": 14
   },
   "revisions": {

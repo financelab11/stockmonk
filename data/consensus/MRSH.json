@@ -1,7 +1,7 @@
 {
   "ticker": "MRSH",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/MRSH/analysis",
   "targetMean": 210.4762,
   "targetHigh": 235,
@@ -11,9 +11,9 @@
   "distribution": {
     "strongBuy": 2,
     "buy": 7,
-    "hold": 13,
+    "hold": 12,
     "sell": 0,
-    "strongSell": 1
+    "strongSell": 2
   },
   "estimates": [
     {
@@ -97,9 +97,9 @@
   },
   "revisions": {
     "eps7d": 0.000041959949228287385,
-    "eps30d": -0.00011537170666220398,
+    "eps30d": 0.000041959949228287385,
     "eps60d": 0.0033142014104490247,
-    "eps90d": 0.003361240013395328,
+    "eps90d": 0.0033142014104490247,
     "revenue30d": null
   }
 }

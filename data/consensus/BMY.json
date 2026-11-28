@@ -1,9 +1,9 @@
 {
   "ticker": "BMY",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/BMY/analysis",
-  "targetMean": 65.25,
+  "targetMean": 65.29167,
   "targetHigh": 80,
   "targetLow": 40,
   "recommendationKey": "buy",
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 12676487630,
-      "revenueGrowth": 0.0139999995,
+      "revenueAvg": 12675540260,
+      "revenueGrowth": 0.0139,
       "epsAvg": 1.50032,
       "epsGrowth": 0.1907,
       "analystCount": 22
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 50234736540,
+      "revenueAvg": 50233990700,
       "revenueGrowth": 0.0423,
       "epsAvg": 6.45124,
       "epsGrowth": 0.049000002,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 48802144210,
+      "revenueAvg": 48801101900,
       "revenueGrowth": -0.028499998,
-      "epsAvg": 6.68927,
-      "epsGrowth": 0.0369,
+      "epsAvg": 6.68891,
+      "epsGrowth": 0.0368,
       "analystCount": 28
     }
   ],
@@ -89,15 +89,15 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 12676487630,
-    "revenueGrowth": 0.0139999995,
+    "revenueAvg": 12675540260,
+    "revenueGrowth": 0.0139,
     "epsAvg": 1.50032,
     "epsGrowth": 0.1907,
     "analystCount": 22
   },
   "revisions": {
     "eps7d": 0.000057356604613145734,
-    "eps30d": -0.014120581205567473,
+    "eps30d": -0.010236331612958671,
     "eps60d": -0.0715676553170238,
     "eps90d": -0.07164113810749051,
     "revenue30d": null

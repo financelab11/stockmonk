@@ -1,7 +1,7 @@
 {
   "ticker": "WMB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/WMB/analysis",
   "targetMean": 85.41667,
   "targetHigh": 103,
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 3411558030,
-      "revenueGrowth": 0.0668,
+      "revenueAvg": 3387561560,
+      "revenueGrowth": 0.059299998,
       "epsAvg": 0.60376,
       "epsGrowth": 0.09770001,
       "analystCount": 11
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 12504257730,
-      "revenueGrowth": 0.0464,
+      "revenueAvg": 12511596600,
+      "revenueGrowth": 0.047,
       "epsAvg": 2.40157,
       "epsGrowth": 0.1436,
       "analystCount": 15
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 14497339880,
-      "revenueGrowth": 0.1594,
+      "revenueAvg": 14466739500,
+      "revenueGrowth": 0.15630001,
       "epsAvg": 2.54788,
       "epsGrowth": 0.060900003,
       "analystCount": 16
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 3411558030,
-    "revenueGrowth": 0.0668,
+    "revenueAvg": 3387561560,
+    "revenueGrowth": 0.059299998,
     "epsAvg": 0.60376,
     "epsGrowth": 0.09770001,
     "analystCount": 11

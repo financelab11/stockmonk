@@ -1,12 +1,12 @@
 {
   "ticker": "MNDY",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/MNDY/analysis",
-  "targetMean": 100.92696,
+  "targetMean": 100.29087,
   "targetHigh": 165,
-  "targetLow": 80,
-  "recommendationKey": "none",
+  "targetLow": 76.69,
+  "recommendationKey": "buy",
   "analystCount": 23,
   "distribution": {
     "strongBuy": 2,
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 1474520160,
+      "revenueAvg": 1474527650,
       "revenueGrowth": 0.19690001,
-      "epsAvg": 6.40511,
-      "epsGrowth": 0.4557,
-      "analystCount": 24
+      "epsAvg": 6.40651,
+      "epsGrowth": 0.45599997,
+      "analystCount": 25
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1664057970,
-      "revenueGrowth": 0.1285,
-      "epsAvg": 7.47714,
-      "epsGrowth": 0.1674,
+      "revenueAvg": 1662696770,
+      "revenueGrowth": 0.1276,
+      "epsAvg": 7.51114,
+      "epsGrowth": 0.1724,
       "analystCount": 25
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 3
   },
   "revisions": {
-    "eps7d": 0.1654745246747007,
-    "eps30d": 0.16515862620970667,
-    "eps60d": 0.17182437389428684,
-    "eps90d": 0.17182437389428684,
+    "eps7d": 0.0002185754811392382,
+    "eps30d": 0.16581412149633046,
+    "eps60d": 0.17208050597062163,
+    "eps90d": 0.17208050597062163,
     "revenue30d": null
   }
 }

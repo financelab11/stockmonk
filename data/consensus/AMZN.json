@@ -1,7 +1,7 @@
 {
   "ticker": "AMZN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/AMZN/analysis",
   "targetMean": 326.34033,
   "targetHigh": 405,
@@ -96,8 +96,8 @@
     "analystCount": 43
   },
   "revisions": {
-    "eps7d": -0.00024449877750620796,
-    "eps30d": -0.009970249376134221,
+    "eps7d": 0,
+    "eps30d": -0.010637607083389455,
     "eps60d": -0.008021968567834548,
     "eps90d": -0.0020304711020452393,
     "revenue30d": null

@@ -1,9 +1,9 @@
 {
   "ticker": "KHC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/KHC/analysis",
-  "targetMean": 25.14706,
+  "targetMean": 25.17647,
   "targetHigh": 41,
   "targetLow": 20,
   "recommendationKey": "hold",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 24669418250,
-      "revenueGrowth": -0.0109,
-      "epsAvg": 2.09364,
-      "epsGrowth": -0.19479999,
+      "revenueAvg": 24673830020,
+      "revenueGrowth": -0.0108,
+      "epsAvg": 2.09574,
+      "epsGrowth": -0.19389999,
       "analystCount": 19
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 24450039150,
-      "revenueGrowth": -0.0089,
-      "epsAvg": 2.04628,
-      "epsGrowth": -0.0226,
+      "revenueAvg": 24432627390,
+      "revenueGrowth": -0.0098,
+      "epsAvg": 2.0426,
+      "epsGrowth": -0.0254,
       "analystCount": 19
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 16
   },
   "revisions": {
-    "eps7d": -0.0011545471026591647,
-    "eps30d": 0.021970780472803764,
-    "eps60d": 0.0197954213346323,
-    "eps90d": 0.01999912305915963,
+    "eps7d": 0.0010030377715366523,
+    "eps30d": 0.023485458940736947,
+    "eps60d": 0.02273126549415383,
+    "eps90d": 0.021022220706522043,
     "revenue30d": null
   }
 }

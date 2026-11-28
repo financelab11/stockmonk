@@ -1,12 +1,12 @@
 {
   "ticker": "IRDM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/IRDM/analysis",
   "targetMean": 48,
   "targetHigh": 54,
   "targetLow": 36,
-  "recommendationKey": "none",
+  "recommendationKey": "buy",
   "analystCount": 3,
   "distribution": {
     "strongBuy": 1,
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 928541500,
-      "revenueGrowth": 0.0653,
+      "revenueAvg": 930402040,
+      "revenueGrowth": 0.0674,
       "epsAvg": 1.49,
       "epsGrowth": 0.4001,
       "analystCount": 1
@@ -47,7 +47,7 @@
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 996396320,
-      "revenueGrowth": 0.0731,
+      "revenueGrowth": 0.0709,
       "epsAvg": 1.425,
       "epsGrowth": -0.0436,
       "analystCount": 2

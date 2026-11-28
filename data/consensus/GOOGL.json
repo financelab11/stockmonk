@@ -1,15 +1,15 @@
 {
   "ticker": "GOOGL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/GOOGL/analysis",
-  "targetMean": 395.47815,
+  "targetMean": 395.1078,
   "targetHigh": 500,
   "targetLow": 300,
   "recommendationKey": "strong_buy",
   "analystCount": 54,
   "distribution": {
-    "strongBuy": 10,
+    "strongBuy": 11,
     "buy": 43,
     "hold": 6,
     "sell": 0,

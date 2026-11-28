@@ -10,17 +10,17 @@ export const DKS: StockStory = {
     "Revenue: $21.1B, +53.5% year over year.",
     "Profitability: 5.5% operating margin and 4.0% net margin.",
     "Cash: $239.4M free cash flow, a 1.1% margin, against $913.7M of net cash.",
-    "Valuation: 17.0x trailing earnings and 7.5x EV/EBITDA."
+    "Valuation: 17.4x trailing earnings and 7.8x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-26",
+  "narrativeUpdatedAt": "2026-11-28",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1089063/000108906326000007/dks-20260131.htm",
   "irUrl": "https://www.dickssportinggoods.com",
   "bigPicture": {
     "paragraphs": [
       "DICK'S Sporting Goods' revenue rose 53.5% to $21.1B at a 5.5% operating margin, generating $239.4M of free cash flow. The latest quarter (Q2 FY27) grew 53.2%.",
       "DICKS is 82.0% of revenue and Foot Locker is 18.0%. The US is the largest geography at 82.0% of revenue. The near-term driver is comparable sales and margin. The risk is foot Locker integration and consumer demand.",
-      "At $160.11, the equity is worth $14.2B, or 17.0x trailing earnings and 7.5x EV/EBITDA. The earnings multiple is 35.4% below the 26.3x peer median. The stock is 32% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
+      "At $164.41, the equity is worth $14.6B, or 17.4x trailing earnings and 7.8x EV/EBITDA. The earnings multiple is 34.6% below the 26.7x peer median. The stock is 36% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
     "quote": "Dick's is a sporting-goods retailer, so comparable sales, Foot Locker integration and inventory turns drive margins."
   },
@@ -53,7 +53,7 @@ export const DKS: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 10.7% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 53.2% year over year. The current-year consensus looks for $22.1B of revenue and $11.64 of EPS.",
+      "Revenue compounded at 10.7% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 53.2% year over year. The current-year consensus looks for $22.1B of revenue and $11.90 of EPS.",
       "The next leg depends on comparable sales and margin. The growth rate is doing the work; the margin has to catch up for the model to earn its cost of capital."
     ],
     "bullets": [
@@ -79,20 +79,20 @@ export const DKS: StockStory = {
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow was $239.4M, or 1.1% of revenue. Operating cash flow covered 181.0% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 5.4% of revenue, which is low relative to the revenue base.",
+      "Cash generation was $239.4M, or 1.1% of revenue. Operating cash flow covered 181.0% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 5.4% of revenue, which is low relative to the revenue base.",
       "The balance sheet carries $913.7M of net cash. Interest cover is 16.4x. The net cash position is optionality: it can fund investment, acquisitions or returns."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At $160.11, the shares trade at 17.0x trailing earnings and 7.5x EV/EBITDA, with a 1.7% free-cash-flow yield. The earnings yield is 5.9%. The earnings multiple is 35.4% below the 26.3x peer median.",
+      "At $164.41, the shares trade at 17.4x trailing earnings and 7.8x EV/EBITDA, with a 1.6% free-cash-flow yield. The earnings yield is 5.7%. The earnings multiple is 34.6% below the 26.7x peer median.",
       "The multiple is below the peer median, so some of the risk is already in the price. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "24 analysts in the third-party consensus carry a mean target of $159.50, 0.4% below the latest close. The range runs from $99.00 to $205.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
-      "The current-year consensus looks for $22.1B of revenue and $11.64 of EPS. EPS estimates are up 1.8% over 30 days and down 1.0% over 90 days. That implies 4.5% growth from the trailing base."
+      "24 analysts in the third-party consensus carry a mean target of $167.90, 2.1% above the latest close. The range runs from $99.00 to $210.00. The target range is wide enough that the mean should be read with caution. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $22.1B of revenue and $11.90 of EPS. EPS estimates are up 3.9% over 30 days and up 3.4% over 90 days. That implies 4.7% growth from the trailing base."
     ]
   },
   "risks": {

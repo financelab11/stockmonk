@@ -1,9 +1,9 @@
 {
   "ticker": "RDDT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/RDDT/analysis",
-  "targetMean": 148.46207,
+  "targetMean": 147.08276,
   "targetHigh": 272,
   "targetLow": 85,
   "recommendationKey": "buy",
@@ -28,11 +28,11 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 870283870,
-      "revenueGrowth": 0.3118,
-      "epsAvg": 1.22706,
-      "epsGrowth": 0.2149,
-      "analystCount": 17
+      "revenueAvg": 868815680,
+      "revenueGrowth": 0.3096,
+      "epsAvg": 1.22778,
+      "epsGrowth": 0.2156,
+      "analystCount": 18
     },
     {
       "period": "Current fiscal year",
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 4346429070,
-      "revenueGrowth": 0.2838,
+      "revenueAvg": 4339932300,
+      "revenueGrowth": 0.28190002,
       "epsAvg": 6.8155,
       "epsGrowth": 0.2401,
       "analystCount": 27
@@ -96,10 +96,10 @@
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.00300389082335073,
-    "eps30d": 0.018991061612024573,
-    "eps60d": 0.022420239977676504,
-    "eps90d": 0.024763154901635387,
+    "eps7d": 0,
+    "eps30d": 0.01881350182499686,
+    "eps60d": 0.0218670573645372,
+    "eps90d": 0.021014694681305457,
     "revenue30d": null
   }
 }

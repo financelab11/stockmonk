@@ -1,10 +1,10 @@
 {
   "ticker": "PG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/PG/analysis",
-  "targetMean": 176.34782,
-  "targetHigh": 192,
+  "targetMean": 176.69565,
+  "targetHigh": 197,
   "targetLow": 151,
   "recommendationKey": "buy",
   "analystCount": 23,
@@ -19,11 +19,11 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 22854940120,
-      "revenueGrowth": 0.0291,
-      "epsAvg": 1.81098,
+      "revenueAvg": 22857575710,
+      "revenueGrowth": 0.0292,
+      "epsAvg": 1.81108,
       "epsGrowth": -0.0367,
-      "analystCount": 20
+      "analystCount": 18
     },
     {
       "period": "Following quarter",
@@ -89,11 +89,11 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 22854940120,
-    "revenueGrowth": 0.0291,
-    "epsAvg": 1.81098,
+    "revenueAvg": 22857575710,
+    "revenueGrowth": 0.0292,
+    "epsAvg": 1.81108,
     "epsGrowth": -0.0367,
-    "analystCount": 20
+    "analystCount": 18
   },
   "revisions": {
     "eps7d": -0.00009456224129700264,

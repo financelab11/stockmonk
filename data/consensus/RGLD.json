@@ -1,7 +1,7 @@
 {
   "ticker": "RGLD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/RGLD/analysis",
   "targetMean": 313.5,
   "targetHigh": 380,

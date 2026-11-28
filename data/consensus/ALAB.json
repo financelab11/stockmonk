@@ -1,10 +1,10 @@
 {
   "ticker": "ALAB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ALAB/analysis",
-  "targetMean": 348.39178,
-  "targetHigh": 500,
+  "targetMean": 338.86795,
+  "targetHigh": 465,
   "targetLow": 225,
   "recommendationKey": "buy",
   "analystCount": 21,
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 776508980,
-      "revenueGrowth": 1.5182,
+      "revenueAvg": 775728290,
+      "revenueGrowth": 1.5156,
       "epsAvg": 1.66885,
       "epsGrowth": 1.7358,
       "analystCount": 20
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 3437057110,
-      "revenueGrowth": 0.6951,
+      "revenueAvg": 3436970150,
+      "revenueGrowth": 0.695,
       "epsAvg": 7.23736,
       "epsGrowth": 0.65199995,
       "analystCount": 24
@@ -96,10 +96,10 @@
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.10106084862863773,
-    "eps30d": 0.0847254513086777,
+    "eps7d": 0,
+    "eps30d": 0.10556771065973192,
     "eps60d": 0.0847254513086777,
-    "eps90d": 0.08466636791506876,
+    "eps90d": 0.0847254513086777,
     "revenue30d": null
   }
 }

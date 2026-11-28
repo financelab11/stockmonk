@@ -1,10 +1,10 @@
 {
   "ticker": "LITE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/LITE/analysis",
-  "targetMean": 1048.3403,
-  "targetHigh": 1425,
+  "targetMean": 1022.37885,
+  "targetHigh": 1400,
   "targetLow": 638,
   "recommendationKey": "buy",
   "analystCount": 26,
@@ -48,8 +48,8 @@
       "endDate": "2028-06-30",
       "revenueAvg": 10525471320,
       "revenueGrowth": 0.5851,
-      "epsAvg": 40.13453,
-      "epsGrowth": 0.6093,
+      "epsAvg": 39.99862,
+      "epsGrowth": 0.6038,
       "analystCount": 22
     }
   ],
@@ -97,7 +97,7 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": 0.15006116937021585,
+    "eps30d": 0.1447617010494775,
     "eps60d": 0.15086359057468246,
     "eps90d": 0.15335652082226336,
     "revenue30d": null

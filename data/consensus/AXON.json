@@ -1,7 +1,7 @@
 {
   "ticker": "AXON",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/AXON/analysis",
   "targetMean": 541.3158,
   "targetHigh": 700,
@@ -97,7 +97,7 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": -0.07041240618217004,
+    "eps30d": -0.06962166123565361,
     "eps60d": -0.07305344875019393,
     "eps90d": -0.07828120766126156,
     "revenue30d": null

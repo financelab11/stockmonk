@@ -1,12 +1,12 @@
 {
   "ticker": "CG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CG/analysis",
   "targetMean": 49.31579,
   "targetHigh": 73,
   "targetLow": 40,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 19,
   "distribution": {
     "strongBuy": 4,

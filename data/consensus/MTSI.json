@@ -1,12 +1,12 @@
 {
   "ticker": "MTSI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/MTSI/analysis",
-  "targetMean": 327,
+  "targetMean": 322.625,
   "targetHigh": 450,
   "targetLow": 220,
-  "recommendationKey": "none",
+  "recommendationKey": "strong_buy",
   "analystCount": 16,
   "distribution": {
     "strongBuy": 4,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-09-30",
-      "revenueAvg": 2283645520,
-      "revenueGrowth": 0.1774,
-      "epsAvg": 11.5923,
-      "epsGrowth": 0.18290001,
+      "revenueAvg": 2270812180,
+      "revenueGrowth": 0.1708,
+      "epsAvg": 11.52397,
+      "epsGrowth": 0.1759,
       "analystCount": 12
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 16
   },
   "revisions": {
-    "eps7d": 0.1480041469229012,
-    "eps30d": 0.15425785022732086,
-    "eps60d": 0.15595975323495748,
-    "eps90d": 0.15522663938097958,
+    "eps7d": 0,
+    "eps30d": 0.15281584600073894,
+    "eps60d": 0.15425785022732086,
+    "eps90d": 0.15595975323495748,
     "revenue30d": null
   }
 }

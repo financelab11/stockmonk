@@ -1,7 +1,7 @@
 {
   "ticker": "EXPE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/EXPE/analysis",
   "targetMean": 332.0303,
   "targetHigh": 430,
@@ -96,7 +96,7 @@
     "analystCount": 23
   },
   "revisions": {
-    "eps7d": 0.0010279346996628913,
+    "eps7d": 0,
     "eps30d": 0.023029697411572236,
     "eps60d": 0.02469275008228844,
     "eps90d": 0.030926884511986552,

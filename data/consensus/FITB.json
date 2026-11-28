@@ -1,7 +1,7 @@
 {
   "ticker": "FITB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/FITB/analysis",
   "targetMean": 61.53571,
   "targetHigh": 67,

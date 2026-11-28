@@ -1,7 +1,7 @@
 {
   "ticker": "SHOP",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/SHOP/analysis",
   "targetMean": 177.18408,
   "targetHigh": 220,
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 4818102250,
       "revenueGrowth": 0.3121,
-      "epsAvg": 0.61906,
-      "epsGrowth": 0.2897,
+      "epsAvg": 0.61895,
+      "epsGrowth": 0.2895,
       "analystCount": 33
     },
     {
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 15310854240,
+      "revenueAvg": 15310855900,
       "revenueGrowth": 0.32490003,
-      "epsAvg": 1.90567,
+      "epsAvg": 1.90561,
       "epsGrowth": 0.3326,
       "analystCount": 40
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 19363490590,
+      "revenueAvg": 19363484300,
       "revenueGrowth": 0.2647,
-      "epsAvg": 2.45993,
-      "epsGrowth": 0.2908,
+      "epsAvg": 2.46002,
+      "epsGrowth": 0.2909,
       "analystCount": 40
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 4818102250,
     "revenueGrowth": 0.3121,
-    "epsAvg": 0.61906,
-    "epsGrowth": 0.2897,
+    "epsAvg": 0.61895,
+    "epsGrowth": 0.2895,
     "analystCount": 33
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": -0.002747367760031816,
-    "eps60d": -0.0026168830828976475,
-    "eps90d": -0.0002727954715951997,
+    "eps7d": -0.000031484989531205265,
+    "eps30d": -0.0027787662487178677,
+    "eps60d": -0.0026482856798923926,
+    "eps90d": -0.00030427187216386375,
     "revenue30d": null
   }
 }

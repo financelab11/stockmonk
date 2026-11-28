@@ -3,159 +3,158 @@ import type { StockStory } from "./types";
 export const BBIO: StockStory = {
   "ticker": "BBIO",
   "kicker": "Healthcare Growth · Genetic medicine",
-  "title": "BridgeBio spreads risk across a portfolio and carries the debt",
-  "dek": "Acoramidis is the commercial product now, but the company still funds a pipeline of roughly thirty programmes. The revenue is real; the balance sheet is the part that needs watching.",
+  "title": "BridgeBio Pharma: margins, cash conversion and the multiple",
+  "dek": "BridgeBio Pharma's revenue rose 167.3% to $945.5M, at a -38.5% operating margin. The key risk is trial failure.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $945.5M trailing twelve months, +167.3% year over year.",
+    "Revenue: $945.5M, +167.3% year over year.",
     "Profitability: -38.5% operating margin and -60.7% net margin.",
-    "Cash: -$369.8M free cash flow, a -39.1% margin.",
-    "factor summary: 47/100 average percentile across the factor set."
+    "Cash: -$369.8M free cash flow, a -39.1% margin, against $1.1B of net debt.",
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1743881/000174388126000009/bbio-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001743881&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "BridgeBio Pharma, Inc. generated $945.5M of revenue over the last twelve months, +167.3% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q3 FY26, with $353.2M of revenue and an operating margin of -3.3%. The stock closed at $79.13 on Nov 23, 2026, giving a market capitalization of $15.4B.",
-      "The shares sit 54% of the way up their 52-week range ($62.50 to $93.42). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "BridgeBio Pharma's revenue rose 167.3% to $945.5M at a -38.5% operating margin, burning $369.8M of cash. The latest quarter (Q3 FY26) grew 192.6%. The scale of the revenue base matters less than the margin it earns.",
+      "Revenue is reported as one consolidated line. The risk is trial failure. The business is judged on whether the consolidated margin and returns can improve from here.",
+      "At $91.12, the equity is worth $17.8B, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 93% of the way up its 52-week range. What matters is whether the current economics can support the multiple through a cycle."
     ],
-    "quote": "BBIO is a Healthcare Growth business with $945.5M of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "BridgeBio Pharma's revenue rose 167.3% to $945.5M, and the investment case depends on whether the current margin and growth are repeatable."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The acoramidis patient has ATTR-CM, a progressive heart condition that mainly affects older adults. The drug is taken orally twice a day and is intended to stabilise the transthyretin protein so that it does not form amyloid deposits. The prescriber is a cardiologist, often at an amyloidosis centre, and the diagnosis is made through imaging and genetic testing.",
-      "The pipeline is organised around genetic diseases with a defined mechanism. Encaleret targets autosomal dominant hypocalcemia type 1, BBP-631 is a gene therapy for congenital adrenal hyperplasia, BBP-831 targets achondroplasia and BBP-711 targets hyperoxaluria. Each is a small programme with a specific patient population.",
-      "The company employs about 392 people and operates as a group of programme teams rather than a single commercial organisation. That structure lets it run many early-stage experiments, but it also means the corporate cost base is spread across assets that may never reach the market."
+      "BridgeBio Pharma, Inc., a biopharmaceutical company, discovers, develops, and delivers medicines for patients with genetic diseases.",
+      "BridgeBio Pharma earned a 94.3% gross margin, and operating costs absorbed 132.9% of revenue, leaving a -38.5% operating margin. That is 57.0 points below the peer median of 18.4%.",
+      "Capital spending runs at 0.1% of revenue, which is low relative to the revenue base. Net debt is $1.1B. Return on invested capital was -29.7%. That is 44.7 points below the peer median of 15.0%."
     ],
     "bullets": [
       {
-        "title": "Acoramidis",
-        "detail": "An oral TTR stabiliser for ATTR-CM. The commercial product and the source of current revenue."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Rare-disease pipeline",
-        "detail": "Encaleret, BBP-631, BBP-831 and BBP-711, each targeting a defined genetic condition."
+        "title": "Margin engine",
+        "detail": "Gross margin 94.3%, operating margin -38.5%. Operating costs are the bridge between the two."
       },
       {
-        "title": "Portfolio model",
-        "detail": "Many programmes, each with its own trial and budget. Diversification at the cost of complexity."
+        "title": "Capital intensity",
+        "detail": "Capex 0.1% of revenue; $1.1B of net debt; ROIC -29.7%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Acoramidis is a branded oral drug sold at a price per patient per year. The 94.3% gross margin leaves most of the price for commercial spending. The operating margin depends on how much is spent on the sales force, on payer access and on the pipeline.",
-      "The revenue is concentrated in one product. That is both the strength and the weakness: acoramidis can scale quickly because ATTR-CM is a defined, diagnosed population, but the company has no second commercial product to fall back on if growth slows.",
-      "The cost base includes a cardiology sales force, medical affairs, market access and the research budgets for the pipeline. The Q3 FY26 operating margin of negative 3.3% shows that revenue is approaching the level needed to cover those costs. The remaining gap is the pipeline spend, which is discretionary but central to the strategy."
+      "Revenue is converted into profit after operating costs; the mix between recurring and transactional revenue decides how much of the margin is repeatable. Efficacy and safety readouts determine the programme's value.",
+      "The operating margin is -38.5%, 57.0 points below the peer median of 18.4%. The incremental margin on new revenue is the number to watch."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 52.1% a year across the fiscal years in the dataset, and the latest quarter changed +192.6% year over year. Third-party estimates for the current fiscal year point to $1.1B of revenue and -$2.45 of EPS.",
-      "growth matters when it produces a return on capital. The operating margin of -38.5% and return on invested capital of -29.7% are the filters to watch as revenue scales."
+      "Revenue compounded at 52.1% a year from FY2018 to FY2025. The latest quarter (Q3 FY26) grew 192.6% year over year. The current-year consensus looks for 118.7% revenue growth, with EPS of -2.45 in the reporting currency.",
+      "The top line is growing faster than profit, so operating leverage is the thing to prove. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value."
+        "detail": "Efficacy and safety readouts determine the programme's value. Revenue growth is 167.3%."
       },
       {
         "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity."
+        "detail": "Approval and label scope decide the commercial opportunity. The operating margin is -38.5%."
       },
       {
         "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science."
+        "detail": "Collaborations can fund development and validate the science. Return on invested capital is -29.7%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -38.5%, the net margin is -60.7% and diluted EPS is -$3.03. The latest quarter's operating margin was -3.3%. The quarter shown is the latest reported period in the dataset.",
-      "Return on equity is 34.5%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
+      "The reported margin history includes figures that are not comparable across years, so the trailing margin is the cleaner reference. The trailing operating margin is -38.5%, the net margin is -60.7%, and diluted EPS is -$3.03, down 27.9% year over year.",
+      "Return on equity of 34.5% is well above the -29.7% return on invested capital; leverage or acquisition goodwill explains most of the gap. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "The cash statement over the trailing period was -$369.8M, a -39.1% margin. Net debt is $1.1B. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "The cash statement was -$369.8M, or -39.1% of revenue. Capex absorbed 0.1% of revenue, which is low relative to the revenue base. Capex and working capital are the relevant cash variables here.",
+      "Net debt is $1.1B. Interest cover is -7.1x. The maturity profile and interest cover determine how much flexibility the balance sheet leaves. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade with no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The valuation reflects the growth and margin record described above, not for the past alone.",
-      "The attributed third-party mean target is $108.70; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $91.12, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple, with a -2.1% free-cash-flow yield. The peer comparison is a starting point; the company's own history is the second reference.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "20 analysts contribute to the third-party consensus. The mean target is $108.70, with a range of $80.00 to $156.00. The consensus is a third-party snapshot and can change without notice.",
-      "Current-year estimates call for $1.1B of revenue and -$2.45 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
+      "20 analysts in the third-party consensus carry a mean target of $109.25, 19.9% above the latest close. The range runs from $80.00 to $156.00. Analysts disagree on the outcome; the mean is a weak summary of a wide range. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for 118.7% revenue growth, with EPS of -2.45 in the reporting currency. EPS estimates are down 6.5% over 30 days and down 8.9% over 90 days."
     ]
   },
   "risks": {
-    "intro": "BridgeBio has a commercial product, a broad pipeline and a leveraged balance sheet. The risks are product concentration, competition, pipeline spending and the debt that has to be serviced while the company is still burning cash.",
+    "intro": "The central risk is trial failure.",
     "items": [
       {
-        "title": "Product concentration",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "Acoramidis is the only commercial product. A safety issue, a pricing change or slower adoption would hit revenue directly.",
-        "watch": "Acoramidis revenue, prescription trends and safety disclosures."
+        "detail": "The trailing operating margin is -38.5%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
-        "title": "Competition in ATTR-CM",
+        "title": "Cash runway",
         "severity": "High",
-        "detail": "Established stabilisers and newer therapies compete for the same patients. Pricing and formulary placement decide share.",
-        "watch": "Competitor data, approvals and payer contracts."
+        "detail": "Development costs can force financing.",
+        "watch": "Cash and quarterly burn."
       },
       {
-        "title": "Debt and cash burn",
-        "severity": "High",
-        "detail": "Net debt of $938.6M against negative free cash flow of $369.8M leaves limited room if revenue slows.",
-        "watch": "Cash balance, free cash flow, interest cost and any refinancing."
-      },
-      {
-        "title": "Pipeline spending",
+        "title": "Reimbursement",
         "severity": "Medium",
-        "detail": "Thirty programmes consume capital. A failure in a late-stage asset could force a write-down and a strategic reset.",
-        "watch": "R&D spend, trial readouts and programme discontinuations."
+        "detail": "Payer coverage determines commercial uptake.",
+        "watch": "Pricing and payer decisions."
       },
       {
-        "title": "Diagnosis rates",
+        "title": "Competition",
         "severity": "Medium",
-        "detail": "ATTR-CM is underdiagnosed. If testing does not expand, the addressable population is smaller than the market assumes.",
-        "watch": "Diagnosis rates, referral patterns and imaging adoption."
+        "detail": "A better therapy can arrive first or be priced lower.",
+        "watch": "Competitor data and launch timing."
+      },
+      {
+        "title": "Dilution",
+        "severity": "Medium",
+        "detail": "Equity raises fund trials and manufacturing.",
+        "watch": "Share count and financing terms."
       }
     ],
     "watchlist": [
       {
-        "title": "Acoramidis revenue",
-        "detail": "The commercial product funds everything else. Watch the quarterly step."
+        "title": "Cash runway",
+        "detail": "The number of quarters funded is a hard constraint."
       },
       {
-        "title": "Free cash flow",
-        "detail": "The company has to close the gap between revenue and spending to service the debt."
+        "title": "Trial readouts",
+        "detail": "Binary events drive the equity."
       },
       {
-        "title": "Pipeline readouts",
-        "detail": "A second product would reduce concentration and support the valuation."
+        "title": "Partner validation",
+        "detail": "A credible partner can de-risk the programme."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "BridgeBio has a commercial product in acoramidis, $945.5M of revenue growing 167.3%, a 94.3% gross margin and a pipeline of roughly thirty programmes. The latest quarter came close to operating breakeven, which is the most important development in the file.",
-      "The company also carries $938.6M of net debt and burned $369.8M over the trailing period. The portfolio model is expensive, and the balance sheet assumes acoramidis keeps growing while the pipeline produces a second product.",
-      "The educational point is that a portfolio strategy trades concentration risk for financing risk. The diversification is real, but it has to be paid for, and the debt makes the company sensitive to any slowdown in the commercial product."
+      "The investment case rests on valuation and the durability of -38.5% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -27.7%, not a single quarter. The key exposure is trial failure.",
+      "The composite of 46/100 blends a strong valuation reading with a weak profitability one; the gap is the story."
     ],
     "questions": [
-      "How much of the revenue base is acoramidis, and how fast is it growing?",
-      "What is the interest cost on the debt, and when does it mature?",
-      "Which pipeline programme is closest to a registrational readout?",
-      "Can the company reach free-cash-flow breakeven without another raise?"
+      "How many quarters of cash remain?",
+      "What is the next binary readout?",
+      "How large is the addressable market?",
+      "What does a failed trial leave behind?"
     ]
   },
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-24"
+  "narrativeUpdatedAt": "2026-11-28"
 };

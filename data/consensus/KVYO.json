@@ -1,7 +1,7 @@
 {
   "ticker": "KVYO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/KVYO/analysis",
   "targetMean": 27.16667,
   "targetHigh": 38,
@@ -28,10 +28,10 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 429410250,
-      "revenueGrowth": 0.19950001,
-      "epsAvg": 0.26423,
-      "epsGrowth": 0.201,
+      "revenueAvg": 428952350,
+      "revenueGrowth": 0.1982,
+      "epsAvg": 0.26373,
+      "epsGrowth": 0.1988,
       "analystCount": 20
     },
     {
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1830371920,
-      "revenueGrowth": 0.18879999,
-      "epsAvg": 1.09468,
-      "epsGrowth": 0.2313,
+      "revenueAvg": 1830299190,
+      "revenueGrowth": 0.1887,
+      "epsAvg": 1.09423,
+      "epsGrowth": 0.2308,
       "analystCount": 22
     }
   ],

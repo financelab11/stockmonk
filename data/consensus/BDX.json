@@ -1,7 +1,7 @@
 {
   "ticker": "BDX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/BDX/analysis",
   "targetMean": 226.14285,
   "targetHigh": 242,
@@ -96,8 +96,8 @@
     "analystCount": 11
   },
   "revisions": {
-    "eps7d": -0.000032537304397783906,
-    "eps30d": -0.006569412203365266,
+    "eps7d": 0,
+    "eps30d": -0.006506677331953981,
     "eps60d": -0.005773436624232242,
     "eps90d": -0.005816818368868493,
     "revenue30d": null

@@ -1,9 +1,9 @@
 {
   "ticker": "OKTA",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/OKTA/analysis",
-  "targetMean": 217.16214,
+  "targetMean": 217.73357,
   "targetHigh": 250,
   "targetLow": 150,
   "recommendationKey": "buy",
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-01-31",
-      "revenueAvg": 3223959440,
+      "revenueAvg": 3223983250,
       "revenueGrowth": 0.104499996,
       "epsAvg": 3.92945,
       "epsGrowth": 0.122700006,
@@ -99,7 +99,7 @@
     "eps7d": 0.000053445450010736195,
     "eps30d": 0.000053445450010736195,
     "eps60d": 0.00011707843491581826,
-    "eps90d": 0.022197538058125188,
+    "eps90d": 0.00015017078745493961,
     "revenue30d": null
   }
 }

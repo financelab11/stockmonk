@@ -1,9 +1,9 @@
 {
   "ticker": "NEE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/NEE/analysis",
-  "targetMean": 94.47368,
+  "targetMean": 94.31053,
   "targetHigh": 117,
   "targetLow": 56,
   "recommendationKey": "buy",
@@ -39,8 +39,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 30529695620,
       "revenueGrowth": 0.1137,
-      "epsAvg": 4.02912,
-      "epsGrowth": 0.086,
+      "epsAvg": 4.02112,
+      "epsGrowth": 0.083900005,
       "analystCount": 20
     },
     {
@@ -48,8 +48,8 @@
       "endDate": "2027-12-31",
       "revenueAvg": 34245544540,
       "revenueGrowth": 0.121700004,
-      "epsAvg": 4.37701,
-      "epsGrowth": 0.0863,
+      "epsAvg": 4.36962,
+      "epsGrowth": 0.0867,
       "analystCount": 23
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 12
   },
   "revisions": {
-    "eps7d": 0.00012411197879158564,
-    "eps30d": -0.0013310232520096221,
-    "eps60d": -0.00542323177218984,
-    "eps90d": -0.004907396659413865,
+    "eps7d": -0.0019855452307203647,
+    "eps30d": -0.002109380040798081,
+    "eps60d": -0.007018081065997772,
+    "eps90d": -0.006650131915692636,
     "revenue30d": null
   }
 }

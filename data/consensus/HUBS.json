@@ -1,7 +1,7 @@
 {
   "ticker": "HUBS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/HUBS/analysis",
   "targetMean": 225.52667,
   "targetHigh": 300,
@@ -10,8 +10,8 @@
   "analystCount": 27,
   "distribution": {
     "strongBuy": 2,
-    "buy": 6,
-    "hold": 24,
+    "buy": 5,
+    "hold": 25,
     "sell": 1,
     "strongSell": 1
   },
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 3687694760,
       "revenueGrowth": 0.1777,
-      "epsAvg": 13.61721,
+      "epsAvg": 13.61669,
       "epsGrowth": 0.4038,
-      "analystCount": 32
+      "analystCount": 33
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 4094265710,
       "revenueGrowth": 0.1103,
-      "epsAvg": 16.78015,
-      "epsGrowth": 0.2323,
+      "epsAvg": 16.76691,
+      "epsGrowth": 0.2313,
       "analystCount": 34
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 31
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.023515617072611628,
-    "eps60d": 0.024297832361354743,
-    "eps90d": 0.027753521078924592,
+    "eps7d": -0.0000381869707524185,
+    "eps30d": 0.023450377272976608,
+    "eps60d": 0.0242918482054737,
+    "eps90d": 0.025489070840713834,
     "revenue30d": null
   }
 }

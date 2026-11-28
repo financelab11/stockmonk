@@ -1,9 +1,9 @@
 {
   "ticker": "PEP",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/PEP/analysis",
-  "targetMean": 141.13635,
+  "targetMean": 141.27274,
   "targetHigh": 165,
   "targetLow": 106,
   "recommendationKey": "hold",
@@ -96,9 +96,9 @@
     "analystCount": 18
   },
   "revisions": {
-    "eps7d": -0.0012344386990585932,
+    "eps7d": 0,
     "eps30d": 0.0003883245344871167,
-    "eps60d": -0.018750335912361304,
+    "eps60d": -0.018433804502560713,
     "eps90d": -0.018750335912361304,
     "revenue30d": null
   }

@@ -1,7 +1,7 @@
 {
   "ticker": "NFLX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/NFLX/analysis",
   "targetMean": 84.54884,
   "targetHigh": 126,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 56583992500,
-      "revenueGrowth": 0.106800005,
-      "epsAvg": 3.76484,
-      "epsGrowth": 0.054,
+      "revenueAvg": 56582170240,
+      "revenueGrowth": 0.1067,
+      "epsAvg": 3.76427,
+      "epsGrowth": 0.0538,
       "analystCount": 44
     }
   ],
@@ -96,9 +96,9 @@
     "analystCount": 31
   },
   "revisions": {
-    "eps7d": -0.00325638371194259,
-    "eps30d": -0.0011716183152743476,
-    "eps60d": -0.003434355270242717,
+    "eps7d": -0.0033036636066854363,
+    "eps30d": -0.00325638371194259,
+    "eps60d": -0.003225788448551925,
     "eps90d": -0.003434355270242717,
     "revenue30d": null
   }

@@ -1,7 +1,7 @@
 {
   "ticker": "BROS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/BROS/analysis",
   "targetMean": 54.5,
   "targetHigh": 79,
@@ -28,10 +28,10 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 579571290,
-      "revenueGrowth": 0.248,
-      "epsAvg": 0.20385,
-      "epsGrowth": 0.2741,
+      "revenueAvg": 579752760,
+      "revenueGrowth": 0.2484,
+      "epsAvg": 0.20462,
+      "epsGrowth": 0.2789,
       "analystCount": 13
     },
     {
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 2124635800,
       "revenueGrowth": 0.29700002,
-      "epsAvg": 0.92068,
-      "epsGrowth": 0.21139999,
+      "epsAvg": 0.92115,
+      "epsGrowth": 0.21200001,
       "analystCount": 21
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 2642259020,
-      "revenueGrowth": 0.24360001,
-      "epsAvg": 1.18496,
-      "epsGrowth": 0.287,
+      "revenueAvg": 2642762660,
+      "revenueGrowth": 0.2439,
+      "epsAvg": 1.18734,
+      "epsGrowth": 0.289,
       "analystCount": 21
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 20
   },
   "revisions": {
-    "eps7d": -0.0020594419996097235,
-    "eps30d": -0.06048267768763704,
-    "eps60d": -0.05855164938544288,
-    "eps90d": -0.05772301142178726,
+    "eps7d": 0.0005104922448624372,
+    "eps30d": -0.055463270579549584,
+    "eps60d": -0.0613631963479625,
+    "eps90d": -0.05724198632660571,
     "revenue30d": null
   }
 }

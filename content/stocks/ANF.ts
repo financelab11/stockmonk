@@ -10,17 +10,17 @@ export const ANF: StockStory = {
     "Revenue: $5.3B, +4.7% year over year.",
     "Profitability: 13.7% operating margin and 10.0% net margin.",
     "Cash: $566.5M free cash flow, a 10.6% margin, against $638M of net cash.",
-    "Valuation: 13.7x trailing earnings and 7.5x EV/EBITDA."
+    "Valuation: 14.6x trailing earnings and 8.0x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-26",
+  "narrativeUpdatedAt": "2026-11-28",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1018840/000101884026000012/anf-20260131.htm",
   "irUrl": "https://corporate.abercrombie.com",
   "bigPicture": {
     "paragraphs": [
       "Abercrombie & Fitch's revenue rose 4.7% to $5.3B at a 13.7% operating margin, generating $566.5M of free cash flow. The latest quarter (Q2 FY27) grew 4.8%.",
       "Revenue is reported as one consolidated line. Americas is the largest geography at 81.5% of revenue. What could lift the return is comparable sales in the core Abercrombie brand and international expansion. The thing to watch is a fashion misstep or a consumer slowdown.",
-      "At $173.61, the equity is worth $7.4B, or 13.7x trailing earnings and 7.5x EV/EBITDA. The earnings multiple is 37.6% below the 22.0x peer median. The stock is 96% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
+      "At $184.43, the equity is worth $7.8B, or 14.6x trailing earnings and 8.0x EV/EBITDA. The earnings multiple is 34.0% below the 22.1x peer median. The stock is 99% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Abercrombie is a apparel brand that has rebuilt its product and store fleet, so the question is whether the current brand heat can be sustained."
   },
@@ -53,7 +53,7 @@ export const ANF: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 5.6% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 4.8% year over year. The current-year consensus looks for $5.6B of revenue and $13.41 of EPS.",
+      "Revenue compounded at 5.6% a year from FY2019 to FY2026. The latest quarter (Q2 FY27) grew 4.8% year over year. The current-year consensus looks for $5.6B of revenue and $13.63 of EPS.",
       "The next leg depends on comparable sales in the core Abercrombie brand and international expansion. For Abercrombie & Fitch, sales growth is only worth paying for if inventory turns and markdowns stay under control."
     ],
     "bullets": [
@@ -79,20 +79,20 @@ export const ANF: StockStory = {
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow was $566.5M, or 10.6% of revenue. Operating cash flow covered 122.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 4.5% of revenue, which is low relative to the revenue base.",
+      "Cash generation was $566.5M, or 10.6% of revenue. Operating cash flow covered 122.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 4.5% of revenue, which is low relative to the revenue base.",
       "The balance sheet carries $638M of net cash. Interest cover is 29.0x. That gives management room to invest or return capital without leaning on the balance sheet."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At $173.61, the shares trade at 13.7x trailing earnings and 7.5x EV/EBITDA, with a 7.7% free-cash-flow yield. The earnings yield is 7.3%. The earnings multiple is 37.6% below the 22.0x peer median.",
+      "At $184.43, the shares trade at 14.6x trailing earnings and 8.0x EV/EBITDA, with a 7.2% free-cash-flow yield. The earnings yield is 6.8%. The earnings multiple is 34.0% below the 22.1x peer median.",
       "The multiple reflects peak brand momentum; it assumes comps stay positive without heavy markdowns. The multiple is below the peer median, so some of the risk is already in the price."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "11 analysts in the third-party consensus carry a mean target of $176.55, 1.7% above the latest close. The range runs from $150.00 to $205.00. That is the published view, not a Stockmonk target.",
-      "The current-year consensus looks for $5.6B of revenue and $13.41 of EPS. EPS estimates are down 0.3% over 30 days and down 1.3% over 90 days. That implies 4.9% growth from the trailing base."
+      "11 analysts in the third-party consensus carry a mean target of $188.73, 2.3% above the latest close. The range runs from $165.00 to $220.00. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $5.6B of revenue and $13.63 of EPS. EPS estimates are up 1.4% over 30 days and up 0.4% over 90 days. That implies 5.0% growth from the trailing base."
     ]
   },
   "risks": {

@@ -1,7 +1,7 @@
 {
   "ticker": "LEU",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/LEU/analysis",
   "targetMean": 177.9,
   "targetHigh": 300,
@@ -21,9 +21,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 169600550,
       "revenueGrowth": 0.1601,
-      "epsAvg": 1.49243,
-      "epsGrowth": 0.8892,
-      "analystCount": 7
+      "epsAvg": 1.43451,
+      "epsGrowth": 0.8158,
+      "analystCount": 6
     },
     {
       "period": "Following quarter",
@@ -39,9 +39,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 476647700,
       "revenueGrowth": 0.0623,
-      "epsAvg": 3.38075,
-      "epsGrowth": 0.0037,
-      "analystCount": 7
+      "epsAvg": 3.56087,
+      "epsGrowth": 0.0572,
+      "analystCount": 6
     },
     {
       "period": "Next fiscal year",
@@ -49,7 +49,7 @@
       "revenueAvg": 511310600,
       "revenueGrowth": 0.0727,
       "epsAvg": 4.42339,
-      "epsGrowth": 0.3084,
+      "epsGrowth": 0.24219999,
       "analystCount": 5
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 169600550,
     "revenueGrowth": 0.1601,
-    "epsAvg": 1.49243,
-    "epsGrowth": 0.8892,
-    "analystCount": 7
+    "epsAvg": 1.43451,
+    "epsGrowth": 0.8158,
+    "analystCount": 6
   },
   "revisions": {
-    "eps7d": 0.05284875663723687,
-    "eps30d": -0.0327781147362759,
-    "eps60d": -0.043562025953891914,
-    "eps90d": -0.030350745861978945,
+    "eps7d": 0.03549483687671029,
+    "eps30d": 0.01875364773468524,
+    "eps60d": 0.007395190014513053,
+    "eps90d": 0.021310342256142922,
     "revenue30d": null
   }
 }

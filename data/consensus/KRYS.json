@@ -1,9 +1,9 @@
 {
   "ticker": "KRYS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/KRYS/analysis",
-  "targetMean": 388.22223,
+  "targetMean": 389.33334,
   "targetHigh": 474,
   "targetLow": 284,
   "recommendationKey": "strong_buy",

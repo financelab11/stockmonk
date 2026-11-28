@@ -1,7 +1,7 @@
 {
   "ticker": "PANW",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/PANW/analysis",
   "targetMean": 412.11707,
   "targetHigh": 510,
@@ -48,9 +48,9 @@
       "endDate": "2028-07-31",
       "revenueAvg": 16746872550,
       "revenueGrowth": 0.1499,
-      "epsAvg": 2.02329,
-      "epsGrowth": 0.3006,
-      "analystCount": 18
+      "epsAvg": 2.15596,
+      "epsGrowth": 0.3463,
+      "analystCount": 20
     }
   ],
   "history": [

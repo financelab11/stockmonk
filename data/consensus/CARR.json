@@ -1,7 +1,7 @@
 {
   "ticker": "CARR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CARR/analysis",
   "targetMean": 68.70087,
   "targetHigh": 88,

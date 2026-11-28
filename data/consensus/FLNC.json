@@ -1,10 +1,10 @@
 {
   "ticker": "FLNC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/FLNC/analysis",
-  "targetMean": 7.5,
-  "targetHigh": 15,
+  "targetMean": 6.4625,
+  "targetHigh": 11,
   "targetLow": 4,
   "recommendationKey": "hold",
   "analystCount": 20,
@@ -19,37 +19,37 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 579894880,
-      "revenueGrowth": 0.2202,
-      "epsAvg": -0.3075,
-      "epsGrowth": -0.0716,
-      "analystCount": 4
+      "revenueAvg": 534285120,
+      "revenueGrowth": 0.1243,
+      "epsAvg": -0.26,
+      "epsGrowth": 0.0939,
+      "analystCount": 3
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 612307780,
-      "revenueGrowth": 0.3171,
-      "epsAvg": -0.28,
-      "epsGrowth": -1.2955999,
-      "analystCount": 4
+      "revenueAvg": 605992760,
+      "revenueGrowth": 0.3035,
+      "epsAvg": -0.25,
+      "epsGrowth": -1.0497,
+      "analystCount": 3
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-09-30",
-      "revenueAvg": 2897048450,
-      "revenueGrowth": 0.24120001,
-      "epsAvg": -0.76,
-      "epsGrowth": 0.4173,
-      "analystCount": 1
+      "revenueAvg": 2988902110,
+      "revenueGrowth": 0.28059998,
+      "epsAvg": -0.645,
+      "epsGrowth": 0.5055,
+      "analystCount": 4
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-09-30",
-      "revenueAvg": 3777285970,
-      "revenueGrowth": 0.3038,
-      "epsAvg": 0.00596,
-      "epsGrowth": 1.0078,
+      "revenueAvg": 3715439300,
+      "revenueGrowth": 0.24309999,
+      "epsAvg": -0.0857,
+      "epsGrowth": 0.8671,
       "analystCount": 6
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 579894880,
-    "revenueGrowth": 0.2202,
-    "epsAvg": -0.3075,
-    "epsGrowth": -0.0716,
-    "analystCount": 4
+    "revenueAvg": 534285120,
+    "revenueGrowth": 0.1243,
+    "epsAvg": -0.26,
+    "epsGrowth": 0.0939,
+    "analystCount": 3
   },
   "revisions": {
-    "eps7d": 0.4325297344165271,
-    "eps30d": 0.6823836720237306,
-    "eps60d": 1.8534955320267326,
-    "eps90d": -4.146737330241802,
+    "eps7d": 0.21576536670876312,
+    "eps30d": 0.4278124584938241,
+    "eps60d": 1.421716602838477,
+    "eps90d": -3.67058628684995,
     "revenue30d": null
   }
 }

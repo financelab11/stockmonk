@@ -1,7 +1,7 @@
 {
   "ticker": "NEM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/NEM/analysis",
   "targetMean": 133.8,
   "targetHigh": 165,
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 6371874460,
-      "revenueGrowth": -0.0654,
+      "revenueAvg": 6370053480,
+      "revenueGrowth": -0.0657,
       "epsAvg": 1.86767,
       "epsGrowth": -0.2589,
       "analystCount": 3
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 26211478320,
-      "revenueGrowth": 0.15630001,
+      "revenueAvg": 26210749930,
+      "revenueGrowth": 0.15619999,
       "epsAvg": 9.155,
       "epsGrowth": 0.32869998,
       "analystCount": 8
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 6371874460,
-    "revenueGrowth": -0.0654,
+    "revenueAvg": 6370053480,
+    "revenueGrowth": -0.0657,
     "epsAvg": 1.86767,
     "epsGrowth": -0.2589,
     "analystCount": 3

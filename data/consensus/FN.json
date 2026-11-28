@@ -1,12 +1,12 @@
 {
   "ticker": "FN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/FN/analysis",
-  "targetMean": 564.44446,
+  "targetMean": 531.1111,
   "targetHigh": 800,
   "targetLow": 364,
-  "recommendationKey": "none",
+  "recommendationKey": "buy",
   "analystCount": 9,
   "distribution": {
     "strongBuy": 3,
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-06-30",
-      "revenueAvg": 8072309340,
-      "revenueGrowth": 0.2237,
-      "epsAvg": 24.111,
-      "epsGrowth": 0.2226,
+      "revenueAvg": 8030452190,
+      "revenueGrowth": 0.2174,
+      "epsAvg": 24.001,
+      "epsGrowth": 0.2171,
       "analystCount": 8
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 9
   },
   "revisions": {
-    "eps7d": 0.07604562945114135,
-    "eps30d": 0.07839934466247711,
+    "eps7d": 0,
+    "eps30d": 0.07604562945114135,
     "eps60d": 0.07839934466247711,
-    "eps90d": 0.14333992923274397,
+    "eps90d": 0.07839934466247711,
     "revenue30d": null
   }
 }

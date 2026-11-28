@@ -1,7 +1,7 @@
 {
   "ticker": "FSLR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/FSLR/analysis",
   "targetMean": 250.67133,
   "targetHigh": 328,
@@ -9,9 +9,9 @@
   "recommendationKey": "buy",
   "analystCount": 30,
   "distribution": {
-    "strongBuy": 10,
+    "strongBuy": 11,
     "buy": 18,
-    "hold": 7,
+    "hold": 6,
     "sell": 0,
     "strongSell": 1
   },
@@ -96,10 +96,10 @@
     "analystCount": 26
   },
   "revisions": {
-    "eps7d": 0.00025873338917414834,
-    "eps30d": 0.006985264652339618,
+    "eps7d": 0,
+    "eps30d": 0.007599577260268386,
     "eps60d": 0.005751983176306874,
-    "eps90d": 0.00619727397739811,
+    "eps90d": 0.006520270057626565,
     "revenue30d": null
   }
 }

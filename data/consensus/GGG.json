@@ -1,7 +1,7 @@
 {
   "ticker": "GGG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/GGG/analysis",
   "targetMean": 83.28571,
   "targetHigh": 100,
@@ -19,10 +19,10 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 628315440,
-      "revenueGrowth": 0.059299998,
-      "epsAvg": 0.8225,
-      "epsGrowth": 0.0682,
+      "revenueAvg": 626259890,
+      "revenueGrowth": 0.0558,
+      "epsAvg": 0.81875,
+      "epsGrowth": 0.0633,
       "analystCount": 8
     },
     {
@@ -37,18 +37,18 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 2345316200,
-      "revenueGrowth": 0.048600003,
-      "epsAvg": 3.23111,
-      "epsGrowth": 0.0953,
+      "revenueAvg": 2343476200,
+      "revenueGrowth": 0.0478,
+      "epsAvg": 3.22889,
+      "epsGrowth": 0.0945,
       "analystCount": 9
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 2526747100,
+      "revenueAvg": 2524857100,
       "revenueGrowth": 0.0774,
-      "epsAvg": 3.45889,
+      "epsAvg": 3.45667,
       "epsGrowth": 0.0705,
       "analystCount": 9
     }
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 628315440,
-    "revenueGrowth": 0.059299998,
-    "epsAvg": 0.8225,
-    "epsGrowth": 0.0682,
+    "revenueAvg": 626259890,
+    "revenueGrowth": 0.0558,
+    "epsAvg": 0.81875,
+    "epsGrowth": 0.0633,
     "analystCount": 8
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": -0.01690464816972792,
-    "eps60d": -0.015904584674705124,
-    "eps90d": -0.02050473664266761,
+    "eps7d": -0.0006870703875758721,
+    "eps30d": -0.0006870703875758721,
+    "eps60d": -0.017580103874134,
+    "eps90d": -0.016580727493124336,
     "revenue30d": null
   }
 }

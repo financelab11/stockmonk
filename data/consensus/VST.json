@@ -1,9 +1,9 @@
 {
   "ticker": "VST",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/VST/analysis",
-  "targetMean": 197.18262,
+  "targetMean": 197.05217,
   "targetHigh": 270,
   "targetLow": 106,
   "recommendationKey": "strong_buy",
@@ -11,19 +11,19 @@
   "distribution": {
     "strongBuy": 4,
     "buy": 19,
-    "hold": 1,
+    "hold": 2,
     "sell": 0,
-    "strongSell": 1
+    "strongSell": 0
   },
   "estimates": [
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 5894860760,
-      "revenueGrowth": 0.286,
-      "epsAvg": 2.98181,
-      "epsGrowth": 4.5219,
-      "analystCount": 5
+      "revenueAvg": 5664698510,
+      "revenueGrowth": 0.2358,
+      "epsAvg": 3.21,
+      "epsGrowth": 4.9444,
+      "analystCount": 4
     },
     {
       "period": "Following quarter",
@@ -39,18 +39,18 @@
       "endDate": "2026-12-31",
       "revenueAvg": 22345761300,
       "revenueGrowth": 0.2598,
-      "epsAvg": 9.18967,
-      "epsGrowth": 3.2154,
-      "analystCount": 9
+      "epsAvg": 9.2854,
+      "epsGrowth": 3.2594001,
+      "analystCount": 8
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 23976085790,
       "revenueGrowth": 0.073,
-      "epsAvg": 10.29132,
-      "epsGrowth": 0.119899996,
-      "analystCount": 9
+      "epsAvg": 10.07273,
+      "epsGrowth": 0.0848,
+      "analystCount": 8
     }
   ],
   "history": [
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 5894860760,
-    "revenueGrowth": 0.286,
-    "epsAvg": 2.98181,
-    "epsGrowth": 4.5219,
-    "analystCount": 5
+    "revenueAvg": 5664698510,
+    "revenueGrowth": 0.2358,
+    "epsAvg": 3.21,
+    "epsGrowth": 4.9444,
+    "analystCount": 4
   },
   "revisions": {
-    "eps7d": 0.0006773053699862253,
-    "eps30d": -0.03449873555767313,
-    "eps60d": -0.03376274080569641,
-    "eps90d": -0.04590315413526036,
+    "eps7d": 0.0046742117677607276,
+    "eps30d": -0.018106873167291204,
+    "eps60d": -0.02369732030390792,
+    "eps90d": -0.03138349198070156,
     "revenue30d": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "CCL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CCL/analysis",
   "targetMean": 33.56296,
   "targetHigh": 43,

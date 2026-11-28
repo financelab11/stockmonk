@@ -25454,8 +25454,8 @@
   {
     "ticker": "XMAX",
     "name": "XMax Inc.",
-    "sector": "Consumer Cyclical",
-    "industry": "Furnishings, Fixtures & Appliances",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
     "research": false
   },
   {
@@ -25819,7 +25819,7 @@
     "ticker": "ZOAR",
     "name": "Zoar Limited",
     "sector": "Healthcare",
-    "industry": "Drug Manufacturers - General",
+    "industry": "Drug Manufacturers - Specialty & Generic",
     "research": false
   },
   {

@@ -1,9 +1,9 @@
 {
   "ticker": "INTC",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/INTC/analysis",
-  "targetMean": 90.4186,
+  "targetMean": 89.90698,
   "targetHigh": 160,
   "targetLow": 60,
   "recommendationKey": "hold",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 61739691730,
-      "revenueGrowth": 0.1681,
-      "epsAvg": 1.48638,
-      "epsGrowth": 2.539,
-      "analystCount": 39
+      "revenueAvg": 61721308040,
+      "revenueGrowth": 0.16780001,
+      "epsAvg": 1.48572,
+      "epsGrowth": 2.5374,
+      "analystCount": 40
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 69122321680,
-      "revenueGrowth": 0.1196,
-      "epsAvg": 1.78981,
-      "epsGrowth": 0.2041,
+      "revenueAvg": 69075302740,
+      "revenueGrowth": 0.1191,
+      "epsAvg": 1.78829,
+      "epsGrowth": 0.2037,
       "analystCount": 46
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 34
   },
   "revisions": {
-    "eps7d": -0.00017489102943546442,
-    "eps30d": -0.027861711729388228,
-    "eps60d": -0.022285661663136502,
-    "eps90d": -0.017360376560186186,
+    "eps7d": -0.0006188451810794637,
+    "eps30d": -0.03268399395801869,
+    "eps60d": -0.022719797929301566,
+    "eps90d": -0.01779669980960441,
     "revenue30d": null
   }
 }

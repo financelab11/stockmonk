@@ -1,7 +1,7 @@
 {
   "ticker": "PINS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/PINS/analysis",
   "targetMean": 25.02778,
   "targetHigh": 41,
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.0006049172596223062,
-    "eps30d": -0.03356522169682863,
-    "eps60d": -0.029456516334344318,
-    "eps90d": -0.03432546357681432,
+    "eps7d": 0,
+    "eps30d": -0.03471707071006813,
+    "eps60d": -0.03443533666094478,
+    "eps90d": -0.035627998438712005,
     "revenue30d": null
   }
 }

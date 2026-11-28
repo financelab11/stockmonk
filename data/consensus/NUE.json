@@ -1,7 +1,7 @@
 {
   "ticker": "NUE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/NUE/analysis",
   "targetMean": 304.5625,
   "targetHigh": 345,
@@ -19,10 +19,10 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 10564425600,
-      "revenueGrowth": 0.3743,
-      "epsAvg": 6.07382,
-      "epsGrowth": 2.5109,
+      "revenueAvg": 10560536440,
+      "revenueGrowth": 0.3738,
+      "epsAvg": 6.05525,
+      "epsGrowth": 2.5001,
       "analystCount": 7
     },
     {
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 41739735160,
-      "revenueGrowth": 0.2845,
-      "epsAvg": 19.9833,
-      "epsGrowth": 1.5919,
+      "revenueAvg": 41736818280,
+      "revenueGrowth": 0.28440002,
+      "epsAvg": 19.96886,
+      "epsGrowth": 1.59,
       "analystCount": 9
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 44547953330,
-      "revenueGrowth": 0.0673,
+      "revenueGrowth": 0.0674,
       "epsAvg": 23.74556,
-      "epsGrowth": 0.1883,
+      "epsGrowth": 0.1891,
       "analystCount": 12
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 10564425600,
-    "revenueGrowth": 0.3743,
-    "epsAvg": 6.07382,
-    "epsGrowth": 2.5109,
+    "revenueAvg": 10560536440,
+    "revenueGrowth": 0.3738,
+    "epsAvg": 6.05525,
+    "epsGrowth": 2.5001,
     "analystCount": 7
   },
   "revisions": {
-    "eps7d": 0.0012802044318622752,
-    "eps30d": 0.02539511986367282,
-    "eps60d": 0.04061693498832475,
-    "eps90d": 0.06712028699620531,
+    "eps7d": 0.0005566759780035735,
+    "eps30d": 0.024654165890563684,
+    "eps60d": 0.038268919202780305,
+    "eps90d": 0.06634918227655318,
     "revenue30d": null
   }
 }

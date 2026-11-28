@@ -1,7 +1,7 @@
 {
   "ticker": "APO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/APO/analysis",
   "targetMean": 146.7619,
   "targetHigh": 173,

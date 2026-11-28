@@ -1,11 +1,11 @@
 {
   "ticker": "ASND",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ASND/analysis",
-  "targetMean": 315.46533,
-  "targetHigh": 354.55215,
-  "targetLow": 272.31345,
+  "targetMean": 313.9815,
+  "targetHigh": 352.88446,
+  "targetLow": 271.0326,
   "recommendationKey": "strong_buy",
   "analystCount": 21,
   "distribution": {
@@ -39,18 +39,18 @@
       "endDate": "2026-12-31",
       "revenueAvg": 1379311360,
       "revenueGrowth": 0.9154,
-      "epsAvg": 12.56357,
+      "epsAvg": 12.5675,
       "epsGrowth": null,
-      "analystCount": 7
+      "analystCount": 6
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 2026221080,
       "revenueGrowth": 0.469,
-      "epsAvg": 10.98886,
-      "epsGrowth": -0.12529999,
-      "analystCount": 7
+      "epsAvg": 11.362,
+      "epsGrowth": -0.0959,
+      "analystCount": 6
     }
   ],
   "history": [
@@ -88,10 +88,10 @@
     "analystCount": 4
   },
   "revisions": {
-    "eps7d": 0.24668274192268003,
-    "eps30d": -0.017826542418462155,
-    "eps60d": -0.016196047108939404,
-    "eps90d": 0.10819176148893006,
+    "eps7d": 0.0003128091776460895,
+    "eps30d": 0.24707271572596645,
+    "eps60d": -0.017519309546890183,
+    "eps90d": 0.10853841404251585,
     "revenue30d": null
   }
 }

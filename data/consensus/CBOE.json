@@ -1,7 +1,7 @@
 {
   "ticker": "CBOE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CBOE/analysis",
   "targetMean": 360.26666,
   "targetHigh": 461,
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 2891783000,
       "revenueGrowth": 0.19049999,
-      "epsAvg": 14.50576,
-      "epsGrowth": 0.35950002,
-      "analystCount": 15
+      "epsAvg": 14.50852,
+      "epsGrowth": 0.35970002,
+      "analystCount": 16
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 2993698470,
       "revenueGrowth": 0.0352,
-      "epsAvg": 15.50498,
-      "epsGrowth": 0.0689,
+      "epsAvg": 15.54373,
+      "epsGrowth": 0.0714,
       "analystCount": 16
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 14
   },
   "revisions": {
-    "eps7d": 0.004838628115581223,
-    "eps30d": 0.026154425143109394,
-    "eps60d": 0.027984808874293332,
-    "eps90d": 0.022622711820913244,
+    "eps7d": 0.00026543175404891706,
+    "eps30d": 0.02925627761398175,
+    "eps60d": 0.02818040276751188,
+    "eps90d": 0.024109618436136016,
     "revenue30d": null
   }
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "WMT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/WMT/analysis",
-  "targetMean": 136.14635,
+  "targetMean": 136.80489,
   "targetHigh": 155,
   "targetLow": 81,
   "recommendationKey": "buy",
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2027-01-31",
-      "revenueAvg": 200238445570,
-      "revenueGrowth": 0.06,
+      "revenueAvg": 200291962810,
+      "revenueGrowth": 0.0602,
       "epsAvg": 0.77534,
       "epsGrowth": 0.0478,
       "analystCount": 35
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-01-31",
-      "revenueAvg": 753927488360,
-      "revenueGrowth": 0.0673,
-      "epsAvg": 2.88668,
-      "epsGrowth": 0.0934,
+      "revenueAvg": 754016932800,
+      "revenueGrowth": 0.0674,
+      "epsAvg": 2.88814,
+      "epsGrowth": 0.094,
       "analystCount": 41
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-01-31",
-      "revenueAvg": 785435142800,
-      "revenueGrowth": 0.0418,
-      "epsAvg": 3.22599,
-      "epsGrowth": 0.1175,
+      "revenueAvg": 785474196850,
+      "revenueGrowth": 0.0417,
+      "epsAvg": 3.22668,
+      "epsGrowth": 0.1172,
       "analystCount": 43
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2027-01-31",
-    "revenueAvg": 200238445570,
-    "revenueGrowth": 0.06,
+    "revenueAvg": 200291962810,
+    "revenueGrowth": 0.0602,
     "epsAvg": 0.77534,
     "epsGrowth": 0.0478,
     "analystCount": 35
   },
   "revisions": {
-    "eps7d": 0.0006100689100563272,
-    "eps30d": 0.00004503646221265534,
-    "eps60d": 0.00002424989867000349,
-    "eps90d": 0.001637774292495564,
+    "eps7d": 0.00046764745617111636,
+    "eps30d": 0.0011126786438491187,
+    "eps60d": 0.0005300334995028688,
+    "eps90d": 0.0017793902900093972,
     "revenue30d": null
   }
 }

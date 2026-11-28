@@ -3,159 +3,158 @@ import type { StockStory } from "./types";
 export const PANW: StockStory = {
   "ticker": "PANW",
   "kicker": "Technology · Network and cloud security",
-  "title": "Palo Alto Networks is assembling a platform one acquisition at a time",
-  "dek": "Free cash flow is 35.8% of revenue and operating margin is 6.1%. The distance between them explains why the earnings multiple is not the right lens.",
+  "title": "Palo Alto Networks: 6.1% margins and the price being paid",
+  "dek": "Palo Alto Networks' revenue rose 24.5% to $11.5B, at a 6.1% operating margin. The key risk is technology substitution.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $11.5B trailing twelve months, +24.5% year over year.",
+    "Revenue: $11.5B, +24.5% year over year.",
     "Profitability: 6.1% operating margin and 2.7% net margin.",
-    "Cash: $4.1B free cash flow, a 35.8% margin.",
-    "factor summary: 45/100 average percentile across the factor set."
+    "Cash: $4.1B free cash flow, a 35.8% margin, against $1.3B of net cash.",
+    "Valuation: 980.8x trailing earnings and 193.4x EV/EBITDA."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000023/panw-20260731.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001327567&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Palo Alto Networks, Inc. generated $11.5B of revenue over the last twelve months, +24.5% versus the prior year. The business is judged on whether it can keep converting a technical advantage into recurring revenue.",
-      "The latest reported quarter was Q4 FY26, with $3.4B of revenue and an operating margin of 5.0%. The stock closed at $353.43 on Nov 23, 2026, giving a market capitalization of $290.2B.",
-      "The shares sit 73% of the way up their 52-week range ($139.57 to $432.33). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Palo Alto Networks' revenue rose 24.5% to $11.5B at a 6.1% operating margin, generating $4.1B of free cash flow. The latest quarter (Q4 FY26) grew 34.5%.",
+      "Revenue is reported as one consolidated line. Americas is the largest geography at 66.9% of revenue. The risk is technology substitution. The absence of a segment split puts more weight on the group margin and cash conversion.",
+      "At $366.76, the equity is worth $301.1B, or 980.8x trailing earnings and 193.4x EV/EBITDA. The earnings multiple is 2810.9% above the 33.7x peer median. The stock is 78% of the way up its 52-week range. The multiple is a claim on the next few years, not a verdict on the last one."
     ],
-    "quote": "PANW is a Technology business with $11.5B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Palo Alto Networks' revenue rose 24.5% to $11.5B, and the investment case depends on whether the current margin and growth are repeatable."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The portfolio has three centers. Network security is the original business: appliances and virtual firewalls that inspect traffic, sold with subscriptions for threat intelligence and advanced filtering. Cloud security covers the workloads and configurations that run outside the data center. Security operations covers detection and response, which is a software and data problem rather than an appliance problem.",
-      "Customers are large enterprises, governments and service providers, sold through a direct sales force and a channel. The typical contract bundles several products and renews annually, which is why the recurring base matters more than the number of new logos.",
-      "The company employs 8,014 people. That is a small headcount for $11.48B of revenue, and it is partly a consequence of buying products rather than building every one of them."
+      "Palo Alto Networks, Inc. provides cybersecurity solutions in the Americas, Europe, the Middle East, Africa, the Asia Pacific, and Japan.",
+      "Palo Alto Networks earned a 70.4% gross margin, and R&D, manufacturing and channel costs absorbed 64.3% of revenue, leaving a 6.1% operating margin. That is 3.2 points below the peer median of 9.3%.",
+      "Capital spending runs at 3.8% of revenue, which is low relative to the revenue base. The balance sheet carries $1.3B of net cash. Return on invested capital was 1.4%. That is 5.8 points below the peer median of 7.2%."
     ],
     "bullets": [
       {
-        "title": "Network security",
-        "detail": "Firewalls and the subscriptions attached to them. The installed base that funds everything else."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Cloud security",
-        "detail": "Protection for workloads and configurations outside the data center. Sold into the same accounts as the firewalls."
+        "title": "Margin engine",
+        "detail": "Gross margin 70.4%, operating margin 6.1%. R&D, manufacturing and channel costs are the bridge between the two."
       },
       {
-        "title": "Security operations",
-        "detail": "Detection, response and analytics. The most software-like part of the portfolio and the most recently assembled."
+        "title": "Capital intensity",
+        "detail": "Capex 3.8% of revenue; $1.3B of net cash; ROIC 1.4%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "An appliance sale is the entry ticket. The margin is in the subscriptions that run on it: threat intelligence, URL filtering, advanced threat prevention and the cloud-delivered services that report back to a shared database of attacks. Gross margin of 70.4% is the blend of hardware and subscription revenue.",
-      "Operating margin of 6.1% is what remains after sales commissions, research and the amortization of acquired technology. The gap to free cash flow is large because much of that cost is either non-cash or paid over time. Stock-based compensation and acquisition-related charges reduce reported profit without reducing the cash the business collects.",
-      "The unit economics depend on the renewal. A customer that buys a firewall and renews three subscriptions for five years is worth far more than the initial sale, and the cost of acquiring that customer is paid once. That is why the company is willing to accept a low reported margin in exchange for a growing subscription base."
+      "Product cycles and customer expansion drive revenue; gross margin and R&D leverage drive the profit. New products and platform transitions create refresh demand and pricing power.",
+      "The operating margin is 6.1%, 3.2 points below the peer median of 9.3%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 21.7% a year across the fiscal years in the dataset, and the latest quarter changed +34.5% year over year. Third-party estimates for the current fiscal year point to $14.6B of revenue and $4.28 of EPS.",
-      "growth matters when it produces a return on capital. The operating margin of 6.1% and return on invested capital of 1.4% are the filters to watch as revenue scales."
+      "Revenue compounded at 21.7% a year from FY2019 to FY2026. The latest quarter (Q4 FY26) grew 34.5% year over year. The current-year consensus looks for $14.6B of revenue and $4.28 of EPS.",
+      "The growth rate is doing the work; the margin has to catch up for the model to earn its cost of capital. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Product cycle",
-        "detail": "New products and platform transitions create refresh demand and pricing power."
+        "detail": "New products and platform transitions create refresh demand and pricing power. Revenue growth is 24.5%."
       },
       {
         "title": "Customer expansion",
-        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship."
+        "detail": "Land-and-expand selling raises revenue per existing customer and lengthens the relationship. The operating margin is 6.1%."
       },
       {
         "title": "Operating leverage",
-        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place."
+        "detail": "Incremental revenue can carry high gross margins once development and sales costs are in place. Return on invested capital is 1.4%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 6.1%, the net margin is 2.7% and diluted EPS is $0.47. The latest quarter's operating margin was 5.0%. The quarter shown is the latest reported period in the dataset.",
-      "Return on equity is 1.1%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
+      "The operating margin moved from -1.9% in FY2019 to 6.1% in FY2026. The trailing operating margin is 6.1%, the net margin is 2.7%, and diluted EPS is $0.47, down 70.6% year over year.",
+      "Return on equity of 1.1% and return on invested capital of 1.4% are close enough that operating performance explains most of the return. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "Cash generation over the trailing period was $4.1B, a 35.8% margin. The balance sheet carries $1.3B of net cash. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "Cash generation was $4.1B, or 35.8% of revenue. Operating cash flow covered 1483.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 3.8% of revenue, which is low relative to the revenue base.",
+      "The balance sheet carries $1.3B of net cash. The net cash position is optionality: it can fund investment, acquisitions or returns. The test is whether that cash is reinvested at a return above the cost of capital."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 945.2x trailing earnings and 186.4x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
-      "The attributed third-party mean target is $412.12; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $366.76, the shares trade at 980.8x trailing earnings and 193.4x EV/EBITDA, with a 1.4% free-cash-flow yield. The earnings yield is 0.1%. The earnings multiple is 2810.9% above the 33.7x peer median.",
+      "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "51 analysts contribute to the third-party consensus. The mean target is $412.12, with a range of $190.00 to $510.00. The consensus is a third-party snapshot and can change without notice.",
-      "Current-year estimates call for $14.6B of revenue and $4.28 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
+      "51 analysts in the third-party consensus carry a mean target of $412.12, 12.4% above the latest close. The range runs from $190.00 to $510.00. The spread between the high and low target is unusually wide. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $14.6B of revenue and $4.28 of EPS. EPS estimates are up 2.3% over 30 days and up 3.8% over 90 days. That implies 26.9% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "Palo Alto's risks are about execution on acquisitions and about whether a bundling strategy produces margin as well as revenue.",
+    "intro": "The central risk is technology substitution.",
     "items": [
       {
-        "title": "Acquisition integration",
+        "title": "Valuation",
         "severity": "High",
-        "detail": "Operating income fell while revenue rose. Buying products adds revenue quickly and costs slowly, and the costs eventually arrive.",
-        "watch": "Operating margin and the split between acquired and organic revenue."
+        "detail": "At 980.8x trailing earnings and a 1.4% free-cash-flow yield, the price already assumes a long period of strong growth.",
+        "watch": "Forward growth versus the current multiple."
       },
       {
-        "title": "Platform competition",
+        "title": "Customer concentration",
         "severity": "High",
-        "detail": "Every large security vendor is pursuing the same consolidation argument, and the largest infrastructure vendors can bundle security into contracts already signed.",
-        "watch": "Win rates on multi-product deals and average contract value."
+        "detail": "A small number of large buyers can swing revenue and pricing.",
+        "watch": "Top-customer disclosures and order trends."
       },
       {
-        "title": "Reported profitability",
+        "title": "Valuation",
         "severity": "Medium",
-        "detail": "The company has never produced a large GAAP operating margin. If free cash flow ever converges toward reported profit, the valuation has no anchor.",
-        "watch": "The gap between free cash flow and operating income."
+        "detail": "High expectations leave less room for a growth disappointment.",
+        "watch": "Forward estimates versus the current multiple."
       },
       {
-        "title": "Customer budgets",
+        "title": "Supply chain",
         "severity": "Medium",
-        "detail": "Security spending is resilient but not immune. A slowdown in large-deal activity shows up in billings before revenue.",
-        "watch": "Remaining performance obligations and billings growth."
+        "detail": "Advanced components and manufacturing capacity can constrain shipments.",
+        "watch": "Lead times, inventory and supplier concentration."
       },
       {
-        "title": "Hardware supply",
-        "severity": "Low",
-        "detail": "Appliance revenue depends on component availability, and a shortage delays the subscription revenue attached to it.",
-        "watch": "Product revenue and inventory levels."
+        "title": "Regulation and export controls",
+        "severity": "Medium",
+        "detail": "Cross-border rules can remove addressable market or raise compliance costs.",
+        "watch": "Export-licence changes and geographic mix."
       }
     ],
     "watchlist": [
       {
-        "title": "Operating margin",
-        "detail": "The recovery from 6.1% is the test of whether the acquisitions were worth their cost."
+        "title": "Growth durability",
+        "detail": "Compare revenue growth with the prior four quarters."
       },
       {
-        "title": "Free cash flow",
-        "detail": "The 35.8% margin is the number the valuation actually rests on. Watch it hold through integration."
+        "title": "Gross margin",
+        "detail": "A falling gross margin can signal pricing pressure or a richer hardware mix."
       },
       {
-        "title": "Remaining performance obligations",
-        "detail": "Contracted revenue not yet recognized, and the best forward-looking measure the company discloses."
+        "title": "Customer concentration",
+        "detail": "Track large-customer disclosures and order momentum."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Palo Alto Networks is a security platform with $11.48B of revenue growing 24.5%, a 70.4% gross margin and $4.11B of free cash flow. It is a cash machine with a thin reported margin.",
-      "The unresolved question is whether the low operating margin is a stage or a destination. Operating income fell from $1.24B to $695.0M in FY2026 while revenue grew, and one quarter ran a negative operating margin on 34.5% revenue growth. If those costs are integration charges, the margin recovers. If they are the cost of competing, it does not.",
-      "The educational point is that a 434.8x P/E is not a valuation. When earnings are close to zero, the multiple is arithmetic noise, and the analyst has to switch to sales or cash flow to say anything meaningful."
+      "The investment case rests on cash generation and the durability of 6.1% margins. The weak link is valuation.",
+      "What would change the view is the multiple falling below 784.7x earnings, not a single quarter. The key exposure is technology substitution.",
+      "On the scorecard, the composite is 47/100. The spread between cash generation and valuation is the useful part; the average hides it."
     ],
     "questions": [
-      "How much of the FY2026 cost increase was acquisition-related rather than organic?",
-      "What share of revenue comes from customers buying three or more products?",
-      "Does free cash flow hold at 35.8% of revenue as integration spending peaks?",
-      "Why does the next-year EPS estimate fall below the current year?"
+      "How much of growth is volume versus price?",
+      "What would a pause in customer spending do to margins?",
+      "Is the product advantage durable or one cycle long?",
+      "How much of the valuation depends on the next product cycle?"
     ]
   },
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-24"
+  "narrativeUpdatedAt": "2026-11-28"
 };

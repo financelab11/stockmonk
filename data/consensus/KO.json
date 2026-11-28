@@ -1,9 +1,9 @@
 {
   "ticker": "KO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/KO/analysis",
-  "targetMean": 99.64,
+  "targetMean": 99.84,
   "targetHigh": 112,
   "targetLow": 88,
   "recommendationKey": "buy",
@@ -96,7 +96,7 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.0025922245237610664,
+    "eps7d": -0.00004776718275134595,
     "eps30d": 0.013406512945106197,
     "eps60d": 0.014520760386250942,
     "eps90d": 0.014520760386250942,

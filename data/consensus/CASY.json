@@ -1,7 +1,7 @@
 {
   "ticker": "CASY",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CASY/analysis",
   "targetMean": 790.35,
   "targetHigh": 933,
@@ -96,10 +96,10 @@
     "analystCount": 18
   },
   "revisions": {
-    "eps7d": 0.0012453469458757471,
+    "eps7d": 0.00014425641671755862,
     "eps30d": 0.0022679451393834427,
     "eps60d": 0.0013556832718719658,
-    "eps90d": -0.0014351422329298424,
+    "eps90d": -0.0026034940253688577,
     "revenue30d": null
   }
 }

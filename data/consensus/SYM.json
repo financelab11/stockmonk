@@ -1,9 +1,9 @@
 {
   "ticker": "SYM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/SYM/analysis",
-  "targetMean": 56.52875,
+  "targetMean": 56.59125,
   "targetHigh": 87,
   "targetLow": 33,
   "recommendationKey": "buy",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 816941220,
       "revenueGrowth": 0.29680002,
-      "epsAvg": 0.16785,
-      "epsGrowth": -0.5798,
+      "epsAvg": 0.17025,
+      "epsGrowth": -0.5738,
       "analystCount": 10
     },
     {
@@ -30,8 +30,8 @@
       "endDate": "2027-03-31",
       "revenueAvg": 863039850,
       "revenueGrowth": 0.2758,
-      "epsAvg": 0.18241,
-      "epsGrowth": -0.5937,
+      "epsAvg": 0.18131,
+      "epsGrowth": -0.59610003,
       "analystCount": 10
     },
     {
@@ -39,8 +39,8 @@
       "endDate": "2027-09-30",
       "revenueAvg": 3699738630,
       "revenueGrowth": 0.319,
-      "epsAvg": 0.81803,
-      "epsGrowth": 0.5435,
+      "epsAvg": 0.81753,
+      "epsGrowth": 0.5425,
       "analystCount": 10
     },
     {
@@ -48,9 +48,9 @@
       "endDate": "2028-09-30",
       "revenueAvg": 4578470220,
       "revenueGrowth": 0.2375,
-      "epsAvg": 1.07973,
-      "epsGrowth": 0.3199,
-      "analystCount": 10
+      "epsAvg": 1.08557,
+      "epsGrowth": 0.32790002,
+      "analystCount": 11
     }
   ],
   "history": [
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 816941220,
     "revenueGrowth": 0.29680002,
-    "epsAvg": 0.16785,
-    "epsGrowth": -0.5798,
+    "epsAvg": 0.17025,
+    "epsGrowth": -0.5738,
     "analystCount": 10
   },
   "revisions": {
-    "eps7d": 0.11983736943695344,
-    "eps30d": 0.09905951901115162,
-    "eps60d": 0.06017366511145683,
-    "eps90d": 0.05606764781822893,
+    "eps7d": 0.11915289737025825,
+    "eps30d": 0.09838774687625951,
+    "eps60d": 0.05952566096423029,
+    "eps90d": 0.055422153369480975,
     "revenue30d": null
   }
 }

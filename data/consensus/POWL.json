@@ -1,7 +1,7 @@
 {
   "ticker": "POWL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/POWL/analysis",
   "targetMean": 228.75,
   "targetHigh": 275,
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 324641500,
-      "revenueGrowth": 0.2924,
+      "revenueAvg": 324541500,
+      "revenueGrowth": 0.292,
       "epsAvg": 1.375,
       "epsGrowth": 0.2132,
       "analystCount": 4
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 386612500,
-      "revenueGrowth": 0.3034,
+      "revenueAvg": 386537500,
+      "revenueGrowth": 0.3032,
       "epsAvg": 1.78,
       "epsGrowth": 0.42400002,
       "analystCount": 4
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 324641500,
-    "revenueGrowth": 0.2924,
+    "revenueAvg": 324541500,
+    "revenueGrowth": 0.292,
     "epsAvg": 1.375,
     "epsGrowth": 0.2132,
     "analystCount": 4

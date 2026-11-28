@@ -1,7 +1,7 @@
 {
   "ticker": "CART",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CART/analysis",
   "targetMean": 62.28571,
   "targetHigh": 65,

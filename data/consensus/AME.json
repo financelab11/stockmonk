@@ -1,7 +1,7 @@
 {
   "ticker": "AME",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/AME/analysis",
   "targetMean": 288.83334,
   "targetHigh": 329,

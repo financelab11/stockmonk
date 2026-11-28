@@ -1,7 +1,7 @@
 {
   "ticker": "DASH",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/DASH/analysis",
   "targetMean": 250.39105,
   "targetHigh": 340,
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 17946473540,
+      "revenueAvg": 17946364430,
       "revenueGrowth": 0.3083,
-      "epsAvg": 2.7998,
-      "epsGrowth": 0.3145,
+      "epsAvg": 2.80522,
+      "epsGrowth": 0.317,
       "analystCount": 35
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 21740902980,
-      "revenueGrowth": 0.21139999,
-      "epsAvg": 4.5691,
-      "epsGrowth": 0.6319,
+      "revenueAvg": 21749366390,
+      "revenueGrowth": 0.21190001,
+      "epsAvg": 4.57322,
+      "epsGrowth": 0.6303,
       "analystCount": 34
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 30
   },
   "revisions": {
-    "eps7d": 0.0008185850988915444,
-    "eps30d": 0.08761775274351735,
-    "eps60d": 0.08279737480227856,
-    "eps90d": 0.08373621524538688,
+    "eps7d": 0.0008134316110939288,
+    "eps30d": 0.08972322035544322,
+    "eps60d": 0.08489351087322228,
+    "eps90d": 0.07282802825465895,
     "revenue30d": null
   }
 }

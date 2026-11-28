@@ -1,12 +1,12 @@
 {
   "ticker": "IDXX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/IDXX/analysis",
   "targetMean": 717.1667,
   "targetHigh": 810,
   "targetLow": 470,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 12,
   "distribution": {
     "strongBuy": 4,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 4755693480,
+      "revenueAvg": 4755674250,
       "revenueGrowth": 0.105,
       "epsAvg": 15.02454,
       "epsGrowth": 0.1487,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 5177780210,
+      "revenueAvg": 5177780980,
       "revenueGrowth": 0.0888,
       "epsAvg": 16.8929,
       "epsGrowth": 0.1244,

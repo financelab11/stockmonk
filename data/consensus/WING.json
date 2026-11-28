@@ -1,7 +1,7 @@
 {
   "ticker": "WING",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/WING/analysis",
   "targetMean": 184.92,
   "targetHigh": 265,
@@ -30,9 +30,9 @@
       "endDate": "2027-03-31",
       "revenueAvg": 209270640,
       "revenueGrowth": 0.139,
-      "epsAvg": 1.21226,
-      "epsGrowth": 0.0273,
-      "analystCount": 19
+      "epsAvg": 1.20794,
+      "epsGrowth": 0.023699999,
+      "analystCount": 18
     },
     {
       "period": "Current fiscal year",
@@ -46,11 +46,11 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 855948310,
-      "revenueGrowth": 0.1463,
-      "epsAvg": 5.02608,
-      "epsGrowth": 0.21270001,
-      "analystCount": 26
+      "revenueAvg": 854986250,
+      "revenueGrowth": 0.145,
+      "epsAvg": 5.01112,
+      "epsGrowth": 0.2091,
+      "analystCount": 25
     }
   ],
   "history": [

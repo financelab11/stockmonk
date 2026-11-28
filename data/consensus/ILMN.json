@@ -1,9 +1,9 @@
 {
   "ticker": "ILMN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ILMN/analysis",
-  "targetMean": 261.45,
+  "targetMean": 257.45,
   "targetHigh": 365,
   "targetLow": 165,
   "recommendationKey": "buy",
@@ -96,8 +96,8 @@
     "analystCount": 18
   },
   "revisions": {
-    "eps7d": 0.0010757499657549907,
-    "eps30d": 0.023106573212502424,
+    "eps7d": 0,
+    "eps30d": 0.023133310062513734,
     "eps60d": 0.02350586152679779,
     "eps90d": 0.023305223185364543,
     "revenue30d": null

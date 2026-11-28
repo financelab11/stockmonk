@@ -1,11 +1,11 @@
 {
   "ticker": "ONON",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ONON/analysis",
-  "targetMean": 44.444164,
-  "targetHigh": 65.226555,
-  "targetLow": 20.121716,
+  "targetMean": 44.158344,
+  "targetHigh": 64.76606,
+  "targetLow": 19.979658,
   "recommendationKey": "buy",
   "analystCount": 31,
   "distribution": {
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 992048000,
-      "revenueGrowth": 0.1925,
+      "revenueAvg": 992807500,
+      "revenueGrowth": 0.1934,
       "epsAvg": 0.42,
       "epsGrowth": null,
       "analystCount": 3
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 3514857110,
-      "revenueGrowth": 0.16620001,
-      "epsAvg": 1.50269,
+      "revenueAvg": 3514615150,
+      "revenueGrowth": 0.16610001,
+      "epsAvg": 1.50274,
       "epsGrowth": 0.87839997,
       "analystCount": 24
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 4187586980,
-      "revenueGrowth": 0.19139999,
-      "epsAvg": 1.70386,
-      "epsGrowth": 0.1339,
+      "revenueAvg": 4186381560,
+      "revenueGrowth": 0.1911,
+      "epsAvg": 1.70678,
+      "epsGrowth": 0.1358,
       "analystCount": 24
     }
   ],
@@ -104,10 +104,10 @@
     "analystCount": 6
   },
   "revisions": {
-    "eps7d": 0.0009258642509824,
-    "eps30d": 0.04969438720268249,
-    "eps60d": 0.05881399642056917,
-    "eps90d": 0.06403211873167836,
+    "eps7d": 0.00004658374759602957,
+    "eps30d": 0.04909174683402906,
+    "eps60d": 0.05690553723018921,
+    "eps90d": 0.0640675229773553,
     "revenue30d": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "FLYW",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/FLYW/analysis",
   "targetMean": 23.39286,
   "targetHigh": 26,
@@ -48,8 +48,8 @@
       "endDate": "2027-12-31",
       "revenueAvg": 890325960,
       "revenueGrowth": 0.1491,
-      "epsAvg": 1.34004,
-      "epsGrowth": 0.0034,
+      "epsAvg": 1.33695,
+      "epsGrowth": 0.0011,
       "analystCount": 7
     }
   ],
@@ -96,9 +96,9 @@
     "analystCount": 7
   },
   "revisions": {
-    "eps7d": -0.010953121528549326,
-    "eps30d": 0.278097844811086,
-    "eps60d": 0.26824242194028725,
+    "eps7d": 0,
+    "eps30d": 0.2416303306960701,
+    "eps60d": 0.2682544656847383,
     "eps90d": 0.26824242194028725,
     "revenue30d": null
   }

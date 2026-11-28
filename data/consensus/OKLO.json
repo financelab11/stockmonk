@@ -1,7 +1,7 @@
 {
   "ticker": "OKLO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/OKLO/analysis",
   "targetMean": 55.42857,
   "targetHigh": 100,
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 4339990,
       "revenueGrowth": 0,
-      "epsAvg": -0.9483,
-      "epsGrowth": -0.3171,
-      "analystCount": 15
+      "epsAvg": -0.9374,
+      "epsGrowth": -0.3019,
+      "analystCount": 16
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 9062300,
       "revenueGrowth": 1.0881,
-      "epsAvg": -1.11934,
-      "epsGrowth": -0.18040001,
+      "epsAvg": -1.11932,
+      "epsGrowth": -0.19409999,
       "analystCount": 19
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 12
   },
   "revisions": {
-    "eps7d": 0.0031417600203103024,
-    "eps30d": 0.00221940393151554,
-    "eps60d": -0.023468473570935733,
-    "eps90d": 0.009312968974509062,
+    "eps7d": -0.011494252873563204,
+    "eps30d": -0.0232669604993071,
+    "eps60d": -0.03541808153773329,
+    "eps90d": -0.0022883295194507935,
     "revenue30d": null
   }
 }

@@ -1,17 +1,17 @@
 {
   "ticker": "ENPH",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ENPH/analysis",
-  "targetMean": 39.256,
+  "targetMean": 38.4588,
   "targetHigh": 212,
   "targetLow": 16,
   "recommendationKey": "buy",
   "analystCount": 25,
   "distribution": {
     "strongBuy": 3,
-    "buy": 8,
-    "hold": 16,
+    "buy": 7,
+    "hold": 17,
     "sell": 1,
     "strongSell": 1
   },
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 1106917990,
-      "revenueGrowth": -0.2485,
-      "epsAvg": 1.6581,
-      "epsGrowth": -0.4398,
-      "analystCount": 24
+      "revenueAvg": 1112039510,
+      "revenueGrowth": -0.245,
+      "epsAvg": 1.62404,
+      "epsGrowth": -0.45130002,
+      "analystCount": 22
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1013503920,
-      "revenueGrowth": -0.0844,
-      "epsAvg": 1.34772,
-      "epsGrowth": -0.1872,
+      "revenueAvg": 1000865120,
+      "revenueGrowth": -0.1,
+      "epsAvg": 1.32105,
+      "epsGrowth": -0.1866,
       "analystCount": 24
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 17
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": -0.16213143333586,
-    "eps60d": -0.17080489085589978,
-    "eps90d": -0.17917873319967326,
+    "eps7d": 0.012449581377371288,
+    "eps30d": 0.014175627911624078,
+    "eps60d": -0.18783787162753485,
+    "eps90d": -0.18834118817126388,
     "revenue30d": null
   }
 }

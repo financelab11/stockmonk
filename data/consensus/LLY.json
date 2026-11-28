@@ -1,9 +1,9 @@
 {
   "ticker": "LLY",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/LLY/analysis",
-  "targetMean": 1470.0565,
+  "targetMean": 1479.3713,
   "targetHigh": 1700,
   "targetLow": 940,
   "recommendationKey": "buy",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 91684644000,
-      "revenueGrowth": 0.4067,
-      "epsAvg": 35.48088,
-      "epsGrowth": 0.4655,
+      "revenueAvg": 91693018850,
+      "revenueGrowth": 0.4068,
+      "epsAvg": 35.48204,
+      "epsGrowth": 0.4656,
       "analystCount": 26
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 106582893730,
-      "revenueGrowth": 0.1625,
-      "epsAvg": 50.87043,
-      "epsGrowth": 0.4337,
+      "revenueAvg": 106825233730,
+      "revenueGrowth": 0.165,
+      "epsAvg": 51.07757,
+      "epsGrowth": 0.4395,
       "analystCount": 28
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 17
   },
   "revisions": {
-    "eps7d": 0.0026671188164979487,
-    "eps30d": 0.02380459783049993,
-    "eps60d": -0.034057082870292965,
-    "eps90d": -0.03351426797740098,
+    "eps7d": 0.000032693664869576367,
+    "eps30d": 0.03756603576063422,
+    "eps60d": -0.03926520469000083,
+    "eps90d": -0.03348267001677696,
     "revenue30d": null
   }
 }

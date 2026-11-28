@@ -10,17 +10,17 @@ export const NU: StockStory = {
     "Revenue: $11.5B, +43.4% year over year.",
     "Profitability: operating margin not meaningful; net margin 17.1%; gross margin 45.6%.",
     "Cash: free cash flow is not meaningful at this stage.",
-    "Valuation: 30.2x trailing earnings and no meaningful EV/EBITDA multiple."
+    "Valuation: 31.7x trailing earnings and no meaningful EV/EBITDA multiple."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-26",
+  "narrativeUpdatedAt": "2026-11-28",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1691493/000129281426002166/nuform20f_2025.htm",
   "irUrl": "https://nubank.com.br",
   "bigPicture": {
     "paragraphs": [
       "Nu Holdings' revenue rose 43.4% to $11.5B, with a 25.8% return on equity. The spread between asset yields and funding costs is the core variable.",
       "Revenue is reported as one consolidated line. The upside is customer growth and deposit funding. What would break it is credit losses or a funding-cost shock.",
-      "At $12.32, the equity is worth $59.6B, or 30.2x trailing earnings and no meaningful EV/EBITDA multiple. The earnings multiple is 166.0% above the 11.4x peer median. The stock is 14% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
+      "At $12.91, the equity is worth $62.5B, or 31.7x trailing earnings and no meaningful EV/EBITDA multiple. The earnings multiple is 174.0% above the 11.6x peer median. The stock is 22% of the way up its 52-week range. The price already embeds a view on growth and margins; the analysis below tests it."
     ],
     "quote": "Nu Holdings is a Latin American digital bank, so customer growth, deposit funding and credit quality drive the earnings model."
   },
@@ -53,7 +53,7 @@ export const NU: StockStory = {
   },
   "growth": {
     "paragraphs": [
-      "Reported revenue growth is not a clean like-for-like measure for a bank because the revenue line moves with rates and balance-sheet mix. The current-year consensus looks for $23.1B of revenue and $0.85 of EPS.",
+      "Reported revenue growth is not a clean like-for-like measure for a bank because the revenue line moves with rates and balance-sheet mix. The current-year consensus looks for $22.4B of revenue and $0.85 of EPS.",
       "The next leg depends on customer growth and deposit funding. For Nu Holdings, top-line growth only matters if it is priced above funding costs and credit losses."
     ],
     "bullets": [
@@ -79,20 +79,20 @@ export const NU: StockStory = {
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow is not meaningful for a bank; operating cash flow and balance-sheet movements are the better indicators. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "FCF is not meaningful for a bank; operating cash flow and balance-sheet movements are the better indicators. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
       "For a bank, deposits and regulatory capital matter more than a conventional net-debt figure. Cash flow is shaped by balance-sheet movements, so the free-cash-flow margin is less comparable than it is for an industrial."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At $12.32, the shares trade at 30.2x trailing earnings and no meaningful EV/EBITDA multiple. The earnings yield is 3.3%. The earnings multiple is 166.0% above the 11.4x peer median.",
+      "At $12.91, the shares trade at 31.7x trailing earnings and no meaningful EV/EBITDA multiple. The earnings yield is 3.2%. The earnings multiple is 174.0% above the 11.6x peer median.",
       "At this multiple, the market is paying for growth to stay well above the peer group. The multiple is above the peer median, leaving less room for disappointment. For a bank, price-to-book and P/E are more relevant than EV/EBITDA."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts in the third-party consensus carry a mean target of $17.41, 41.2% above the latest close. The range runs from $12.00 to $23.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
-      "The current-year consensus looks for $23.1B of revenue and $0.85 of EPS. EPS estimates are up 0.1% over 30 days and up 1.0% over 90 days. That implies 101.0% growth from the trailing base."
+      "23 analysts in the third-party consensus carry a mean target of $17.28, 33.8% above the latest close. The range runs from $12.00 to $23.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $22.4B of revenue and $0.85 of EPS. EPS estimates are down 0.3% over 30 days and up 0.3% over 90 days. That implies 94.8% growth from the trailing base."
     ]
   },
   "risks": {

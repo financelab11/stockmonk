@@ -1,11 +1,11 @@
 {
   "ticker": "JD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/JD/analysis",
-  "targetMean": 36.823044,
-  "targetHigh": 49.05742,
-  "targetLow": 23.040718,
+  "targetMean": 36.847084,
+  "targetHigh": 49.088387,
+  "targetLow": 23.055262,
   "recommendationKey": "strong_buy",
   "analystCount": 35,
   "distribution": {
@@ -96,7 +96,7 @@
     "analystCount": 15
   },
   "revisions": {
-    "eps7d": -0.042614876775503685,
+    "eps7d": -0.0011836730733780776,
     "eps30d": -0.04679453911705311,
     "eps60d": -0.08122042829138165,
     "eps90d": -0.08568764154713782,

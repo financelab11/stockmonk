@@ -1,11 +1,11 @@
 {
   "ticker": "NTES",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/NTES/analysis",
-  "targetMean": 153.77641,
-  "targetHigh": 186.88104,
-  "targetLow": 111.27015,
+  "targetMean": 153.5656,
+  "targetHigh": 186.99901,
+  "targetLow": 111.340385,
   "recommendationKey": "strong_buy",
   "analystCount": 33,
   "distribution": {
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 116120876440,
-      "revenueGrowth": 0.031,
+      "revenueAvg": 116198813840,
+      "revenueGrowth": 0.0317,
       "epsAvg": 58.77063,
       "epsGrowth": 0.0135,
       "analystCount": 23
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 125201771530,
-      "revenueGrowth": 0.078200005,
+      "revenueAvg": 124851171530,
+      "revenueGrowth": 0.074499995,
       "epsAvg": 68.6924,
       "epsGrowth": 0.1688,
       "analystCount": 23
@@ -96,10 +96,10 @@
     "analystCount": 11
   },
   "revisions": {
-    "eps7d": -0.04264711344176164,
+    "eps7d": -0.041293588905159995,
     "eps30d": -0.04347666869785327,
     "eps60d": -0.047843527228029537,
-    "eps90d": -0.05366729379120949,
+    "eps90d": -0.05178624325512149,
     "revenue30d": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "BIIB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/BIIB/analysis",
   "targetMean": 269.1978,
   "targetHigh": 350,
@@ -11,9 +11,9 @@
   "distribution": {
     "strongBuy": 4,
     "buy": 21,
-    "hold": 10,
+    "hold": 9,
     "sell": 1,
-    "strongSell": 0
+    "strongSell": 1
   },
   "estimates": [
     {
@@ -96,8 +96,8 @@
     "analystCount": 28
   },
   "revisions": {
-    "eps7d": -0.00009574203266726755,
-    "eps30d": 0.012933563737526743,
+    "eps7d": -0.0004896870628506855,
+    "eps30d": 0.013876765135365732,
     "eps60d": 0.009226190236521381,
     "eps90d": 0.009692092766943494,
     "revenue30d": null

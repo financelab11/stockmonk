@@ -1,7 +1,7 @@
 {
   "ticker": "GSK",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/GSK/analysis",
   "targetMean": 59.12444,
   "targetHigh": 70,

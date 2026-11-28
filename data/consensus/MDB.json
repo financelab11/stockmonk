@@ -1,9 +1,9 @@
 {
   "ticker": "MDB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/MDB/analysis",
-  "targetMean": 450.18683,
+  "targetMean": 449.13422,
   "targetHigh": 560,
   "targetLow": 335,
   "recommendationKey": "buy",
@@ -21,36 +21,36 @@
       "endDate": "2026-10-31",
       "revenueAvg": 761754590,
       "revenueGrowth": 0.2124,
-      "epsAvg": 1.60731,
-      "epsGrowth": 0.2177,
-      "analystCount": 37
+      "epsAvg": 1.60904,
+      "epsGrowth": 0.219,
+      "analystCount": 36
     },
     {
       "period": "Following quarter",
       "endDate": "2027-01-31",
       "revenueAvg": 806234260,
       "revenueGrowth": 0.1599,
-      "epsAvg": 1.71219,
-      "epsGrowth": 0.0377,
-      "analystCount": 36
+      "epsAvg": 1.71542,
+      "epsGrowth": 0.0396,
+      "analystCount": 35
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-01-31",
       "revenueAvg": 3027113810,
       "revenueGrowth": 0.22860001,
-      "epsAvg": 6.5545,
+      "epsAvg": 6.55462,
       "epsGrowth": 0.3188,
       "analystCount": 40
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-01-31",
-      "revenueAvg": 3618739260,
-      "revenueGrowth": 0.19540001,
-      "epsAvg": 7.92265,
-      "epsGrowth": 0.2087,
-      "analystCount": 41
+      "revenueAvg": 3622967340,
+      "revenueGrowth": 0.19680001,
+      "epsAvg": 7.94144,
+      "epsGrowth": 0.2116,
+      "analystCount": 40
     }
   ],
   "history": [
@@ -91,15 +91,15 @@
     "endDate": "2026-10-31",
     "revenueAvg": 761754590,
     "revenueGrowth": 0.2124,
-    "epsAvg": 1.60731,
-    "epsGrowth": 0.2177,
-    "analystCount": 37
+    "epsAvg": 1.60904,
+    "epsGrowth": 0.219,
+    "analystCount": 36
   },
   "revisions": {
-    "eps7d": -0.000024410114330852828,
-    "eps30d": 0.0016734035806251768,
-    "eps60d": 0.0027629718929571556,
-    "eps90d": 0.0697975798369801,
+    "eps7d": -0.000016781774382801373,
+    "eps30d": 0.0016917422500020152,
+    "eps60d": 0.002781330510186031,
+    "eps90d": 0.06981716572600005,
     "revenue30d": null
   }
 }

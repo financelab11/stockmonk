@@ -1,16 +1,16 @@
 {
   "ticker": "IBM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/IBM/analysis",
-  "targetMean": 259.84738,
+  "targetMean": 260.52042,
   "targetHigh": 300,
   "targetLow": 174,
   "recommendationKey": "buy",
-  "analystCount": 23,
+  "analystCount": 24,
   "distribution": {
     "strongBuy": 3,
-    "buy": 9,
+    "buy": 10,
     "hold": 11,
     "sell": 1,
     "strongSell": 1
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 70566875410,
+      "revenueAvg": 70568255600,
       "revenueGrowth": 0.044899996,
-      "epsAvg": 12.41291,
-      "epsGrowth": 0.071,
-      "analystCount": 24
+      "epsAvg": 12.41639,
+      "epsGrowth": 0.0713,
+      "analystCount": 25
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 73238437120,
+      "revenueAvg": 73241002240,
       "revenueGrowth": 0.0379,
-      "epsAvg": 13.23863,
+      "epsAvg": 13.24268,
       "epsGrowth": 0.0665,
-      "analystCount": 24
+      "analystCount": 25
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": -0.0008749350036785231,
-    "eps30d": 0.00824766049594805,
-    "eps60d": 0.007478428702102358,
-    "eps90d": 0.007478428702102358,
+    "eps7d": -0.0005948270172202452,
+    "eps30d": -0.0002801961695251265,
+    "eps60d": 0.00861307061694383,
+    "eps90d": 0.007760878581452246,
     "revenue30d": null
   }
 }

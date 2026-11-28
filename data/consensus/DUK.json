@@ -1,9 +1,9 @@
 {
   "ticker": "DUK",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/DUK/analysis",
-  "targetMean": 134.55263,
+  "targetMean": 134.65788,
   "targetHigh": 145,
   "targetLow": 121,
   "recommendationKey": "buy",
@@ -19,10 +19,10 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 8082883990,
-      "revenueGrowth": 0.0183,
-      "epsAvg": 1.43932,
-      "epsGrowth": -0.0405,
+      "revenueAvg": 8074258990,
+      "revenueGrowth": 0.0172,
+      "epsAvg": 1.42977,
+      "epsGrowth": -0.0468,
       "analystCount": 11
     },
     {
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 33854428110,
-      "revenueGrowth": 0.0502,
-      "epsAvg": 6.75638,
-      "epsGrowth": 0.070700005,
+      "revenueAvg": 33861122620,
+      "revenueGrowth": 0.0504,
+      "epsAvg": 6.75752,
+      "epsGrowth": 0.0709,
       "analystCount": 18
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 35465965600,
-      "revenueGrowth": 0.0476,
-      "epsAvg": 7.1679,
-      "epsGrowth": 0.060900003,
+      "revenueGrowth": 0.047399998,
+      "epsAvg": 7.1684,
+      "epsGrowth": 0.0608,
       "analystCount": 22
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 8082883990,
-    "revenueGrowth": 0.0183,
-    "epsAvg": 1.43932,
-    "epsGrowth": -0.0405,
+    "revenueAvg": 8074258990,
+    "revenueGrowth": 0.0172,
+    "epsAvg": 1.42977,
+    "epsGrowth": -0.0468,
     "analystCount": 11
   },
   "revisions": {
-    "eps7d": 0.0014006370304717741,
-    "eps30d": 0.006169815114036581,
-    "eps60d": 0.007221292975190696,
-    "eps90d": 0.007146221774361861,
+    "eps7d": 0.001569602767480971,
+    "eps30d": 0.006339585551642379,
+    "eps60d": 0.007391240828033663,
+    "eps90d": 0.007316156960485598,
     "revenue30d": null
   }
 }

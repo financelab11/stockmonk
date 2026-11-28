@@ -1,7 +1,7 @@
 {
   "ticker": "CAT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CAT/analysis",
   "targetMean": 807.2604,
   "targetHigh": 1027,
@@ -48,8 +48,8 @@
       "endDate": "2027-12-31",
       "revenueAvg": 88576973420,
       "revenueGrowth": 0.1161,
-      "epsAvg": 32.1774,
-      "epsGrowth": 0.19049999,
+      "epsAvg": 32.18296,
+      "epsGrowth": 0.1907,
       "analystCount": 27
     }
   ],

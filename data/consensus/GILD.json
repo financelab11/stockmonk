@@ -1,7 +1,7 @@
 {
   "ticker": "GILD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/GILD/analysis",
   "targetMean": 175.92308,
   "targetHigh": 200,
@@ -10,7 +10,7 @@
   "analystCount": 26,
   "distribution": {
     "strongBuy": 6,
-    "buy": 16,
+    "buy": 17,
     "hold": 5,
     "sell": 0,
     "strongSell": 1
@@ -97,7 +97,7 @@
   },
   "revisions": {
     "eps7d": 0.005814779484889732,
-    "eps30d": 1.3143651053098586,
+    "eps30d": 1.201625980141718,
     "eps60d": 1.325169493513501,
     "eps90d": 1.3362954931171034,
     "revenue30d": null

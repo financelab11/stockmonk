@@ -1,16 +1,16 @@
 {
   "ticker": "DIOD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/DIOD/analysis",
-  "targetMean": 126.75,
+  "targetMean": 121.4,
   "targetHigh": 192,
   "targetLow": 100,
   "recommendationKey": "strong_buy",
-  "analystCount": 4,
+  "analystCount": 5,
   "distribution": {
     "strongBuy": 1,
-    "buy": 3,
+    "buy": 4,
     "hold": 0,
     "sell": 0,
     "strongSell": 0
@@ -19,38 +19,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 550107010,
+      "revenueAvg": 550085610,
       "revenueGrowth": 0.4048,
-      "epsAvg": 1.3525,
-      "epsGrowth": 2.9779,
-      "analystCount": 4
+      "epsAvg": 1.352,
+      "epsGrowth": 2.9765,
+      "analystCount": 5
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 549330030,
-      "revenueGrowth": 0.3548,
-      "epsAvg": 1.365,
-      "epsGrowth": 2.1744,
-      "analystCount": 4
+      "revenueAvg": 551124030,
+      "revenueGrowth": 0.35919997,
+      "epsAvg": 1.376,
+      "epsGrowth": 2.2,
+      "analystCount": 5
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 1933673510,
+      "revenueAvg": 1933658810,
       "revenueGrowth": 0.3047,
-      "epsAvg": 3.655,
-      "epsGrowth": 1.9958999,
-      "analystCount": 4
+      "epsAvg": 3.656,
+      "epsGrowth": 1.9966999,
+      "analystCount": 5
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 2346607440,
-      "revenueGrowth": 0.21350001,
-      "epsAvg": 6.35,
-      "epsGrowth": 0.73730004,
-      "analystCount": 4
+      "revenueAvg": 2359985950,
+      "revenueGrowth": 0.22049999,
+      "epsAvg": 6.506,
+      "epsGrowth": 0.77949995,
+      "analystCount": 5
     }
   ],
   "history": [
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 550107010,
+    "revenueAvg": 550085610,
     "revenueGrowth": 0.4048,
-    "epsAvg": 1.3525,
-    "epsGrowth": 2.9779,
-    "analystCount": 4
+    "epsAvg": 1.352,
+    "epsGrowth": 2.9765,
+    "analystCount": 5
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.1350931677018632,
-    "eps60d": 0.1333333333333333,
-    "eps90d": 0.1333333333333333,
+    "eps7d": 0.0002735978112176074,
+    "eps30d": 0.13805447470817134,
+    "eps60d": 0.13364341085271314,
+    "eps90d": 0.13364341085271314,
     "revenue30d": null
   }
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "APH",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/APH/analysis",
-  "targetMean": 106.18421,
+  "targetMean": 105.78947,
   "targetHigh": 130,
   "targetLow": 85,
   "recommendationKey": "strong_buy",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 37157921100,
-      "revenueGrowth": 0.6089,
-      "epsAvg": 2.83502,
-      "epsGrowth": 0.6976,
-      "analystCount": 16
+      "revenueAvg": 37148482280,
+      "revenueGrowth": 0.6085,
+      "epsAvg": 2.83413,
+      "epsGrowth": 0.6971,
+      "analystCount": 17
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 45752031310,
-      "revenueGrowth": 0.2313,
-      "epsAvg": 3.62465,
-      "epsGrowth": 0.2785,
+      "revenueAvg": 45970564830,
+      "revenueGrowth": 0.2375,
+      "epsAvg": 3.6457,
+      "epsGrowth": 0.2864,
       "analystCount": 19
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 13
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.05385985063918852,
-    "eps60d": 0.061391817419432115,
-    "eps90d": 0.06530839239145947,
+    "eps7d": -0.000313930765920567,
+    "eps30d": 0.053529011609104504,
+    "eps60d": 0.06105861387324785,
+    "eps90d": 0.06497395931189454,
     "revenue30d": null
   }
 }

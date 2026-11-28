@@ -1,11 +1,11 @@
 {
   "ticker": "BABA",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/BABA/analysis",
-  "targetMean": 157.73204,
-  "targetHigh": 205.49886,
-  "targetLow": 78.09141,
+  "targetMean": 157.8301,
+  "targetHigh": 205.62857,
+  "targetLow": 78.1407,
   "recommendationKey": "strong_buy",
   "analystCount": 40,
   "distribution": {
@@ -98,8 +98,8 @@
   "revisions": {
     "eps7d": -0.012555142738334246,
     "eps30d": -0.017064993064400902,
-    "eps60d": -0.008162697342555036,
-    "eps90d": -0.02209292358142967,
+    "eps60d": -0.006580544887214712,
+    "eps90d": -0.018394357299444053,
     "revenue30d": null
   }
 }

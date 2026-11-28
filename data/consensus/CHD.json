@@ -1,9 +1,9 @@
 {
   "ticker": "CHD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CHD/analysis",
-  "targetMean": 111.61111,
+  "targetMean": 111.83333,
   "targetHigh": 125,
   "targetLow": 78,
   "recommendationKey": "buy",
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 6245421660,
+      "revenueAvg": 6245433420,
       "revenueGrowth": 0.0068,
       "epsAvg": 3.77419,
       "epsGrowth": 0.0692,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 6516338390,
+      "revenueAvg": 6516332500,
       "revenueGrowth": 0.0434,
       "epsAvg": 4.05432,
       "epsGrowth": 0.074200004,
@@ -99,7 +99,7 @@
     "eps7d": 0,
     "eps30d": 0.00035251771865363324,
     "eps60d": 0.000806120149026146,
-    "eps90d": -0.0011538817800479384,
+    "eps90d": -0.0000794809364974558,
     "revenue30d": null
   }
 }

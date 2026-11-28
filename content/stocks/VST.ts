@@ -3,160 +3,158 @@ import type { StockStory } from "./types";
 export const VST: StockStory = {
   "ticker": "VST",
   "kicker": "Utilities · Competitive retail and generation",
-  "title": "Vistra sells the same electron twice",
-  "dek": "It runs 39,000 megawatts of generation and supplies 4.3 million retail customers. Owning both the plant and the customer means it can earn a margin on the wholesale sale and another on the retail contract.",
+  "title": "Vistra: cash generation and the multiple",
+  "dek": "Vistra's revenue rose 18.6% to $19B, at an 18.8% operating margin. The key risk is regulatory outcomes.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $19B trailing twelve months, +18.6% year over year.",
+    "Revenue: $19B, +18.6% year over year.",
     "Profitability: 18.8% operating margin and 11.7% net margin.",
-    "Cash: $2.3B free cash flow, a 11.9% margin.",
-    "factor summary: 45/100 average percentile across the factor set."
+    "Cash: $2.3B free cash flow, an 11.9% margin, against $19.2B of net debt.",
+    "Valuation: 18.8x trailing earnings and 11.2x EV/EBITDA."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000006/vistra-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001692819&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Vistra Corp. generated $19B of revenue over the last twelve months, +18.6% versus the prior year. Returns depend on regulated rates, capital investment and the cost of financing the asset base.",
-      "The latest reported quarter was Q2 FY26, with $4.4B of revenue and an operating margin of 12.6%. The stock closed at $123.87 on Nov 23, 2026, giving a market capitalization of $42B.",
-      "The shares sit 18% of the way up their 52-week range ($110.89 to $182.56). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Vistra's revenue rose 18.6% to $19B at an 18.8% operating margin, generating $2.3B of free cash flow. The latest quarter (Q2 FY26) grew 17.3%. The consensus estimate and the current multiple frame the near-term debate.",
+      "Retail is 74.1% of revenue and Texas is 25.2%. The risk is regulatory outcomes. The business is not a single homogeneous pool; the segment weights explain most of the margin difference.",
+      "At $122.65, the equity is worth $41.6B, or 18.8x trailing earnings and 11.2x EV/EBITDA. The earnings multiple is 5.6% below the 19.9x peer median. The stock is 16% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
-    "quote": "VST is a Utilities business with $19B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Vistra's revenue rose 18.6% to $19B, and the investment case depends on whether the current margin and growth are repeatable."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The generation fleet is dispatched into wholesale markets. Gas plants set the price at the margin in most hours, nuclear and renewables run baseload, and batteries shift energy from cheap hours to expensive ones. Each asset earns the clearing price minus its own fuel and operating cost.",
-      "The retail business signs contracts with households and businesses, often at a fixed price per kilowatt-hour for twelve or twenty-four months. It then has to supply that load, either from its own plants or by buying in the market. Marketing, billing and customer service sit underneath, and the brand competes on price, service and the range of plans, including more than fifty renewable options.",
-      "The fleet also includes a large battery storage project under construction in California, sized at 400 megawatts and 1,600 megawatt-hours. Storage earns money by charging when power is cheap and discharging when it is expensive, which makes it a trading asset as much as a generation asset."
+      "Vistra Corp., together with its subsidiaries, operates as an integrated retail electricity and power generation company in the United States.",
+      "Vistra does not report a product gross margin; fuel, operations and capital sit inside the operating line, leaving an 18.8% operating margin. That is 11.0 points above the peer median of 7.8%.",
+      "Capex is 14.5% of revenue, so the business is capital-hungry. Net debt is $19.2B, or 3.5x EBITDA. Return on invested capital was 11.2%. That is 3.7 points above the peer median of 7.5%."
     ],
     "bullets": [
       {
-        "title": "Retail supply",
-        "detail": "Fixed-price electricity and gas contracts for 4.3 million customers. Revenue is the tariff, cost is the wholesale supply."
+        "title": "Revenue mix",
+        "detail": "Retail at 74.1%, Texas at 25.2% and Asset Closure at 0.4%. The largest segment sets the consolidated margin; the second is the next swing factor."
       },
       {
-        "title": "Generation",
-        "detail": "39,000 megawatts sold into wholesale markets. Revenue is the clearing price, cost is fuel plus fixed operating expense."
+        "title": "Margin engine",
+        "detail": "Operating margin 18.8%. Fuel, operations and capital are the main cost line, so the margin depends on spreading the cost base over more revenue."
       },
       {
-        "title": "Storage and renewables",
-        "detail": "Batteries and contracted renewable purchases that shift energy across hours and support the retail plans."
+        "title": "Capital intensity",
+        "detail": "Capex 14.5% of revenue; $19.2B of net debt; ROIC 11.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "There are two margins, and they behave differently. The retail margin is the price on the customer's contract minus the cost of supplying that customer. It is stable while the contract runs, because the price is fixed, but it is only stable if the supply is hedged. An unhedged retailer in a price spike can lose more in a month than it earned in a year.",
-      "The generation margin is the wholesale price minus fuel and fixed cost. Gas plants have a fuel cost that moves with the gas market, so their margin is a spread between power and gas rather than a price level. Nuclear plants have almost no fuel cost, so their margin is close to the power price itself.",
-      "Putting the two together, Vistra can supply its retail book from its own fleet and capture both margins on the same megawatt-hour. That is the logic of the integrated model, and it is also its limitation: the company is only as good as its hedging, because a mismatch between contracted load and available generation turns the whole thing back into a price bet.",
-      "The gross margin of 53.9% against an operating margin of 18.8% shows how much sits between the two lines. Fuel, purchased power and retail operating costs are large, and the fixed cost of the fleet is large. What is left is thin relative to revenue and very sensitive to the spread."
+      "Regulated rate base and allowed returns drive revenue; fuel and capital costs drive the margin. Approved capital investment earns a regulated return over time.",
+      "The operating margin is 18.8%, 11.0 points above the peer median of 7.8%. What matters is whether new revenue carries the same margin as the base."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 8.7% a year across the fiscal years in the dataset, and the latest quarter changed +17.3% year over year. Third-party estimates for the current fiscal year point to $22.3B of revenue and $9.19 of EPS.",
-      "growth matters when it produces a return on capital. The operating margin of 18.8% and return on invested capital of 11.2% are the filters to watch as revenue scales."
+      "Revenue compounded at 8.7% a year from FY2018 to FY2025. The latest quarter (Q2 FY26) grew 17.3% year over year. The current-year consensus looks for $22.3B of revenue and $9.29 of EPS.",
+      "For Vistra, rate-base growth is only worth paying for if allowed returns hold. The consensus estimate is the first test; the second is whether incremental revenue carries the same margin as the base."
     ],
     "bullets": [
       {
         "title": "Rate base growth",
-        "detail": "Approved capital investment earns a regulated return over time."
+        "detail": "Approved capital investment earns a regulated return over time. Revenue growth is 18.6%."
       },
       {
         "title": "Load growth",
-        "detail": "Data centers and electrification can raise long-run demand."
+        "detail": "Data centers and electrification can raise long-run demand. The operating margin is 18.8%."
       },
       {
         "title": "Cost recovery",
-        "detail": "Rate cases determine whether higher costs are passed through."
+        "detail": "Rate cases determine whether higher costs are passed through. Return on invested capital is 11.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is 18.8%, the net margin is 11.7% and diluted EPS is $5.92. The latest quarter's operating margin was 12.6%. The quarter shown is the latest reported period in the dataset.",
-      "Return on equity is 40.5%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
+      "The operating margin moved from 5.0% in FY2018 to 10.8% in FY2025. The trailing operating margin is 18.8%, the net margin is 11.7%, and diluted EPS is $5.92, down 5.6% year over year.",
+      "Return on equity of 40.5% is well above the 11.2% return on invested capital; leverage or acquisition goodwill explains most of the gap. A single year of returns is less informative than the direction of margins and capital intensity."
     ]
   },
   "cash": {
     "paragraphs": [
-      "The cash statement over the trailing period was $2.3B, a 11.9% margin. Net debt is $19.2B. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "The cash statement was $2.3B, or 11.9% of revenue. Operating cash flow covered 431.1% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 14.5% of revenue, which is a meaningful claim on cash.",
+      "Net debt is $19.2B, or 3.5x EBITDA. Interest cover is 3.1x. The balance sheet is manageable but not a source of upside; debt reduction competes with reinvestment for the cash flow."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade at 18.9x trailing earnings and 11.3x EV/EBITDA. The valuation reflects the growth and margin record described above, not for the past alone.",
-      "The attributed third-party mean target is $197.18; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $122.65, the shares trade at 18.8x trailing earnings and 11.2x EV/EBITDA, with a 5.4% free-cash-flow yield. The earnings yield is 5.3%. The earnings multiple is 5.6% below the 19.9x peer median.",
+      "The multiple is in line with the peer median, so the debate is company-specific. A re-rating requires evidence that growth or returns can exceed the current expectation."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "23 analysts contribute to the third-party consensus. The mean target is $197.18, with a range of $106.00 to $270.00. The consensus is a third-party snapshot and can change without notice.",
-      "Current-year estimates call for $22.3B of revenue and $9.19 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
+      "23 analysts in the third-party consensus carry a mean target of $197.05, 60.7% above the latest close. The range runs from $106.00 to $270.00. The wide range shows how divided the published views are. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $22.3B of revenue and $9.29 of EPS. EPS estimates are down 1.8% over 30 days and down 3.1% over 90 days. That implies 17.7% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "Vistra's risks sit at the intersection of commodity prices, contract hedging and a leveraged balance sheet. The assets are good; the question is what happens when the hedges and the market disagree.",
+    "intro": "The thesis would break if the current growth and margin prove cyclical rather than structural. The risks below are ranked by how quickly they would change that view.",
     "items": [
       {
-        "title": "Wholesale power prices",
+        "title": "Regulatory outcomes",
         "severity": "High",
-        "detail": "Generation margin is a price spread. A fall in clearing prices reduces it directly, and the retail book only partly offsets it.",
-        "watch": "Realised power price, open position disclosure and forward price curves in each market."
+        "detail": "Rate cases can disallow costs or reduce allowed returns.",
+        "watch": "Rate-case filings and commission decisions."
       },
       {
-        "title": "Hedging and position risk",
+        "title": "Interest rates",
         "severity": "High",
-        "detail": "A retailer that has sold fixed-price contracts and not bought enough power is short the market. The loss years in FY2021 and FY2022 show what a mismatch can do.",
-        "watch": "Hedge ratios, mark-to-market on derivatives and the maturity of the hedging book."
+        "detail": "Higher rates raise financing costs and pressure valuations.",
+        "watch": "Debt maturities and cost of new debt."
       },
       {
-        "title": "Leverage",
+        "title": "Capital execution",
         "severity": "Medium",
-        "detail": "Net debt of $19.2B at 3.5x EBITDA leaves limited room for a repeat of a cash-negative year without asset sales or equity issuance.",
-        "watch": "Net debt to EBITDA, maturity schedule and credit rating."
+        "detail": "Large projects can overshoot budgets or schedules.",
+        "watch": "Capex guidance and project milestones."
       },
       {
-        "title": "Weather",
+        "title": "Weather and demand",
         "severity": "Medium",
-        "detail": "Heating and cooling demand drive volumes and prices at the same time, so a mild season hits revenue and margin together.",
-        "watch": "Degree days against normal, and weather-normalised retail volumes."
+        "detail": "Weather affects volumes and revenue.",
+        "watch": "Load growth and weather-normalised sales."
       },
       {
-        "title": "Market design and regulation",
+        "title": "Commodity exposure",
         "severity": "Medium",
-        "detail": "Capacity markets, bid caps and state policies determine how generators are paid for being available, not just for producing.",
-        "watch": "Capacity auction results and state-level market reform proposals."
+        "detail": "Fuel costs can be volatile before they are recovered.",
+        "watch": "Fuel-cost recovery and hedging."
       }
     ],
     "watchlist": [
       {
-        "title": "Retail gross margin per customer",
-        "detail": "Shows whether the retail book is earning a real spread or just passing power through."
+        "title": "Rate base",
+        "detail": "Approved capital investment is the earnings base."
       },
       {
-        "title": "Hedge position",
-        "detail": "The single most important disclosure for understanding how much of next year is already locked in."
+        "title": "Rate-case outcomes",
+        "detail": "Allowed returns and cost recovery drive the model."
       },
       {
-        "title": "Free cash flow after capex",
-        "detail": "The measure that determines whether the buyback and the dividend are funded from operations."
+        "title": "Financing costs",
+        "detail": "Higher rates can pressure both earnings and the multiple."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Vistra is an integrated competitive power business with a large fleet, a large retail book and a leveraged balance sheet. Revenue of $19.0B, an 18.8% operating margin and $2.25B of free cash flow describe a business that works when the hedges and the market agree.",
-      "The five-year record shows how much can go wrong and right inside that model. Two loss years followed by three profitable ones, with the same assets in place, is the clearest possible illustration that the earnings are a function of price and position rather than of operational quality.",
-      "The 11.3x EV/EBITDA multiple is the market's attempt to price that uncertainty. Whether it is enough depends on how much of the fleet's output is contracted and at what price, which is disclosed but rarely read."
+      "The investment case rests on valuation and the durability of 18.8% margins. $19.2B of net debt is the weak link.",
+      "What would change the view is leverage falling below 3.0x EBITDA, not a single quarter. The key exposure is regulatory outcomes.",
+      "The scorecard puts the composite at 47/100. Focus on the valuation-to-balance sheet spread rather than the average."
     ],
     "questions": [
-      "What share of next year's expected generation is hedged, and at what price?",
-      "How much of the retail book is fixed-price, and how is it supplied?",
-      "What happens to free cash flow in a repeat of FY2022?",
-      "Is the battery storage pipeline earning a contract-like return or taking merchant risk?"
+      "How much of the capex plan is already approved?",
+      "What happens if the next rate case disappoints?",
+      "How sensitive is the dividend to financing costs?",
+      "Is load growth real or a forecast?"
     ]
   },
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-24"
+  "narrativeUpdatedAt": "2026-11-28"
 };

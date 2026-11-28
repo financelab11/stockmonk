@@ -1,16 +1,16 @@
 {
   "ticker": "GDYN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/GDYN/analysis",
-  "targetMean": 13,
+  "targetMean": 13.33333,
   "targetHigh": 16,
   "targetLow": 10,
   "recommendationKey": "buy",
-  "analystCount": 5,
+  "analystCount": 6,
   "distribution": {
     "strongBuy": 2,
-    "buy": 3,
+    "buy": 4,
     "hold": 1,
     "sell": 0,
     "strongSell": 0
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 440347430,
-      "revenueGrowth": 0.069299996,
-      "epsAvg": 0.53952,
-      "epsGrowth": 0.3488,
-      "analystCount": 5
+      "revenueAvg": 441726370,
+      "revenueGrowth": 0.0726,
+      "epsAvg": 0.54126,
+      "epsGrowth": 0.3531,
+      "analystCount": 6
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 483775740,
-      "revenueGrowth": 0.0986,
-      "epsAvg": 0.60808,
-      "epsGrowth": 0.1271,
-      "analystCount": 6
+      "revenueAvg": 484236350,
+      "revenueGrowth": 0.0962,
+      "epsAvg": 0.60978,
+      "epsGrowth": 0.1266,
+      "analystCount": 7
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 5
   },
   "revisions": {
-    "eps7d": 0.15908651470556645,
-    "eps30d": 0.15908651470556645,
-    "eps60d": 0.15908651470556645,
-    "eps90d": 0.15908651470556645,
+    "eps7d": 0.003225088967971468,
+    "eps30d": 0.16282467183706784,
+    "eps60d": 0.16282467183706784,
+    "eps90d": 0.16282467183706784,
     "revenue30d": null
   }
 }

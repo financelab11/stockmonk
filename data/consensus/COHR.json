@@ -1,7 +1,7 @@
 {
   "ticker": "COHR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/COHR/analysis",
   "targetMean": 367.1185,
   "targetHigh": 524.96234,
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 2654037670,
-      "revenueGrowth": 0.5745,
+      "revenueAvg": 2644924470,
+      "revenueGrowth": 0.5691,
       "epsAvg": 2.40301,
       "epsGrowth": 0.8628,
       "analystCount": 21
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 2941366640,
-      "revenueGrowth": 0.629,
+      "revenueAvg": 2927190720,
+      "revenueGrowth": 0.62119997,
       "epsAvg": 2.75529,
       "epsGrowth": 0.9541,
       "analystCount": 21
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 2654037670,
-    "revenueGrowth": 0.5745,
+    "revenueAvg": 2644924470,
+    "revenueGrowth": 0.5691,
     "epsAvg": 2.40301,
     "epsGrowth": 0.8628,
     "analystCount": 21

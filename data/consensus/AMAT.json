@@ -1,13 +1,13 @@
 {
   "ticker": "AMAT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/AMAT/analysis",
-  "targetMean": 556.05554,
+  "targetMean": 557.37146,
   "targetHigh": 900,
   "targetLow": 358,
   "recommendationKey": "strong_buy",
-  "analystCount": 36,
+  "analystCount": 35,
   "distribution": {
     "strongBuy": 4,
     "buy": 29,
@@ -39,18 +39,18 @@
       "endDate": "2027-10-31",
       "revenueAvg": 47997237700,
       "revenueGrowth": 0.3934,
-      "epsAvg": 19.30121,
-      "epsGrowth": 0.49740002,
-      "analystCount": 34
+      "epsAvg": 19.28061,
+      "epsGrowth": 0.49580002,
+      "analystCount": 35
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-10-31",
-      "revenueAvg": 57767121350,
-      "revenueGrowth": 0.2036,
-      "epsAvg": 24.54312,
-      "epsGrowth": 0.2716,
-      "analystCount": 29
+      "revenueAvg": 58176470360,
+      "revenueGrowth": 0.21209998,
+      "epsAvg": 24.7743,
+      "epsGrowth": 0.2849,
+      "analystCount": 28
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 28
   },
   "revisions": {
-    "eps7d": 0.0008338030389218876,
-    "eps30d": 0.036367229008301916,
-    "eps60d": 0.04211106587780744,
-    "eps90d": 0.04149756882221567,
+    "eps7d": 0.0008107972025939159,
+    "eps30d": 0.0353311693018985,
+    "eps60d": 0.040998830533127695,
+    "eps90d": 0.04038598825717643,
     "revenue30d": null
   }
 }

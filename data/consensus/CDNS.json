@@ -1,16 +1,16 @@
 {
   "ticker": "CDNS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CDNS/analysis",
-  "targetMean": 411.7604,
+  "targetMean": 411.89,
   "targetHigh": 470,
   "targetLow": 300,
   "recommendationKey": "strong_buy",
-  "analystCount": 24,
+  "analystCount": 25,
   "distribution": {
     "strongBuy": 5,
-    "buy": 18,
+    "buy": 19,
     "hold": 1,
     "sell": 0,
     "strongSell": 0
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 6409870660,
-      "revenueGrowth": 0.2101,
+      "revenueAvg": 6410093680,
+      "revenueGrowth": 0.21020001,
       "epsAvg": 4.84863,
       "epsGrowth": 0.1942,
       "analystCount": 13
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 7333699840,
-      "revenueGrowth": 0.1441,
+      "revenueAvg": 7336711850,
+      "revenueGrowth": 0.1446,
       "epsAvg": 9.84527,
       "epsGrowth": 0.1689,
       "analystCount": 25

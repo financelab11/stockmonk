@@ -1,9 +1,9 @@
 {
   "ticker": "CRWV",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CRWV/analysis",
-  "targetMean": 114.55263,
+  "targetMean": 114.44737,
   "targetHigh": 268,
   "targetLow": 39,
   "recommendationKey": "buy",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 13123396100,
-      "revenueGrowth": 1.5577,
-      "epsAvg": -4.74909,
-      "epsGrowth": -0.72690004,
+      "revenueAvg": 13117947410,
+      "revenueGrowth": 1.5566001,
+      "epsAvg": -4.73909,
+      "epsGrowth": -0.72330004,
       "analystCount": 24
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 27151761930,
-      "revenueGrowth": 1.069,
-      "epsAvg": -3.63831,
-      "epsGrowth": 0.2339,
+      "revenueAvg": 27138304320,
+      "revenueGrowth": 1.0688,
+      "epsAvg": -3.59911,
+      "epsGrowth": 0.24049999,
       "analystCount": 25
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 10
   },
   "revisions": {
-    "eps7d": -0.0005261396711417898,
-    "eps30d": -0.07826183156325695,
-    "eps60d": -0.07977104191816342,
-    "eps90d": -0.08626713817903375,
+    "eps7d": -0.002630698355708283,
+    "eps30d": -0.08533848009650191,
+    "eps60d": -0.07373615956687873,
+    "eps90d": -0.08643343755903654,
     "revenue30d": null
   }
 }

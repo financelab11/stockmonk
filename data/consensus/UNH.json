@@ -1,17 +1,17 @@
 {
   "ticker": "UNH",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/UNH/analysis",
-  "targetMean": 478.48,
+  "targetMean": 473.69345,
   "targetHigh": 531,
-  "targetLow": 385,
+  "targetLow": 354.03,
   "recommendationKey": "strong_buy",
-  "analystCount": 25,
+  "analystCount": 26,
   "distribution": {
     "strongBuy": 7,
     "buy": 16,
-    "hold": 3,
+    "hold": 4,
     "sell": 0,
     "strongSell": 0
   },
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 448959348370,
+      "revenueAvg": 448974178450,
       "revenueGrowth": 0.0031,
-      "epsAvg": 20.61355,
-      "epsGrowth": 0.2608,
-      "analystCount": 26
+      "epsAvg": 20.60935,
+      "epsGrowth": 0.26049998,
+      "analystCount": 27
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 463146729840,
+      "revenueAvg": 463169489840,
       "revenueGrowth": 0.031600002,
-      "epsAvg": 23.47366,
+      "epsAvg": 23.46686,
       "epsGrowth": 0.1387,
-      "analystCount": 26
+      "analystCount": 27
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 21
   },
   "revisions": {
-    "eps7d": 0.00459029911264297,
-    "eps30d": 0.001195301943664795,
-    "eps60d": 0.03757425608016485,
-    "eps90d": 0.04044414922881101,
+    "eps7d": -0.0002037494754664193,
+    "eps30d": 0.0008726952734590121,
+    "eps60d": 0.037362850869731234,
+    "eps90d": 0.04023215927915347,
     "revenue30d": null
   }
 }

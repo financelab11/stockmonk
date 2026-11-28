@@ -1,7 +1,7 @@
 {
   "ticker": "EQT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/EQT/analysis",
   "targetMean": 66.5,
   "targetHigh": 77,
@@ -21,9 +21,9 @@
       "endDate": "2026-12-31",
       "revenueAvg": 2046743480,
       "revenueGrowth": -0.1429,
-      "epsAvg": 0.60974,
-      "epsGrowth": -0.3225,
-      "analystCount": 19
+      "epsAvg": 0.61076,
+      "epsGrowth": -0.3214,
+      "analystCount": 20
     },
     {
       "period": "Following quarter",
@@ -91,9 +91,9 @@
     "endDate": "2026-12-31",
     "revenueAvg": 2046743480,
     "revenueGrowth": -0.1429,
-    "epsAvg": 0.60974,
-    "epsGrowth": -0.3225,
-    "analystCount": 19
+    "epsAvg": 0.61076,
+    "epsGrowth": -0.3214,
+    "analystCount": 20
   },
   "revisions": {
     "eps7d": -0.0024918717516672073,

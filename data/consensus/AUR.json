@@ -1,7 +1,7 @@
 {
   "ticker": "AUR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/AUR/analysis",
   "targetMean": 11.54917,
   "targetHigh": 18,

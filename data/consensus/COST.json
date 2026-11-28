@@ -1,13 +1,13 @@
 {
   "ticker": "COST",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/COST/analysis",
-  "targetMean": 1085.3513,
+  "targetMean": 1083.6945,
   "targetHigh": 1315,
   "targetLow": 770,
   "recommendationKey": "buy",
-  "analystCount": 37,
+  "analystCount": 36,
   "distribution": {
     "strongBuy": 5,
     "buy": 20,
@@ -39,18 +39,18 @@
       "endDate": "2027-08-31",
       "revenueAvg": 329898381500,
       "revenueGrowth": 0.088199995,
-      "epsAvg": 22.83807,
-      "epsGrowth": 0.1001,
-      "analystCount": 35
+      "epsAvg": 22.83654,
+      "epsGrowth": 0.1,
+      "analystCount": 34
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-08-31",
-      "revenueAvg": 354995519010,
-      "revenueGrowth": 0.0761,
-      "epsAvg": 25.13361,
-      "epsGrowth": 0.1005,
-      "analystCount": 33
+      "revenueAvg": 355489534740,
+      "revenueGrowth": 0.0776,
+      "epsAvg": 25.14935,
+      "epsGrowth": 0.1013,
+      "analystCount": 32
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 27
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.001306543635269053,
-    "eps60d": 0.0033679811575819674,
-    "eps90d": 0.005839559436752628,
+    "eps7d": -0.0000669934018067142,
+    "eps30d": 0.0012394627036595995,
+    "eps60d": 0.003300762123260359,
+    "eps90d": 0.005772174822994192,
     "revenue30d": null
   }
 }

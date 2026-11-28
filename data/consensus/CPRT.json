@@ -1,7 +1,7 @@
 {
   "ticker": "CPRT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CPRT/analysis",
   "targetMean": 38.72727,
   "targetHigh": 55,
@@ -19,11 +19,11 @@
     {
       "period": "Next quarter",
       "endDate": "2026-10-31",
-      "revenueAvg": 1191519570,
-      "revenueGrowth": 0.031600002,
-      "epsAvg": 0.39137,
-      "epsGrowth": -0.0454,
-      "analystCount": 7
+      "revenueAvg": 1190079620,
+      "revenueGrowth": 0.030299999,
+      "epsAvg": 0.39245,
+      "epsGrowth": -0.0428,
+      "analystCount": 8
     },
     {
       "period": "Following quarter",
@@ -89,11 +89,11 @@
   ],
   "currentQuarter": {
     "endDate": "2026-10-31",
-    "revenueAvg": 1191519570,
-    "revenueGrowth": 0.031600002,
-    "epsAvg": 0.39137,
-    "epsGrowth": -0.0454,
-    "analystCount": 7
+    "revenueAvg": 1190079620,
+    "revenueGrowth": 0.030299999,
+    "epsAvg": 0.39245,
+    "epsGrowth": -0.0428,
+    "analystCount": 8
   },
   "revisions": {
     "eps7d": -0.00208549924361745,

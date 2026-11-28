@@ -1,9 +1,9 @@
 {
   "ticker": "CSCO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CSCO/analysis",
-  "targetMean": 129.66667,
+  "targetMean": 129.04167,
   "targetHigh": 160,
   "targetLow": 109,
   "recommendationKey": "buy",
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-07-31",
-      "revenueAvg": 81689495200,
-      "revenueGrowth": 0.0863,
-      "epsAvg": 6.05685,
-      "epsGrowth": 0.10609999,
+      "revenueAvg": 81602575200,
+      "revenueGrowth": 0.085200004,
+      "epsAvg": 6.04935,
+      "epsGrowth": 0.10479999,
       "analystCount": 28
     }
   ],
@@ -82,7 +82,7 @@
       "quarter": "2026-10-31",
       "endDate": "2026-10-31",
       "epsActual": 1.4,
-      "epsEstimate": 1.32523,
+      "epsEstimate": 1.32481,
       "revenueActual": null,
       "revenueEstimate": null
     }
@@ -97,7 +97,7 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": 0.06406761018816676,
+    "eps30d": 0.06488086440401108,
     "eps60d": 0.0639373567015118,
     "eps90d": 0.06414412313432849,
     "revenue30d": null

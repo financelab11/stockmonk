@@ -1,16 +1,16 @@
 {
   "ticker": "VKTX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/VKTX/analysis",
-  "targetMean": 95.31579,
+  "targetMean": 95.88889,
   "targetHigh": 125,
   "targetLow": 34,
   "recommendationKey": "strong_buy",
-  "analystCount": 19,
+  "analystCount": 18,
   "distribution": {
     "strongBuy": 5,
-    "buy": 14,
+    "buy": 13,
     "hold": 2,
     "sell": 0,
     "strongSell": 0
@@ -39,18 +39,18 @@
       "endDate": "2026-12-31",
       "revenueAvg": 0,
       "revenueGrowth": 0,
-      "epsAvg": -5.31411,
-      "epsGrowth": -0.6659,
-      "analystCount": 18
+      "epsAvg": -5.29435,
+      "epsGrowth": -0.65970004,
+      "analystCount": 17
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 0,
       "revenueGrowth": 0,
-      "epsAvg": -5.20858,
-      "epsGrowth": 0.0199,
-      "analystCount": 18
+      "epsAvg": -5.18027,
+      "epsGrowth": 0.0215,
+      "analystCount": 17
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 18
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.15831587757940113,
-    "eps60d": 0.15384414958409054,
-    "eps90d": 0.15384414958409054,
+    "eps7d": -0.003718402517072561,
+    "eps30d": 0.15400879290464453,
+    "eps60d": 0.14955369259396756,
+    "eps90d": 0.14955369259396756,
     "revenue30d": null
   }
 }

@@ -1,13 +1,13 @@
 {
   "ticker": "ASML",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ASML/analysis",
-  "targetMean": 2109.9385,
-  "targetHigh": 2792.402,
-  "targetLow": 850.0605,
+  "targetMean": 2128.931,
+  "targetHigh": 2856.1245,
+  "targetLow": 846.2481,
   "recommendationKey": "strong_buy",
-  "analystCount": 17,
+  "analystCount": 16,
   "distribution": {
     "strongBuy": 7,
     "buy": 31,
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 14816055140,
-      "revenueGrowth": 0.52459997,
+      "revenueAvg": 14817753300,
+      "revenueGrowth": 0.5248,
       "epsAvg": 15.38838,
       "epsGrowth": 1.0965,
       "analystCount": 7
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 13313561770,
-      "revenueGrowth": 0.5186,
+      "revenueAvg": 13315536620,
+      "revenueGrowth": 0.5188,
       "epsAvg": 12.93818,
       "epsGrowth": 0.8095,
       "analystCount": 8
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 44490989200,
-      "revenueGrowth": 0.36189997,
-      "epsAvg": 41.41393,
-      "epsGrowth": 0.676,
-      "analystCount": 24
+      "revenueAvg": 44493551230,
+      "revenueGrowth": 0.36200002,
+      "epsAvg": 41.38058,
+      "epsGrowth": 0.6746,
+      "analystCount": 25
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 57389468110,
-      "revenueGrowth": 0.2899,
-      "epsAvg": 56.43418,
-      "epsGrowth": 0.36270002,
+      "revenueAvg": 57632607740,
+      "revenueGrowth": 0.2953,
+      "epsAvg": 56.94492,
+      "epsGrowth": 0.3761,
       "analystCount": 27
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 14816055140,
-    "revenueGrowth": 0.52459997,
+    "revenueAvg": 14817753300,
+    "revenueGrowth": 0.5248,
     "epsAvg": 15.38838,
     "epsGrowth": 1.0965,
     "analystCount": 7
   },
   "revisions": {
-    "eps7d": 0.004992940721963546,
-    "eps30d": 0.08005130343640698,
-    "eps60d": 0.08442953055282065,
-    "eps90d": 0.08840156813769595,
+    "eps7d": 0.0047727249549704975,
+    "eps30d": 0.07918155475596045,
+    "eps60d": 0.08355625615350792,
+    "eps90d": 0.08752509511769047,
     "revenue30d": null
   }
 }

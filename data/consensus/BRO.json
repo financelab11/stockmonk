@@ -1,7 +1,7 @@
 {
   "ticker": "BRO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/BRO/analysis",
   "targetMean": 76,
   "targetHigh": 85,
@@ -97,7 +97,7 @@
   },
   "revisions": {
     "eps7d": 0,
-    "eps30d": -0.010676911263103217,
+    "eps30d": -0.011407361473275923,
     "eps60d": -0.011246357929117212,
     "eps90d": -0.011246357929117212,
     "revenue30d": null

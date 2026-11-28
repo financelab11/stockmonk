@@ -1,16 +1,16 @@
 {
   "ticker": "ISRG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ISRG/analysis",
-  "targetMean": 488.53333,
+  "targetMean": 487.71805,
   "targetHigh": 685,
   "targetLow": 324,
   "recommendationKey": "buy",
-  "analystCount": 30,
+  "analystCount": 31,
   "distribution": {
     "strongBuy": 7,
-    "buy": 19,
+    "buy": 20,
     "hold": 7,
     "sell": 1,
     "strongSell": 0
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 11925947640,
-      "revenueGrowth": 0.1849,
-      "epsAvg": 11.25264,
-      "epsGrowth": 0.2601,
-      "analystCount": 27
+      "revenueAvg": 11927857400,
+      "revenueGrowth": 0.1851,
+      "epsAvg": 11.25433,
+      "epsGrowth": 0.2603,
+      "analystCount": 28
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 13350408710,
-      "revenueGrowth": 0.119399995,
-      "epsAvg": 12.46877,
-      "epsGrowth": 0.108100004,
-      "analystCount": 27
+      "revenueAvg": 13356875940,
+      "revenueGrowth": 0.119799994,
+      "epsAvg": 12.46953,
+      "epsGrowth": 0.108,
+      "analystCount": 28
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 25
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": -0.0012523576009053627,
-    "eps60d": 0.04241204801196119,
-    "eps90d": 0.04241204801196119,
+    "eps7d": 0.00015018697834467964,
+    "eps30d": -0.00003554061270250042,
+    "eps60d": 0.04256860472764212,
+    "eps90d": 0.04256860472764212,
     "revenue30d": null
   }
 }

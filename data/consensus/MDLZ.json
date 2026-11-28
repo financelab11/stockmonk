@@ -1,7 +1,7 @@
 {
   "ticker": "MDLZ",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/MDLZ/analysis",
   "targetMean": 70.63636,
   "targetHigh": 77,
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 39948246800,
+      "revenueAvg": 39948229800,
       "revenueGrowth": 0.0366,
       "epsAvg": 3.05415,
       "epsGrowth": 0.045900002,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 40953008560,
+      "revenueAvg": 40952984750,
       "revenueGrowth": 0.0252,
       "epsAvg": 3.36316,
       "epsGrowth": 0.1012,
@@ -99,7 +99,7 @@
     "eps7d": 0.0001440870285651652,
     "eps30d": 0.0022446026167339816,
     "eps60d": 0.0018139354855639667,
-    "eps90d": 0.002024291497975783,
+    "eps90d": 0.0018139354855639667,
     "revenue30d": null
   }
 }

@@ -1,17 +1,17 @@
 {
   "ticker": "ASTS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ASTS/analysis",
-  "targetMean": 63.35,
+  "targetMean": 58.18333,
   "targetHigh": 108,
-  "targetLow": 39,
+  "targetLow": 30,
   "recommendationKey": "buy",
   "analystCount": 12,
   "distribution": {
     "strongBuy": 1,
-    "buy": 5,
-    "hold": 5,
+    "buy": 4,
+    "hold": 6,
     "sell": 1,
     "strongSell": 1
   },
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 166045500,
-      "revenueGrowth": 1.3414,
-      "epsAvg": -2.29386,
-      "epsGrowth": -0.7118,
+      "revenueAvg": 164295500,
+      "revenueGrowth": 1.3167,
+      "epsAvg": -2.29958,
+      "epsGrowth": -0.7161,
       "analystCount": 7
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 585671460,
-      "revenueGrowth": 2.5272,
-      "epsAvg": -1.64953,
-      "epsGrowth": 0.2809,
+      "revenueAvg": 560838120,
+      "revenueGrowth": 2.4136,
+      "epsAvg": -1.74328,
+      "epsGrowth": 0.24190001,
       "analystCount": 8
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 7
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.000004359482965288208,
-    "eps60d": 0.004382949843465989,
-    "eps90d": 0.005399861497058955,
+    "eps7d": 0.002493613385298188,
+    "eps30d": 0.002497983739128573,
+    "eps60d": 0.006887492611161061,
+    "eps90d": 0.007906940049265065,
     "revenue30d": null
   }
 }

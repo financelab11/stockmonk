@@ -1,12 +1,12 @@
 {
   "ticker": "TPL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/TPL/analysis",
-  "targetMean": 444.5,
-  "targetHigh": 639,
+  "targetMean": 319,
+  "targetHigh": 388,
   "targetLow": 250,
-  "recommendationKey": "none",
+  "recommendationKey": "hold",
   "analystCount": 2,
   "distribution": {
     "strongBuy": 0,

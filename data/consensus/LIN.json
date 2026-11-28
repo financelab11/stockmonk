@@ -1,11 +1,11 @@
 {
   "ticker": "LIN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/LIN/analysis",
-  "targetMean": 555.14813,
+  "targetMean": 555.8889,
   "targetHigh": 601,
-  "targetLow": 400,
+  "targetLow": 420,
   "recommendationKey": "buy",
   "analystCount": 27,
   "distribution": {
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 36676724310,
-      "revenueGrowth": 0.0792,
-      "epsAvg": 17.91291,
-      "epsGrowth": 0.0883,
-      "analystCount": 28
+      "revenueAvg": 36646004140,
+      "revenueGrowth": 0.0783,
+      "epsAvg": 17.91005,
+      "epsGrowth": 0.0881,
+      "analystCount": 29
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 38402556590,
-      "revenueGrowth": 0.0471,
+      "revenueGrowth": 0.0479,
       "epsAvg": 18.27749,
-      "epsGrowth": 0.1362,
+      "epsGrowth": 0.1381,
       "analystCount": 10
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.0005602450555441951,
-    "eps30d": 0.0020608556578711745,
-    "eps60d": 0.002067021855050033,
-    "eps90d": 0.002028344236755686,
+    "eps7d": 0.0005413298950411871,
+    "eps30d": 0.0019008652349201682,
+    "eps60d": 0.001907030447595437,
+    "eps90d": 0.0018683590046231213,
     "revenue30d": null
   }
 }

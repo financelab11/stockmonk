@@ -1,7 +1,7 @@
 {
   "ticker": "HRL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/HRL/analysis",
   "targetMean": 25.0625,
   "targetHigh": 28,
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-10-31",
-      "revenueAvg": 3129594950,
-      "revenueGrowth": -0.0176,
+      "revenueAvg": 3127994950,
+      "revenueGrowth": -0.018099999,
       "epsAvg": 0.37239,
       "epsGrowth": 0.16370001,
       "analystCount": 8
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-10-31",
-      "revenueAvg": 12092569150,
-      "revenueGrowth": -0.0011,
+      "revenueAvg": 12091369150,
+      "revenueGrowth": -0.0011999999,
       "epsAvg": 1.48276,
       "epsGrowth": 0.08229999,
       "analystCount": 9
@@ -46,11 +46,11 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-10-31",
-      "revenueAvg": 13210074790,
-      "revenueGrowth": 0.0924,
-      "epsAvg": 1.57433,
-      "epsGrowth": 0.0618,
-      "analystCount": 3
+      "revenueAvg": 13003256100,
+      "revenueGrowth": 0.0754,
+      "epsAvg": 1.57325,
+      "epsGrowth": 0.061,
+      "analystCount": 4
     }
   ],
   "history": [
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-10-31",
-    "revenueAvg": 3129594950,
-    "revenueGrowth": -0.0176,
+    "revenueAvg": 3127994950,
+    "revenueGrowth": -0.018099999,
     "epsAvg": 0.37239,
     "epsGrowth": 0.16370001,
     "analystCount": 8
@@ -99,7 +99,7 @@
     "eps7d": 0.00018887269980027988,
     "eps30d": -0.0005594537574395986,
     "eps60d": -0.002951955081867963,
-    "eps90d": -0.008870142978416151,
+    "eps90d": -0.002951955081867963,
     "revenue30d": null
   }
 }

@@ -1,11 +1,11 @@
 {
   "ticker": "DDOG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/DDOG/analysis",
-  "targetMean": 269.65457,
+  "targetMean": 268.23645,
   "targetHigh": 330,
-  "targetLow": 171,
+  "targetLow": 168.75,
   "recommendationKey": "strong_buy",
   "analystCount": 48,
   "distribution": {
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 4524064440,
-      "revenueGrowth": 0.32009998,
-      "epsAvg": 2.73846,
-      "epsGrowth": 0.33580002,
+      "revenueAvg": 4525158270,
+      "revenueGrowth": 0.3204,
+      "epsAvg": 2.74324,
+      "epsGrowth": 0.3382,
       "analystCount": 44
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 5532997200,
+      "revenueAvg": 5534331670,
       "revenueGrowth": 0.22299999,
-      "epsAvg": 3.1829,
-      "epsGrowth": 0.16229999,
+      "epsAvg": 3.18868,
+      "epsGrowth": 0.16239999,
       "analystCount": 45
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 38
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.0833115757992926,
-    "eps60d": 0.08352589263104582,
-    "eps90d": 0.08357734128931171,
+    "eps7d": 0.0017455065985994,
+    "eps30d": 0.08520250330318935,
+    "eps60d": 0.0854171942263866,
+    "eps90d": 0.08546873268862476,
     "revenue30d": null
   }
 }

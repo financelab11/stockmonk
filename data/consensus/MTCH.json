@@ -1,7 +1,7 @@
 {
   "ticker": "MTCH",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/MTCH/analysis",
   "targetMean": 45,
   "targetHigh": 52,

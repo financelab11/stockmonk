@@ -1,9 +1,9 @@
 {
   "ticker": "REGN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/REGN/analysis",
-  "targetMean": 991,
+  "targetMean": 993.7407,
   "targetHigh": 1175,
   "targetLow": 812,
   "recommendationKey": "buy",
@@ -21,8 +21,8 @@
       "endDate": "2026-12-31",
       "revenueAvg": 5853681350,
       "revenueGrowth": 0.507,
-      "epsAvg": 25.81452,
-      "epsGrowth": 1.2565,
+      "epsAvg": 25.8177,
+      "epsGrowth": 1.2568,
       "analystCount": 22
     },
     {
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 18814831890,
       "revenueGrowth": 0.3118,
-      "epsAvg": 69.02089,
+      "epsAvg": 69.02385,
       "epsGrowth": 0.5577,
       "analystCount": 27
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 20239859360,
-      "revenueGrowth": 0.0757,
-      "epsAvg": 62.12389,
-      "epsGrowth": 0.0481,
+      "revenueAvg": 20242469910,
+      "revenueGrowth": 0.0759,
+      "epsAvg": 62.10689,
+      "epsGrowth": 0.0477,
       "analystCount": 10
     }
   ],
@@ -91,15 +91,15 @@
     "endDate": "2026-12-31",
     "revenueAvg": 5853681350,
     "revenueGrowth": 0.507,
-    "epsAvg": 25.81452,
-    "epsGrowth": 1.2565,
+    "epsAvg": 25.8177,
+    "epsGrowth": 1.2568,
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.00012534008459930135,
-    "eps30d": 0.17290309314790053,
-    "eps60d": 0.2758343418308373,
-    "eps90d": 0.2889668882458454,
+    "eps7d": -0.0009373469809279555,
+    "eps30d": 0.16797987978363604,
+    "eps60d": 0.27588834917537675,
+    "eps90d": 0.28902216632164546,
     "revenue30d": null
   }
 }

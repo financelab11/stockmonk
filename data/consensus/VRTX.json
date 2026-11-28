@@ -1,7 +1,7 @@
 {
   "ticker": "VRTX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/VRTX/analysis",
   "targetMean": 595.3571,
   "targetHigh": 725,
@@ -19,26 +19,26 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 3497925160,
-      "revenueGrowth": 0.096499994,
-      "epsAvg": 4.1024,
-      "epsGrowth": -0.1844,
-      "analystCount": 21
+      "revenueAvg": 3498664290,
+      "revenueGrowth": 0.0968,
+      "epsAvg": 4.10138,
+      "epsGrowth": -0.1846,
+      "analystCount": 22
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 3437896330,
-      "revenueGrowth": 0.15100001,
-      "epsAvg": 4.68125,
-      "epsGrowth": 0.0473,
-      "analystCount": 8
+      "revenueAvg": 3435229670,
+      "revenueGrowth": 0.15010001,
+      "epsAvg": 4.66222,
+      "epsGrowth": 0.043,
+      "analystCount": 9
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 13257019050,
-      "revenueGrowth": 0.1046,
+      "revenueAvg": 13255161230,
+      "revenueGrowth": 0.104499996,
       "epsAvg": 18.135,
       "epsGrowth": -0.014400001,
       "analystCount": 25
@@ -46,9 +46,9 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 14653037680,
-      "revenueGrowth": 0.105299994,
-      "epsAvg": 19.91716,
+      "revenueAvg": 14678190070,
+      "revenueGrowth": 0.1074,
+      "epsAvg": 19.91756,
       "epsGrowth": 0.0983,
       "analystCount": 25
     }
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 3497925160,
-    "revenueGrowth": 0.096499994,
-    "epsAvg": 4.1024,
-    "epsGrowth": -0.1844,
-    "analystCount": 21
+    "revenueAvg": 3498664290,
+    "revenueGrowth": 0.0968,
+    "epsAvg": 4.10138,
+    "epsGrowth": -0.1846,
+    "analystCount": 22
   },
   "revisions": {
-    "eps7d": 0.000838861356085685,
-    "eps30d": -0.02893906170935634,
-    "eps60d": 0.06667121528760123,
-    "eps90d": -0.04816440329066907,
+    "eps7d": 0,
+    "eps30d": -0.03200805352218827,
+    "eps60d": 0.06653696887076466,
+    "eps90d": -0.04739542623736148,
     "revenue30d": null
   }
 }

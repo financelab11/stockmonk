@@ -1,7 +1,7 @@
 {
   "ticker": "ABNB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ABNB/analysis",
   "targetMean": 205.8764,
   "targetHigh": 245,
@@ -96,10 +96,10 @@
     "analystCount": 31
   },
   "revisions": {
-    "eps7d": 0.005268779822644731,
+    "eps7d": 0,
     "eps30d": 0.05069716127526114,
     "eps60d": 0.050325402471477876,
-    "eps90d": 0.0547242055767434,
+    "eps90d": 0.05461657659019603,
     "revenue30d": null
   }
 }

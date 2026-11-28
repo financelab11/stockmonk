@@ -10,25 +10,25 @@ export const COIN: StockStory = {
     "Revenue: $5.6B, -26.6% year over year.",
     "Profitability: 3.6% operating margin and -12.5% net margin.",
     "Cash: free cash flow is not meaningful at this stage.",
-    "Valuation: no meaningful earnings multiple and 53.1x EV/EBITDA."
+    "Valuation: no meaningful earnings multiple and 56.2x EV/EBITDA."
   ],
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-26",
+  "narrativeUpdatedAt": "2026-11-28",
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1679788/000167978826000015/coin-20251231.htm",
   "irUrl": "https://www.coinbase.com",
   "bigPicture": {
     "paragraphs": [
       "Coinbase Global's revenue fell 26.6% to $5.6B at a 3.6% operating margin. The latest quarter (Q3 FY26) fell 35.0%. The margin and the multiple are the two numbers that matter from here.",
       "Revenue is reported as one consolidated line. The US is the largest geography at 83.7% of revenue. What could lift the return is institutional adoption and regulatory clarity. The thing to watch is crypto volumes and regulation.",
-      "At $101.55, the equity is worth $26.9B, or no meaningful earnings multiple and 53.1x EV/EBITDA. The stock is 4% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
+      "At $107.04, the equity is worth $28.3B, or no meaningful earnings multiple and 56.2x EV/EBITDA. The stock is 6% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
     "quote": "Coinbase is a crypto exchange and custodian, so trading volume, take rate and regulatory clarity drive earnings."
   },
   "whatItDoes": {
     "paragraphs": [
       "Coinbase Global, Inc. operates platform for crypto assets in the United States and internationally.",
-      "Coinbase Global does not report a product gross margin; technology, data and compensation sit inside the operating line, leaving a 3.6% operating margin. That is 41.3 points below the peer median of 44.9%.",
-      "Capex is not disclosed in the current data. The balance sheet carries $2.2B of net cash. Return on invested capital was 0.8%. That is 16.2 points below the peer median of 16.9%."
+      "Coinbase Global does not report a product gross margin; technology, data and compensation sit inside the operating line, leaving a 3.6% operating margin. That is 34.9 points below the peer median of 38.5%.",
+      "Capex is not disclosed in the current data. The balance sheet carries $2.2B of net cash. Return on invested capital was 0.8%. That is 16.7 points below the peer median of 17.5%."
     ],
     "bullets": [
       {
@@ -48,12 +48,12 @@ export const COIN: StockStory = {
   "howItMakesMoney": {
     "paragraphs": [
       "Activity, client assets and subscriptions drive revenue; take rate and data pricing drive the margin. The edge is crypto exchange liquidity and custody.",
-      "The operating margin is 3.6%, 41.3 points below the peer median of 44.9%. Operating leverage, not the absolute growth rate, is the swing factor."
+      "The operating margin is 3.6%, 34.9 points below the peer median of 38.5%. Operating leverage, not the absolute growth rate, is the swing factor."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 54.2% a year from FY2019 to FY2025. The latest quarter (Q3 FY26) fell 35.0% year over year. The current-year consensus looks for $5.2B of revenue and -$0.28 of EPS.",
+      "Revenue compounded at 54.2% a year from FY2019 to FY2025. The latest quarter (Q3 FY26) fell 35.0% year over year. The current-year consensus looks for $5.2B of revenue and -$0.26 of EPS.",
       "The next leg depends on institutional adoption and regulatory clarity. The top line is shrinking, so the margin has to be defended on a smaller base."
     ],
     "bullets": [
@@ -79,20 +79,20 @@ export const COIN: StockStory = {
   },
   "cash": {
     "paragraphs": [
-      "Free cash flow is not meaningful at this stage. Operating cash flow and the balance sheet are the better tests at this stage. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
+      "The cash statement is not meaningful at this stage. Operating cash flow and the balance sheet are the better tests at this stage. The cash profile is better judged through the balance sheet than the free-cash-flow margin.",
       "The balance sheet carries $2.2B of net cash. Interest cover is 2.3x. That gives management room to invest or return capital without leaning on the balance sheet."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At $101.55, the shares trade at no meaningful earnings multiple and 53.1x EV/EBITDA. A multiple only means something relative to growth, returns and the cost of capital.",
+      "At $107.04, the shares trade at no meaningful earnings multiple and 56.2x EV/EBITDA. A multiple only means something relative to growth, returns and the cost of capital.",
       "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. What would justify a higher multiple is durable growth and returns; what would break it is the reverse."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "34 analysts in the third-party consensus carry a mean target of $191.78, 88.9% above the latest close. The range runs from $110.00 to $280.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
-      "The current-year consensus looks for $5.2B of revenue and -$0.28 of EPS. EPS estimates are down 84.3% over 30 days and down 86.3% over 90 days. That implies an 8.4% decline from the trailing base."
+      "36 analysts in the third-party consensus carry a mean target of $188.38, 76.0% above the latest close. The range runs from $110.00 to $280.00. The range is unusually wide, which signals genuine disagreement about the cycle. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $5.2B of revenue and -$0.26 of EPS. EPS estimates are down 84.3% over 30 days and down 86.8% over 90 days. That implies an 8.4% decline from the trailing base."
     ]
   },
   "risks": {

@@ -1,7 +1,7 @@
 {
   "ticker": "NVT",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/NVT/analysis",
   "targetMean": 192.94444,
   "targetHigh": 233,

@@ -1,7 +1,7 @@
 {
   "ticker": "EMR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/EMR/analysis",
   "targetMean": 183.1068,
   "targetHigh": 209,
@@ -19,10 +19,10 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 4594411910,
-      "revenueGrowth": 0.0572,
-      "epsAvg": 1.62211,
-      "epsGrowth": 0.111,
+      "revenueAvg": 4593015410,
+      "revenueGrowth": 0.056799997,
+      "epsAvg": 1.62119,
+      "epsGrowth": 0.1104,
       "analystCount": 22
     },
     {
@@ -37,18 +37,18 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-09-30",
-      "revenueAvg": 19997061560,
+      "revenueAvg": 19997354030,
       "revenueGrowth": 0.0535,
-      "epsAvg": 7.3082,
+      "epsAvg": 7.30829,
       "epsGrowth": 0.109,
       "analystCount": 28
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-09-30",
-      "revenueAvg": 21084601090,
+      "revenueAvg": 21084928740,
       "revenueGrowth": 0.0544,
-      "epsAvg": 8.04052,
+      "epsAvg": 8.0406,
       "epsGrowth": 0.100200005,
       "analystCount": 26
     }
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 4594411910,
-    "revenueGrowth": 0.0572,
-    "epsAvg": 1.62211,
-    "epsGrowth": 0.111,
+    "revenueAvg": 4593015410,
+    "revenueGrowth": 0.056799997,
+    "epsAvg": 1.62119,
+    "epsGrowth": 0.1104,
     "analystCount": 22
   },
   "revisions": {
-    "eps7d": -0.0005839340195583631,
-    "eps30d": 0.003400870194400163,
-    "eps60d": 0.007791276528262392,
-    "eps90d": 0.009053341120559777,
+    "eps7d": 0.000012314933909962633,
+    "eps30d": 0.0059116297379062654,
+    "eps60d": 0.005915783359553783,
+    "eps90d": 0.008105353036679697,
     "revenue30d": null
   }
 }

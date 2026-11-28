@@ -1,7 +1,7 @@
 {
   "ticker": "MRK",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/MRK/analysis",
   "targetMean": 161.525,
   "targetHigh": 186,
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 67241417520,
-      "revenueGrowth": 0.0343,
-      "epsAvg": 2.78758,
+      "revenueAvg": 67236897520,
+      "revenueGrowth": 0.0342,
+      "epsAvg": 2.78767,
       "epsGrowth": -0.6896,
-      "analystCount": 26
+      "analystCount": 27
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 69440611100,
-      "revenueGrowth": 0.0327,
-      "epsAvg": 8.96377,
-      "epsGrowth": 2.2156,
-      "analystCount": 25
+      "revenueAvg": 69422694430,
+      "revenueGrowth": 0.0325,
+      "epsAvg": 8.95594,
+      "epsGrowth": 2.2127001,
+      "analystCount": 26
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": -0.0002761489769934622,
-    "eps30d": 0.051020639002209434,
-    "eps60d": 0.01708656389674368,
-    "eps90d": 0.014624736114144499,
+    "eps7d": 0.00003228606891991781,
+    "eps30d": 0.0510189077610419,
+    "eps60d": 0.017119401623643116,
+    "eps90d": 0.014657494358302436,
     "revenue30d": null
   }
 }

@@ -1,9 +1,9 @@
 {
   "ticker": "CEG",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CEG/analysis",
-  "targetMean": 340.37564,
+  "targetMean": 339.68,
   "targetHigh": 399,
   "targetLow": 240,
   "recommendationKey": "buy",
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 35992667520,
-      "revenueGrowth": 0.4097,
-      "epsAvg": 12.56588,
-      "epsGrowth": 0.3382,
+      "revenueAvg": 35836358050,
+      "revenueGrowth": 0.4035,
+      "epsAvg": 12.57588,
+      "epsGrowth": 0.3393,
       "analystCount": 19
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 36798722560,
-      "revenueGrowth": 0.0224,
-      "epsAvg": 13.38236,
-      "epsGrowth": 0.065,
+      "revenueAvg": 36486624300,
+      "revenueGrowth": 0.018099999,
+      "epsAvg": 13.40093,
+      "epsGrowth": 0.0656,
       "analystCount": 21
     }
   ],
@@ -104,10 +104,10 @@
     "analystCount": 5
   },
   "revisions": {
-    "eps7d": 0.006587822141618904,
-    "eps30d": 0.036503996839152286,
-    "eps60d": 0.03559254985989768,
-    "eps90d": 0.03377530679956875,
+    "eps7d": 0.005107105350232288,
+    "eps30d": 0.03723901758275461,
+    "eps60d": 0.0354779744750926,
+    "eps90d": 0.0354779744750926,
     "revenue30d": null
   }
 }

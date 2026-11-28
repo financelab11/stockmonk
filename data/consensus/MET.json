@@ -1,12 +1,12 @@
 {
   "ticker": "MET",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/MET/analysis",
   "targetMean": 111.70588,
   "targetHigh": 131,
   "targetLow": 84,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 17,
   "distribution": {
     "strongBuy": 5,

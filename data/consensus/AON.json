@@ -1,7 +1,7 @@
 {
   "ticker": "AON",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/AON/analysis",
   "targetMean": 367.3684,
   "targetHigh": 435,
@@ -30,9 +30,9 @@
       "endDate": "2027-03-31",
       "revenueAvg": 5945017110,
       "revenueGrowth": 0.18100001,
-      "epsAvg": 6.92968,
-      "epsGrowth": 0.0694,
-      "analystCount": 18
+      "epsAvg": 6.92319,
+      "epsGrowth": 0.0684,
+      "analystCount": 17
     },
     {
       "period": "Current fiscal year",
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 21680334660,
-      "revenueGrowth": 0.2065,
-      "epsAvg": 20.21505,
-      "epsGrowth": 0.087299995,
+      "revenueAvg": 21657605570,
+      "revenueGrowth": 0.2053,
+      "epsAvg": 20.22219,
+      "epsGrowth": 0.0877,
       "analystCount": 21
     }
   ],

@@ -1,11 +1,11 @@
 {
   "ticker": "BIDU",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/BIDU/analysis",
-  "targetMean": 118.16037,
-  "targetHigh": 208.23904,
-  "targetLow": 70.12406,
+  "targetMean": 118.23768,
+  "targetHigh": 208.37048,
+  "targetLow": 70.16832,
   "recommendationKey": "buy",
   "analystCount": 31,
   "distribution": {
@@ -96,10 +96,10 @@
     "analystCount": 15
   },
   "revisions": {
-    "eps7d": -0.07579423257704432,
-    "eps30d": -0.1679145601330322,
+    "eps7d": 0,
+    "eps30d": -0.10364749924385319,
     "eps60d": -0.17020037375546115,
-    "eps90d": -0.18117184779905493,
+    "eps90d": -0.1788005603846372,
     "revenue30d": null
   }
 }

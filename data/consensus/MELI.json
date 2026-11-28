@@ -1,7 +1,7 @@
 {
   "ticker": "MELI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/MELI/analysis",
   "targetMean": 2152.7593,
   "targetHigh": 2700,
@@ -96,10 +96,10 @@
     "analystCount": 11
   },
   "revisions": {
-    "eps7d": 0.0025255818592095913,
+    "eps7d": -0.005202536236415312,
     "eps30d": -0.045820348019874,
-    "eps60d": -0.03773915366846059,
-    "eps90d": -0.04476716547193049,
+    "eps60d": -0.03275894746942709,
+    "eps90d": -0.04427390235951967,
     "revenue30d": null
   }
 }

@@ -1,13 +1,13 @@
 {
   "ticker": "GTLB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/GTLB/analysis",
-  "targetMean": 56.08333,
+  "targetMean": 56.13043,
   "targetHigh": 70,
   "targetLow": 45,
   "recommendationKey": "buy",
-  "analystCount": 24,
+  "analystCount": 23,
   "distribution": {
     "strongBuy": 1,
     "buy": 8,
@@ -21,36 +21,36 @@
       "endDate": "2026-10-31",
       "revenueAvg": 282813150,
       "revenueGrowth": 0.1574,
-      "epsAvg": 0.19976,
-      "epsGrowth": -0.201,
-      "analystCount": 27
+      "epsAvg": 0.20013,
+      "epsGrowth": -0.19950001,
+      "analystCount": 26
     },
     {
       "period": "Following quarter",
       "endDate": "2027-01-31",
       "revenueAvg": 299280200,
       "revenueGrowth": 0.14930001,
-      "epsAvg": 0.1941,
-      "epsGrowth": -0.353,
-      "analystCount": 27
+      "epsAvg": 0.19426,
+      "epsGrowth": -0.3525,
+      "analystCount": 26
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-01-31",
       "revenueAvg": 1132382830,
       "revenueGrowth": 0.1855,
-      "epsAvg": 0.86621,
-      "epsGrowth": -0.09770001,
-      "analystCount": 27
+      "epsAvg": 0.86645,
+      "epsGrowth": -0.097399995,
+      "analystCount": 26
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-01-31",
       "revenueAvg": 1310340350,
       "revenueGrowth": 0.15720001,
-      "epsAvg": 1.03835,
-      "epsGrowth": 0.19870001,
-      "analystCount": 27
+      "epsAvg": 1.03868,
+      "epsGrowth": 0.1988,
+      "analystCount": 26
     }
   ],
   "history": [
@@ -91,15 +91,15 @@
     "endDate": "2026-10-31",
     "revenueAvg": 282813150,
     "revenueGrowth": 0.1574,
-    "epsAvg": 0.19976,
-    "epsGrowth": -0.201,
-    "analystCount": 27
+    "epsAvg": 0.20013,
+    "epsGrowth": -0.19950001,
+    "analystCount": 26
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0,
-    "eps60d": 0,
-    "eps90d": 0.06609149425853222,
+    "eps7d": 0.00027706907101054945,
+    "eps30d": 0.00027706907101054945,
+    "eps60d": 0.00027706907101054945,
+    "eps90d": 0.06638687523845865,
     "revenue30d": null
   }
 }

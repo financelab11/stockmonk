@@ -1,16 +1,16 @@
 {
   "ticker": "KYMR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/KYMR/analysis",
-  "targetMean": 182.34782,
+  "targetMean": 188.04546,
   "targetHigh": 251,
   "targetLow": 134,
   "recommendationKey": "strong_buy",
-  "analystCount": 23,
+  "analystCount": 22,
   "distribution": {
     "strongBuy": 5,
-    "buy": 16,
+    "buy": 15,
     "hold": 2,
     "sell": 0,
     "strongSell": 0
@@ -19,38 +19,38 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 1265880,
-      "revenueGrowth": -0.5589,
-      "epsAvg": -1.27835,
-      "epsGrowth": -0.3044,
-      "analystCount": 22
+      "revenueAvg": 1345000,
+      "revenueGrowth": -0.53139997,
+      "epsAvg": -1.26712,
+      "epsGrowth": -0.29299998,
+      "analystCount": 21
     },
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
       "revenueAvg": 7000000,
       "revenueGrowth": -0.7963,
-      "epsAvg": -1.35,
-      "epsGrowth": -0.90139997,
-      "analystCount": 7
+      "epsAvg": -1.30275,
+      "epsGrowth": -0.83489996,
+      "analystCount": 8
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 99870000,
-      "revenueGrowth": 1.5469999,
-      "epsAvg": -3.92256,
-      "epsGrowth": -0.063,
-      "analystCount": 22
+      "revenueAvg": 99894050,
+      "revenueGrowth": 1.5475999,
+      "epsAvg": -3.91284,
+      "epsGrowth": -0.060399998,
+      "analystCount": 21
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 40545160,
-      "revenueGrowth": -0.59400004,
-      "epsAvg": -5.10212,
-      "epsGrowth": -0.3007,
-      "analystCount": 22
+      "revenueAvg": 40571120,
+      "revenueGrowth": -0.59389997,
+      "epsAvg": -5.04387,
+      "epsGrowth": -0.2891,
+      "analystCount": 21
     }
   ],
   "history": [
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 1265880,
-    "revenueGrowth": -0.5589,
-    "epsAvg": -1.27835,
-    "epsGrowth": -0.3044,
-    "analystCount": 22
+    "revenueAvg": 1345000,
+    "revenueGrowth": -0.53139997,
+    "epsAvg": -1.26712,
+    "epsGrowth": -0.29299998,
+    "analystCount": 21
   },
   "revisions": {
-    "eps7d": -0.0010365122254961667,
-    "eps30d": 0.018754139234095524,
-    "eps60d": 0.02185658537093671,
-    "eps90d": 0.032752701308001564,
+    "eps7d": -0.003511917343880011,
+    "eps30d": 0.013720633802087212,
+    "eps60d": 0.019324451761812744,
+    "eps90d": 0.03386829992654561,
     "revenue30d": null
   }
 }

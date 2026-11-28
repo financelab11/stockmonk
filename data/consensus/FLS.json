@@ -1,12 +1,12 @@
 {
   "ticker": "FLS",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/FLS/analysis",
   "targetMean": 91.2,
   "targetHigh": 100,
   "targetLow": 75,
-  "recommendationKey": "buy",
+  "recommendationKey": "none",
   "analystCount": 10,
   "distribution": {
     "strongBuy": 1,

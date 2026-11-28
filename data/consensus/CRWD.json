@@ -1,9 +1,9 @@
 {
   "ticker": "CRWD",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CRWD/analysis",
-  "targetMean": 249.10771,
+  "targetMean": 249.42021,
   "targetHigh": 320,
   "targetLow": 174,
   "recommendationKey": "buy",
@@ -19,37 +19,37 @@
     {
       "period": "Next quarter",
       "endDate": "2027-01-31",
-      "revenueAvg": 1642830790,
-      "revenueGrowth": 0.2585,
-      "epsAvg": 0.36078,
-      "epsGrowth": 0.2885,
+      "revenueAvg": 1643505250,
+      "revenueGrowth": 0.259,
+      "epsAvg": 0.36071,
+      "epsGrowth": 0.2882,
       "analystCount": 43
     },
     {
       "period": "Following quarter",
       "endDate": "2027-04-30",
-      "revenueAvg": 1725840520,
-      "revenueGrowth": 0.2455,
-      "epsAvg": 0.36255,
-      "epsGrowth": 0.3184,
+      "revenueAvg": 1726399430,
+      "revenueGrowth": 0.2459,
+      "epsAvg": 0.36307,
+      "epsGrowth": 0.32029998,
       "analystCount": 36
     },
     {
       "period": "Current fiscal year",
       "endDate": "2027-01-31",
-      "revenueAvg": 6080333740,
-      "revenueGrowth": 0.2636,
-      "epsAvg": 1.28277,
-      "epsGrowth": 0.3756,
+      "revenueAvg": 6083247730,
+      "revenueGrowth": 0.2642,
+      "epsAvg": 1.28323,
+      "epsGrowth": 0.3761,
       "analystCount": 48
     },
     {
       "period": "Next fiscal year",
       "endDate": "2028-01-31",
-      "revenueAvg": 7520830000,
-      "revenueGrowth": 0.2369,
-      "epsAvg": 1.65234,
-      "epsGrowth": 0.2881,
+      "revenueAvg": 7524768640,
+      "revenueGrowth": 0.237,
+      "epsAvg": 1.65407,
+      "epsGrowth": 0.289,
       "analystCount": 52
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2027-01-31",
-    "revenueAvg": 1642830790,
-    "revenueGrowth": 0.2585,
-    "epsAvg": 0.36078,
-    "epsGrowth": 0.2885,
+    "revenueAvg": 1643505250,
+    "revenueGrowth": 0.259,
+    "epsAvg": 0.36071,
+    "epsGrowth": 0.2882,
     "analystCount": 43
   },
   "revisions": {
-    "eps7d": 0.020761052933125246,
-    "eps30d": 0.020671711264411696,
-    "eps60d": 0.021240516205049076,
-    "eps90d": -0.024442737525762315,
+    "eps7d": 0.021127096794729017,
+    "eps30d": 0.02103772308818508,
+    "eps60d": 0.021606732001687945,
+    "eps90d": -0.022174300671324976,
     "revenue30d": null
   }
 }

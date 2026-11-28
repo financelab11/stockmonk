@@ -1,9 +1,9 @@
 {
   "ticker": "RBRK",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/RBRK/analysis",
-  "targetMean": 125.21429,
+  "targetMean": 125.57143,
   "targetHigh": 155,
   "targetLow": 110,
   "recommendationKey": "strong_buy",
@@ -46,10 +46,10 @@
     {
       "period": "Next fiscal year",
       "endDate": "2028-01-31",
-      "revenueAvg": 2058457590,
-      "revenueGrowth": 0.2172,
-      "epsAvg": 0.77524,
-      "epsGrowth": 0.5387,
+      "revenueAvg": 2058586160,
+      "revenueGrowth": 0.2173,
+      "epsAvg": 0.76881,
+      "epsGrowth": 0.5259,
       "analystCount": 28
     }
   ],
@@ -96,7 +96,7 @@
     "analystCount": 27
   },
   "revisions": {
-    "eps7d": 0.0014111661002127462,
+    "eps7d": -0.0007140023800079609,
     "eps30d": 0.0011723795330351727,
     "eps60d": 0.0011723795330351727,
     "eps90d": 0.6026464787836374,

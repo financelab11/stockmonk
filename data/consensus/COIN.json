@@ -1,16 +1,16 @@
 {
   "ticker": "COIN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/COIN/analysis",
-  "targetMean": 191.78412,
+  "targetMean": 188.37944,
   "targetHigh": 280,
   "targetLow": 110,
   "recommendationKey": "buy",
-  "analystCount": 34,
+  "analystCount": 36,
   "distribution": {
     "strongBuy": 5,
-    "buy": 19,
+    "buy": 21,
     "hold": 10,
     "sell": 2,
     "strongSell": 1
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 5159148740,
-      "revenueGrowth": -0.2816,
-      "epsAvg": -0.2824,
-      "epsGrowth": -1.0634999,
-      "analystCount": 21
+      "revenueAvg": 5157311670,
+      "revenueGrowth": -0.2818,
+      "epsAvg": -0.2632,
+      "epsGrowth": -1.0591,
+      "analystCount": 22
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 6484435690,
-      "revenueGrowth": 0.2569,
-      "epsAvg": 2.54709,
-      "epsGrowth": 10.0194,
-      "analystCount": 26
+      "revenueAvg": 6444525080,
+      "revenueGrowth": 0.2496,
+      "epsAvg": 2.53164,
+      "epsGrowth": 10.6187,
+      "analystCount": 27
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": -0.11884926206745927,
-    "eps30d": -0.8433095856359722,
-    "eps60d": -0.8593170099882931,
-    "eps90d": -0.8632591200937431,
+    "eps7d": -0.17875752753596064,
+    "eps30d": -0.8431568848287657,
+    "eps60d": -0.8701144887485196,
+    "eps90d": -0.8680681915016266,
     "revenue30d": null
   }
 }

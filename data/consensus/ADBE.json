@@ -1,7 +1,7 @@
 {
   "ticker": "ADBE",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ADBE/analysis",
   "targetMean": 266.9097,
   "targetHigh": 373,
@@ -19,7 +19,7 @@
     {
       "period": "Next quarter",
       "endDate": "2026-11-30",
-      "revenueAvg": 6830578620,
+      "revenueAvg": 6830593430,
       "revenueGrowth": 0.1028,
       "epsAvg": 6.32884,
       "epsGrowth": 0.1507,
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-02-28",
-      "revenueAvg": 7070108120,
-      "revenueGrowth": 0.105,
+      "revenueAvg": 7070130850,
+      "revenueGrowth": 0.105100006,
       "epsAvg": 6.76551,
       "epsGrowth": 0.1164,
       "analystCount": 26
@@ -37,7 +37,7 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-11-30",
-      "revenueAvg": 26607173550,
+      "revenueAvg": 26607184980,
       "revenueGrowth": 0.119399995,
       "epsAvg": 24.46841,
       "epsGrowth": 0.1685,
@@ -46,7 +46,7 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-11-30",
-      "revenueAvg": 29036612500,
+      "revenueAvg": 29036618060,
       "revenueGrowth": 0.0913,
       "epsAvg": 27.40718,
       "epsGrowth": 0.1201,
@@ -89,7 +89,7 @@
   ],
   "currentQuarter": {
     "endDate": "2026-11-30",
-    "revenueAvg": 6830578620,
+    "revenueAvg": 6830593430,
     "revenueGrowth": 0.1028,
     "epsAvg": 6.32884,
     "epsGrowth": 0.1507,

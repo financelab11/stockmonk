@@ -1,0 +1,15 @@
+{
+  "ticker": "JNPR",
+  "provider": "Nasdaq analyst consensus",
+  "asOf": "2026-11-28",
+  "sourceUrl": "https://www.nasdaq.com/market-activity/stocks/jnpr/analyst-research",
+  "targetMean": null,
+  "targetHigh": null,
+  "targetLow": null,
+  "recommendationKey": null,
+  "analystCount": null,
+  "distribution": null,
+  "estimates": [],
+  "history": [],
+  "currentQuarter": null
+}

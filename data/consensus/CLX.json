@@ -1,12 +1,12 @@
 {
   "ticker": "CLX",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/CLX/analysis",
   "targetMean": 97.6875,
   "targetHigh": 142,
   "targetLow": 74,
-  "recommendationKey": "hold",
+  "recommendationKey": "none",
   "analystCount": 16,
   "distribution": {
     "strongBuy": 1,
@@ -96,10 +96,10 @@
     "analystCount": 15
   },
   "revisions": {
-    "eps7d": 0.0003265827913572217,
-    "eps30d": -0.0032801548024249394,
+    "eps7d": 0,
+    "eps30d": 0.004850724012224195,
     "eps60d": -0.010889517846134233,
-    "eps90d": -0.016201890707228994,
+    "eps90d": -0.013579188107490037,
     "revenue30d": null
   }
 }

@@ -1,7 +1,7 @@
 {
   "ticker": "AZN",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/AZN/analysis",
   "targetMean": 208.99167,
   "targetHigh": 240,
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 16597241859,
-      "revenueGrowth": 0.0706,
+      "revenueAvg": 16604164939,
+      "revenueGrowth": 0.071,
       "epsAvg": 1.735,
       "epsGrowth": null,
       "analystCount": 1
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 15977000000,
-      "revenueGrowth": 0.045100003,
+      "revenueAvg": 15954500000,
+      "revenueGrowth": 0.0436,
       "epsAvg": null,
       "epsGrowth": null,
       "analystCount": null
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 63409566090,
-      "revenueGrowth": 0.0795,
+      "revenueAvg": 63429950700,
+      "revenueGrowth": 0.0799,
       "epsAvg": 10.13667,
       "epsGrowth": 1.2132,
       "analystCount": 3
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 67447430179,
-      "revenueGrowth": 0.0637,
+      "revenueAvg": 67442237870,
+      "revenueGrowth": 0.0633,
       "epsAvg": 11.25667,
       "epsGrowth": 0.1105,
       "analystCount": 3
@@ -81,8 +81,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 16597241859,
-    "revenueGrowth": 0.0706,
+    "revenueAvg": 16604164939,
+    "revenueGrowth": 0.071,
     "epsAvg": 1.735,
     "epsGrowth": null,
     "analystCount": 1

@@ -1,17 +1,17 @@
 {
   "ticker": "PYPL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/PYPL/analysis",
-  "targetMean": 57.31364,
+  "targetMean": 57.45147,
   "targetHigh": 80,
   "targetLow": 36,
   "recommendationKey": "hold",
-  "analystCount": 33,
+  "analystCount": 34,
   "distribution": {
     "strongBuy": 3,
     "buy": 3,
-    "hold": 32,
+    "hold": 33,
     "sell": 3,
     "strongSell": 2
   },
@@ -37,20 +37,20 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 34534334430,
+      "revenueAvg": 34536960420,
       "revenueGrowth": 0.041100003,
-      "epsAvg": 5.58463,
-      "epsGrowth": 0.0517,
-      "analystCount": 41
+      "epsAvg": 5.585,
+      "epsGrowth": 0.051799998,
+      "analystCount": 42
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 35909755920,
-      "revenueGrowth": 0.0398,
-      "epsAvg": 5.90358,
-      "epsGrowth": 0.0571,
-      "analystCount": 43
+      "revenueAvg": 35920809350,
+      "revenueGrowth": 0.0401,
+      "epsAvg": 5.906,
+      "epsGrowth": 0.0575,
+      "analystCount": 44
     }
   ],
   "history": [
@@ -96,10 +96,10 @@
     "analystCount": 33
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": 0.03645366457506283,
-    "eps60d": 0.035921112673391375,
-    "eps90d": 0.03692515076795089,
+    "eps7d": 0.00006625327013609628,
+    "eps30d": 0.036206944534634466,
+    "eps60d": 0.03596860746157082,
+    "eps90d": 0.03681096624841507,
     "revenue30d": null
   }
 }

@@ -1,17 +1,17 @@
 {
   "ticker": "AXP",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/AXP/analysis",
-  "targetMean": 364.78708,
+  "targetMean": 363.915,
   "targetHigh": 425,
   "targetLow": 329,
   "recommendationKey": "buy",
   "analystCount": 24,
   "distribution": {
     "strongBuy": 5,
-    "buy": 9,
-    "hold": 15,
+    "buy": 10,
+    "hold": 14,
     "sell": 0,
     "strongSell": 0
   },
@@ -39,17 +39,17 @@
       "endDate": "2026-12-31",
       "revenueAvg": 79372964720,
       "revenueGrowth": 0.098900005,
-      "epsAvg": 18.39107,
-      "epsGrowth": 0.1958,
-      "analystCount": 23
+      "epsAvg": 18.36644,
+      "epsGrowth": 0.1942,
+      "analystCount": 24
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 86584325950,
       "revenueGrowth": 0.090900004,
-      "epsAvg": 20.16747,
-      "epsGrowth": 0.096599996,
+      "epsAvg": 20.16587,
+      "epsGrowth": 0.098000005,
       "analystCount": 25
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 19
   },
   "revisions": {
-    "eps7d": 0.000023925227139898197,
-    "eps30d": 0.042615491718520415,
-    "eps60d": 0.04068390287515333,
-    "eps90d": 0.04068390287515333,
+    "eps7d": -0.0013392369231370882,
+    "eps30d": 0.0017251337755885832,
+    "eps60d": 0.03858905464421869,
+    "eps90d": 0.039290180567108646,
     "revenue30d": null
   }
 }

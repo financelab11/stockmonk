@@ -1,17 +1,17 @@
 {
   "ticker": "BR",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/BR/analysis",
-  "targetMean": 209.25,
+  "targetMean": 208.44444,
   "targetHigh": 230,
   "targetLow": 180,
   "recommendationKey": "buy",
-  "analystCount": 8,
+  "analystCount": 9,
   "distribution": {
     "strongBuy": 4,
     "buy": 1,
-    "hold": 4,
+    "hold": 5,
     "sell": 0,
     "strongSell": 0
   },

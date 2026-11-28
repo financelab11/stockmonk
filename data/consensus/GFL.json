@@ -1,11 +1,11 @@
 {
   "ticker": "GFL",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/GFL/analysis",
-  "targetMean": 51.38993,
-  "targetHigh": 65.57622,
-  "targetLow": 40.06199,
+  "targetMean": 51.202374,
+  "targetHigh": 65.33689,
+  "targetLow": 39.915775,
   "recommendationKey": "buy",
   "analystCount": 13,
   "distribution": {

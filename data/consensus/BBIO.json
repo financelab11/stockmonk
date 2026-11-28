@@ -1,9 +1,9 @@
 {
   "ticker": "BBIO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/BBIO/analysis",
-  "targetMean": 108.7,
+  "targetMean": 109.25,
   "targetHigh": 156,
   "targetLow": 80,
   "recommendationKey": "strong_buy",
@@ -19,9 +19,9 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 304365740,
-      "revenueGrowth": 0.97410005,
-      "epsAvg": -0.50398,
+      "revenueAvg": 304428240,
+      "revenueGrowth": 0.97449994,
+      "epsAvg": -0.504,
       "epsGrowth": 0.4632,
       "analystCount": 5
     },
@@ -30,26 +30,26 @@
       "endDate": "2027-03-31",
       "revenueAvg": 337925740,
       "revenueGrowth": 0.73730004,
-      "epsAvg": -0.354,
-      "epsGrowth": 0.5786,
-      "analystCount": 5
+      "epsAvg": -0.405,
+      "epsGrowth": 0.5179,
+      "analystCount": 4
     },
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 1097332040,
-      "revenueGrowth": 1.1855999,
-      "epsAvg": -2.44578,
-      "epsGrowth": 0.35369998,
+      "revenueAvg": 1097772590,
+      "revenueGrowth": 1.1865001,
+      "epsAvg": -2.44667,
+      "epsGrowth": 0.3534,
       "analystCount": 6
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 1671337790,
-      "revenueGrowth": 0.5231,
-      "epsAvg": -0.25049,
-      "epsGrowth": 0.8976,
+      "revenueAvg": 1673876190,
+      "revenueGrowth": 0.5248,
+      "epsAvg": -0.23571,
+      "epsGrowth": 0.90370005,
       "analystCount": 7
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 304365740,
-    "revenueGrowth": 0.97410005,
-    "epsAvg": -0.50398,
+    "revenueAvg": 304428240,
+    "revenueGrowth": 0.97449994,
+    "epsAvg": -0.504,
     "epsGrowth": 0.4632,
     "analystCount": 5
   },
   "revisions": {
-    "eps7d": 0,
-    "eps30d": -0.0657830404889228,
-    "eps60d": -0.05358227725645737,
-    "eps90d": -0.08904747361128695,
+    "eps7d": 0.0003638920916844146,
+    "eps30d": -0.06544308632543916,
+    "eps60d": -0.05323788333172097,
+    "eps90d": -0.08871598519103419,
     "revenue30d": null
   }
 }

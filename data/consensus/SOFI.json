@@ -1,16 +1,16 @@
 {
   "ticker": "SOFI",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/SOFI/analysis",
-  "targetMean": 20.66522,
+  "targetMean": 20.55909,
   "targetHigh": 30,
   "targetLow": 12,
-  "recommendationKey": "buy",
-  "analystCount": 23,
+  "recommendationKey": "hold",
+  "analystCount": 22,
   "distribution": {
     "strongBuy": 5,
-    "buy": 7,
+    "buy": 6,
     "hold": 9,
     "sell": 2,
     "strongSell": 2
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 1389750940,
-      "revenueGrowth": 0.3721,
+      "revenueAvg": 1390567670,
+      "revenueGrowth": 0.3729,
       "epsAvg": 0.19673,
       "epsGrowth": 0.6165,
       "analystCount": 8
@@ -28,8 +28,8 @@
     {
       "period": "Following quarter",
       "endDate": "2027-03-31",
-      "revenueAvg": 1457948310,
-      "revenueGrowth": 0.341,
+      "revenueAvg": 1459921260,
+      "revenueGrowth": 0.3428,
       "epsAvg": 0.20143,
       "epsGrowth": 0.7516,
       "analystCount": 7
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 5057336550,
-      "revenueGrowth": 0.4082,
+      "revenueAvg": 5058143380,
+      "revenueGrowth": 0.4084,
       "epsAvg": 0.60944,
       "epsGrowth": 0.6278,
       "analystCount": 9
@@ -46,8 +46,8 @@
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 6425526300,
-      "revenueGrowth": 0.2705,
+      "revenueAvg": 6426097610,
+      "revenueGrowth": 0.27040002,
       "epsAvg": 0.89538,
       "epsGrowth": 0.4692,
       "analystCount": 10
@@ -89,8 +89,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 1389750940,
-    "revenueGrowth": 0.3721,
+    "revenueAvg": 1390567670,
+    "revenueGrowth": 0.3729,
     "epsAvg": 0.19673,
     "epsGrowth": 0.6165,
     "analystCount": 8

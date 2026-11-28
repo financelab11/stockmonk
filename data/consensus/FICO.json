@@ -1,9 +1,9 @@
 {
   "ticker": "FICO",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/FICO/analysis",
-  "targetMean": 814.9458,
+  "targetMean": 814.3142,
   "targetHigh": 1230.97,
   "targetLow": 481,
   "recommendationKey": "buy",
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2027-09-30",
-      "revenueAvg": 2590613320,
-      "revenueGrowth": 0.022,
+      "revenueAvg": 2590402790,
+      "revenueGrowth": 0.0219,
       "epsAvg": 44.35852,
       "epsGrowth": 0.0318,
       "analystCount": 20
@@ -47,7 +47,7 @@
       "period": "Next fiscal year",
       "endDate": "2028-09-30",
       "revenueAvg": 2758236040,
-      "revenueGrowth": 0.0647,
+      "revenueGrowth": 0.0648,
       "epsAvg": 50.94805,
       "epsGrowth": 0.1486,
       "analystCount": 17
@@ -97,9 +97,9 @@
   },
   "revisions": {
     "eps7d": -0.0018658261298464263,
-    "eps30d": -0.0973340756766965,
+    "eps30d": -0.060958645872430495,
     "eps60d": -0.16319710119993547,
-    "eps90d": -0.1650646578862519,
+    "eps90d": -0.16546850836628801,
     "revenue30d": null
   }
 }

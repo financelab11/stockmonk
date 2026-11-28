@@ -1,9 +1,9 @@
 {
   "ticker": "ANET",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/ANET/analysis",
-  "targetMean": 249.64662,
+  "targetMean": 248.61214,
   "targetHigh": 305,
   "targetLow": 201.73,
   "recommendationKey": "strong_buy",
@@ -82,7 +82,7 @@
       "quarter": "2026-09-30",
       "endDate": "2026-09-30",
       "epsActual": 1.2,
-      "epsEstimate": 1.07891,
+      "epsEstimate": 1.08117,
       "revenueActual": null,
       "revenueEstimate": null
     }
@@ -98,7 +98,7 @@
   "revisions": {
     "eps7d": 0,
     "eps30d": 0.06312621599760981,
-    "eps60d": 0.06422999863837053,
+    "eps60d": 0.06435163231807395,
     "eps90d": 0.06414202564514015,
     "revenue30d": null
   }

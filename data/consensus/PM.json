@@ -1,7 +1,7 @@
 {
   "ticker": "PM",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/PM/analysis",
   "targetMean": 212.6875,
   "targetHigh": 240,
@@ -19,10 +19,10 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 10843410700,
-      "revenueGrowth": 0.0465,
-      "epsAvg": 1.8206,
-      "epsGrowth": 0.0709,
+      "revenueAvg": 10845210700,
+      "revenueGrowth": 0.0466,
+      "epsAvg": 1.8081,
+      "epsGrowth": 0.0636,
       "analystCount": 12
     },
     {
@@ -37,19 +37,19 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 43609032610,
-      "revenueGrowth": 0.0728,
-      "epsAvg": 8.35186,
-      "epsGrowth": 0.107700005,
+      "revenueAvg": 43635780410,
+      "revenueGrowth": 0.0735,
+      "epsAvg": 8.34702,
+      "epsGrowth": 0.107,
       "analystCount": 17
     },
     {
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
-      "revenueAvg": 45699071560,
-      "revenueGrowth": 0.0479,
-      "epsAvg": 9.02591,
-      "epsGrowth": 0.080699995,
+      "revenueAvg": 45693473270,
+      "revenueGrowth": 0.047199998,
+      "epsAvg": 9.02442,
+      "epsGrowth": 0.081199996,
       "analystCount": 17
     }
   ],
@@ -89,17 +89,17 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 10843410700,
-    "revenueGrowth": 0.0465,
-    "epsAvg": 1.8206,
-    "epsGrowth": 0.0709,
+    "revenueAvg": 10845210700,
+    "revenueGrowth": 0.0466,
+    "epsAvg": 1.8081,
+    "epsGrowth": 0.0636,
     "analystCount": 12
   },
   "revisions": {
-    "eps7d": -0.0001604175645260053,
-    "eps30d": -0.002256667562643644,
-    "eps60d": -0.008511840599461529,
-    "eps90d": -0.00605871635186972,
+    "eps7d": -0.0007398362304265049,
+    "eps30d": -0.00283487142729133,
+    "eps60d": -0.00908641951858824,
+    "eps90d": -0.006634716885027148,
     "revenue30d": null
   }
 }

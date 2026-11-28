@@ -1,13 +1,13 @@
 {
   "ticker": "RKLB",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/RKLB/analysis",
-  "targetMean": 90.61905,
+  "targetMean": 90.31818,
   "targetHigh": 127,
   "targetLow": 40,
   "recommendationKey": "buy",
-  "analystCount": 21,
+  "analystCount": 22,
   "distribution": {
     "strongBuy": 5,
     "buy": 12,
@@ -19,8 +19,8 @@
     {
       "period": "Next quarter",
       "endDate": "2026-12-31",
-      "revenueAvg": 281999940,
-      "revenueGrowth": 0.5697,
+      "revenueAvg": 282666610,
+      "revenueGrowth": 0.5734,
       "epsAvg": -0.04,
       "epsGrowth": null,
       "analystCount": 2
@@ -37,8 +37,8 @@
     {
       "period": "Current fiscal year",
       "endDate": "2026-12-31",
-      "revenueAvg": 983542070,
-      "revenueGrowth": 0.6343,
+      "revenueAvg": 984164970,
+      "revenueGrowth": 0.6354,
       "epsAvg": -0.30786,
       "epsGrowth": 0.16790001,
       "analystCount": 14
@@ -47,7 +47,7 @@
       "period": "Next fiscal year",
       "endDate": "2027-12-31",
       "revenueAvg": 1343416580,
-      "revenueGrowth": 0.3659,
+      "revenueGrowth": 0.365,
       "epsAvg": -0.06841,
       "epsGrowth": 0.77779996,
       "analystCount": 17
@@ -81,8 +81,8 @@
   ],
   "currentQuarter": {
     "endDate": "2026-12-31",
-    "revenueAvg": 281999940,
-    "revenueGrowth": 0.5697,
+    "revenueAvg": 282666610,
+    "revenueGrowth": 0.5734,
     "epsAvg": -0.04,
     "epsGrowth": null,
     "analystCount": 2

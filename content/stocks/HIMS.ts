@@ -3,159 +3,158 @@ import type { StockStory } from "./types";
 export const HIMS: StockStory = {
   "ticker": "HIMS",
   "kicker": "Healthcare Growth · Consumer telehealth",
-  "title": "Hims & Hers is a subscription business before it is a pharmacy",
-  "dek": "Customers pay a monthly fee, then buy treatments for hair loss, sexual health, skin and weight loss. Marketing buys the subscriber; retention and repeat orders decide whether the economics work.",
+  "title": "Hims & Hers Health: -6.0% margins and the price being paid",
+  "dek": "Hims & Hers Health's revenue rose 28.0% to $2.6B, at a -6.0% operating margin. The key risk is trial failure.",
   "readingMinutes": 9,
   "takeaways": [
-    "Revenue: $2.6B trailing twelve months, +28.0% year over year.",
+    "Revenue: $2.6B, +28.0% year over year.",
     "Profitability: -6.0% operating margin and -5.5% net margin.",
-    "Cash: $61.6M free cash flow, a 2.4% margin.",
-    "factor summary: 45/100 average percentile across the factor set."
+    "Cash: $61.6M free cash flow, a 2.4% margin, against $524.3M of net debt.",
+    "Valuation: no meaningful earnings multiple and no meaningful EV/EBITDA multiple."
   ],
   "filingUrl": "https://www.sec.gov/Archives/edgar/data/1773751/000177375126000022/hims-20251231.htm",
   "irUrl": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001773751&type=&dateb=&owner=include&count=40",
   "bigPicture": {
     "paragraphs": [
-      "Hims & Hers Health, Inc. generated $2.6B of revenue over the last twelve months, +28.0% versus the prior year. The value sits in a small number of clinical programmes, so trial data and cash runway matter more than near-term revenue.",
-      "The latest reported quarter was Q2 FY26, with $753.2M of revenue and an operating margin of -12.9%. The stock closed at $15.06 on Nov 23, 2026, giving a market capitalization of $3.5B.",
-      "The shares sit 5% of the way up their 52-week range ($13.74 to $40.99). The analysis uses reported financials and the latest filings; they describe the business rather than recommend the stock."
+      "Hims & Hers Health's revenue rose 28.0% to $2.6B at a -6.0% operating margin, generating $61.6M of free cash flow. The latest quarter (Q2 FY26) grew 38.2%.",
+      "Revenue is reported as one consolidated line. The US is the largest geography at 94.3% of revenue. The risk is trial failure. The business is judged on whether the consolidated margin and returns can improve from here.",
+      "At $15.00, the equity is worth $3.5B, or no meaningful earnings multiple and no meaningful EV/EBITDA multiple. The stock is 6% of the way up its 52-week range. The market has a view; the work is checking it against the filings."
     ],
-    "quote": "HIMS is a Healthcare Growth business with $2.6B of trailing revenue. The useful question is what the current margin and growth rate imply about the next few years, not whether the last quarter beat a forecast."
+    "quote": "Hims & Hers Health's revenue rose 28.0% to $2.6B, and the investment case depends on whether the current margin and growth are repeatable."
   },
   "whatItDoes": {
     "paragraphs": [
-      "The customer is a consumer, not a hospital or a physician. Hims & Hers reaches them through digital advertising, social media and brand marketing, then converts them into a subscription that bundles clinical access with a product. The appeal is privacy, convenience and a price that is visible before checkout.",
-      "The fulfilment model relies on licensed pharmacies and distribution partners rather than a traditional retail shelf. That keeps capital intensity low but puts the company in the middle of a regulatory chain: prescribing rules, pharmacy licensing and state-level telehealth requirements all apply.",
-      "The company employs about 181 people, which is small for a business of this revenue size and reflects how much of the operation is outsourced. The brand and the customer list are the assets; the pharmacy and the logistics are partners."
+      "Hims & Hers Health, Inc. operates as a consumer-first health and wellness platform that connects consumers to licensed healthcare professionals in the United States, the United Kingdom, Canada, Germany, the Republic of Ireland, France, Spain, Australia, and internationally.",
+      "Hims & Hers Health earned a 68.4% gross margin, and operating costs absorbed 74.4% of revenue, leaving a -6.0% operating margin. That is 32.4 points below the peer median of 26.4%.",
+      "Capex is 9.4% of revenue, so the business is capital-hungry. Net debt is $524.3M, or 0.3x EBITDA. Return on invested capital was -7.2%. That is 26.0 points below the peer median of 18.8%."
     ],
     "bullets": [
       {
-        "title": "Subscriptions",
-        "detail": "A recurring monthly charge that bundles access to a clinician with the treatment. The core of the model."
+        "title": "Revenue mix",
+        "detail": "The company reports one consolidated revenue line, so the overall margin is the cleanest comparison."
       },
       {
-        "title": "Product categories",
-        "detail": "Hair loss, sexual health, dermatology, mental health and weight loss. Each has a different price point and retention curve."
+        "title": "Margin engine",
+        "detail": "Gross margin 68.4%, operating margin -6.0%. Operating costs are the bridge between the two."
       },
       {
-        "title": "Brand and acquisition",
-        "detail": "Paid media and organic reach create the customer flow. Marketing is the largest discretionary cost."
+        "title": "Capital intensity",
+        "detail": "Capex 9.4% of revenue; $524.3M of net debt; ROIC -7.2%."
       }
     ]
   },
   "howItMakesMoney": {
     "paragraphs": [
-      "Revenue is the sum of subscription fees and product sales. The gross margin of 68.4% covers the cost of the medication, the pharmacy partner and the shipping. What sits below it is the customer-acquisition cost, the clinical network, the technology and the corporate overhead.",
-      "This is a unit-economics business disguised as a healthcare company. If the cost to acquire a subscriber is recovered within the first few months and the customer stays for a year, the model produces attractive returns. If acquisition costs rise or retention falls, growth consumes cash even while revenue increases.",
-      "The FY2026 swing is the evidence. Operating income was positive in FY2024 and FY2025, then turned negative in Q1 and Q2 FY2026 at minus 12.9% in both quarters. The company is spending to enter new categories, expand internationally and build brand awareness. Those are investments, but they are also the reason free cash flow is only 2.4% of revenue."
+      "Revenue is converted into profit after operating costs; the mix between recurring and transactional revenue decides how much of the margin is repeatable. Efficacy and safety readouts determine the programme's value.",
+      "The operating margin is -6.0%, 32.4 points below the peer median of 26.4%. The next dollar of revenue matters less than the margin it carries."
     ]
   },
   "growth": {
     "paragraphs": [
-      "Revenue compounded at 74.7% a year across the fiscal years in the dataset, and the latest quarter changed +38.2% year over year. Third-party estimates for the current fiscal year point to $3.1B of revenue and -$0.91 of EPS.",
-      "growth matters when it produces a return on capital. The operating margin of -6.0% and return on invested capital of -7.2% are the filters to watch as revenue scales."
+      "Revenue compounded at 74.7% a year from FY2019 to FY2025. The latest quarter (Q2 FY26) grew 38.2% year over year. The current-year consensus looks for $3.1B of revenue and -$0.94 of EPS.",
+      "Revenue is scaling ahead of the margin, which makes cost discipline the next test. Growth is only valuable if the new revenue earns a similar return to the existing business."
     ],
     "bullets": [
       {
         "title": "Clinical data",
-        "detail": "Efficacy and safety readouts determine the programme's value."
+        "detail": "Efficacy and safety readouts determine the programme's value. Revenue growth is 28.0%."
       },
       {
         "title": "Regulatory path",
-        "detail": "Approval and label scope decide the commercial opportunity."
+        "detail": "Approval and label scope decide the commercial opportunity. The operating margin is -6.0%."
       },
       {
         "title": "Partnerships",
-        "detail": "Collaborations can fund development and validate the science."
+        "detail": "Collaborations can fund development and validate the science. Return on invested capital is -7.2%."
       }
     ]
   },
   "performance": {
     "paragraphs": [
-      "The trailing operating margin is -6.0%, the net margin is -5.5% and diluted EPS is -$0.63. The latest quarter's operating margin was -12.9%. The quarter shown is the latest reported period in the dataset.",
-      "Return on equity is -43.8%. Capital intensity should be measured against the cost of capital; for an asset-light one, the more useful comparison is the cash-flow margin."
+      "The operating margin moved from -90.1% in FY2019 to 4.5% in FY2025. The trailing operating margin is -6.0%, the net margin is -5.5%, and diluted EPS is -$0.63, down 179.7% year over year.",
+      "Negative returns on both equity and invested capital point to the operating model, not leverage. The trend in returns matters more than the level, especially for a business with cyclical end markets."
     ]
   },
   "cash": {
     "paragraphs": [
-      "FCF over the trailing period was $61.6M, a 2.4% margin. Net debt is $524.3M. The cash figures are trailing twelve-month values unless the section says otherwise.",
-      "cash conversion connects earnings to distributable cash and the capital returned to owners. Net income has outrun free cash flow usually means working capital or capital expenditure is absorbing the profit."
+      "FCF was $61.6M, or 2.4% of revenue. Operating cash flow covered 233.7% of net income; the gap reflects non-cash charges or working-capital releases. Capex absorbed 9.4% of revenue, which is a meaningful claim on cash.",
+      "Net debt is $524.3M, or 0.3x EBITDA. The maturity profile and interest cover determine how much flexibility the balance sheet leaves. Leverage is only a problem if the cash flow cannot service it through a downturn."
     ]
   },
   "valuation": {
     "paragraphs": [
-      "At the latest close the shares trade with no meaningful trailing earnings multiple and no meaningful EV/EBITDA multiple. The valuation reflects the growth and margin record described above, not for the past alone.",
-      "The attributed third-party mean target is $27.23; that is a consensus figure, not a Stockmonk price target. The peer comparison sets out the company with a group of similar businesses; the multiple is a starting point for questions, not a verdict."
+      "At $15.00, the shares trade at no meaningful earnings multiple and no meaningful EV/EBITDA multiple, with a 1.8% free-cash-flow yield. The multiple is a summary of expectations, not an independent estimate of value.",
+      "No earnings multiple is meaningful, so the market is valuing the asset base or the pipeline rather than current profit. The multiple holds if the current economics persist and compresses if they fade."
     ]
   },
   "analysts": {
     "paragraphs": [
-      "13 analysts contribute to the third-party consensus. The mean target is $27.23, with a range of $21.00 to $40.00. The consensus is a third-party snapshot and can change without notice.",
-      "Current-year estimates call for $3.1B of revenue and -$0.91 of EPS. Third-party estimates can change without notice; they are shown for context, not as a recommendation."
+      "13 analysts in the third-party consensus carry a mean target of $26.15, 74.4% above the latest close. The range runs from $18.00 to $40.00. The spread between the high and low target is unusually wide. That is the published view, not a Stockmonk target.",
+      "The current-year consensus looks for $3.1B of revenue and -$0.94 of EPS. EPS estimates are up 67.6% over 30 days and up 95.3% over 90 days. That implies 21.8% growth from the trailing base."
     ]
   },
   "risks": {
-    "intro": "Hims & Hers has a large customer base and a recognizable brand. The risks are acquisition economics, regulation, competition and a debt load that assumes the losses are temporary.",
+    "intro": "The central risk is trial failure.",
     "items": [
       {
-        "title": "Customer acquisition cost",
+        "title": "Operating losses",
         "severity": "High",
-        "detail": "Paid media is the main source of new subscribers. If advertising costs rise faster than revenue, growth destroys value even as the top line increases.",
-        "watch": "Marketing spend as a share of revenue and the implied payback period."
+        "detail": "The trailing operating margin is -6.0%, which means the current cost base is not covered by revenue.",
+        "watch": "Path to operating breakeven and cash runway."
       },
       {
-        "title": "Regulatory and prescribing rules",
+        "title": "Cash runway",
         "severity": "High",
-        "detail": "Telehealth prescribing, pharmacy licensing and drug-specific rules can change the product mix quickly. A restriction in one category can remove a revenue line.",
-        "watch": "State and federal telehealth rules, pharmacy partner terms and category disclosures."
+        "detail": "Development costs can force financing.",
+        "watch": "Cash and quarterly burn."
       },
       {
-        "title": "Competition in weight loss",
-        "severity": "High",
-        "detail": "The weight-loss category attracts telehealth companies, retailers and drug manufacturers. Price competition can compress the gross margin.",
-        "watch": "Category revenue, pricing and gross margin."
-      },
-      {
-        "title": "Debt and cash conversion",
+        "title": "Reimbursement",
         "severity": "Medium",
-        "detail": "Net debt of $524.3M against $61.5M of free cash flow leaves little room if losses continue.",
-        "watch": "Free cash flow, interest cost and any refinancing."
+        "detail": "Payer coverage determines commercial uptake.",
+        "watch": "Pricing and payer decisions."
       },
       {
-        "title": "Retention",
+        "title": "Competition",
         "severity": "Medium",
-        "detail": "A subscription business is only as good as its renewal rate. A shorter average subscription life raises the effective cost of every customer.",
-        "watch": "Subscriber counts, churn and repeat-order rates."
+        "detail": "A better therapy can arrive first or be priced lower.",
+        "watch": "Competitor data and launch timing."
+      },
+      {
+        "title": "Dilution",
+        "severity": "Medium",
+        "detail": "Equity raises fund trials and manufacturing.",
+        "watch": "Share count and financing terms."
       }
     ],
     "watchlist": [
       {
-        "title": "Marketing efficiency",
-        "detail": "The ratio of revenue to marketing spend is the simplest test of whether growth is profitable."
+        "title": "Cash runway",
+        "detail": "The number of quarters funded is a hard constraint."
       },
       {
-        "title": "Gross margin",
-        "detail": "A move below the mid-60s would suggest pricing pressure or a less favourable category mix."
+        "title": "Trial readouts",
+        "detail": "Binary events drive the equity."
       },
       {
-        "title": "Free cash flow",
-        "detail": "The company has to convert its gross profit into cash to service the debt."
+        "title": "Partner validation",
+        "detail": "A credible partner can de-risk the programme."
       }
     ]
   },
   "bottomLine": {
     "paragraphs": [
-      "Hims & Hers has built a $2.58B revenue consumer telehealth business growing 28%, with a 68.4% gross margin and a recognizable brand. It has also swung from a $105.6M operating profit in FY2025 to operating losses in FY2026, while taking on $524.3M of net debt.",
-      "The business model can work: a subscriber who stays produces recurring revenue at a high gross margin. The question is whether the current acquisition and expansion spending buys a durable customer base or just postpones the point at which the unit economics have to stand on their own.",
-      "The reader should focus on payback and retention rather than revenue growth. A company that grows 30% while losing money on each new customer is not the same business as one that grows 15% and collects cash."
+      "The investment case rests on valuation and the durability of -6.0% margins. The weak link is profitability.",
+      "What would change the view is return on invested capital rising above -5.2%, not a single quarter. The key exposure is trial failure.",
+      "The scorecard puts the composite at 45/100. Focus on the valuation-to-profitability spread rather than the average."
     ],
     "questions": [
-      "What is the average subscription length by category?",
-      "How much does it cost to acquire a subscriber, and how quickly is that recovered?",
-      "How much of the FY2026 loss is new-category investment versus core-business margin?",
-      "Can free cash flow cover the debt if growth slows?"
+      "How many quarters of cash remain?",
+      "What is the next binary readout?",
+      "How large is the addressable market?",
+      "What does a failed trial leave behind?"
     ]
   },
   "narrativeSource": "auto-curated",
-  "narrativeUpdatedAt": "2026-11-24"
+  "narrativeUpdatedAt": "2026-11-28"
 };

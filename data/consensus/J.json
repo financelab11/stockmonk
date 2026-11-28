@@ -1,7 +1,7 @@
 {
   "ticker": "J",
   "provider": "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
-  "asOf": "2026-11-25",
+  "asOf": "2026-11-28",
   "sourceUrl": "https://finance.yahoo.com/quote/J/analysis",
   "targetMean": 172.53333,
   "targetHigh": 205,
@@ -39,9 +39,9 @@
       "endDate": "2027-09-30",
       "revenueAvg": 17305736280,
       "revenueGrowth": 0.09689999,
-      "epsAvg": 8.23388,
-      "epsGrowth": 0.1248,
-      "analystCount": 16
+      "epsAvg": 8.26951,
+      "epsGrowth": 0.1297,
+      "analystCount": 15
     },
     {
       "period": "Next fiscal year",
@@ -49,7 +49,7 @@
       "revenueAvg": 18132462850,
       "revenueGrowth": 0.0478,
       "epsAvg": 9.42404,
-      "epsGrowth": 0.1445,
+      "epsGrowth": 0.1396,
       "analystCount": 13
     }
   ],
@@ -96,10 +96,10 @@
     "analystCount": 11
   },
   "revisions": {
-    "eps7d": 0.0029856127814922306,
-    "eps30d": 0.0029856127814922306,
-    "eps60d": -0.0009173154206062462,
-    "eps90d": 0.00013482703877287783,
+    "eps7d": 0.00287540323558666,
+    "eps30d": 0.007325775303098858,
+    "eps60d": 0.0034059581820651275,
+    "eps90d": 0.004462653517588899,
     "revenue30d": null
   }
 }

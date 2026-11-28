@@ -5,7 +5,8 @@ const USER_AGENT =
 const YAHOO_ROOT = "https://query1.finance.yahoo.com";
 const NASDAQ_ROOT = "https://api.nasdaq.com/api";
 
-type YahooValue = { raw?: number; fmt?: string } | number | string | null | undefined;
+type YahooValue =
+  { raw?: number; fmt?: string } | number | string | null | undefined;
 
 type YahooTrend = {
   period?: string;
@@ -99,7 +100,9 @@ function ynum(value: YahooValue): number | null {
     const parsed = Number(value.replace(/[^0-9.-]/g, ""));
     return Number.isFinite(parsed) ? parsed : null;
   }
-  return typeof value.raw === "number" && Number.isFinite(value.raw) ? value.raw : null;
+  return typeof value.raw === "number" && Number.isFinite(value.raw)
+    ? value.raw
+    : null;
 }
 
 function nnum(value: unknown): number | null {
@@ -113,7 +116,20 @@ function nnum(value: unknown): number | null {
 function endOfMonth(label: string): string | null {
   const match = label.match(/^([A-Za-z]{3})[a-z]*\s+(\d{4})$/);
   if (!match) return null;
-  const months = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+  const months = [
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "may",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "oct",
+    "nov",
+    "dec",
+  ];
   const month = months.indexOf(match[1].toLowerCase());
   if (month < 0) return null;
   const year = Number(match[2]);
@@ -125,36 +141,68 @@ function historyEnd(row: YahooHistoryRow): string | null {
   return row.quarter?.fmt?.slice(0, 10) ?? null;
 }
 
-async function yahooSession(): Promise<{ crumb: string; cookie: string }> {
+let sessionPromise: Promise<{ crumb: string; cookie: string }> | null = null;
+
+async function createYahooSession(): Promise<{
+  crumb: string;
+  cookie: string;
+}> {
   const landing = await fetch("https://fc.yahoo.com", {
     headers: { "User-Agent": USER_AGENT },
     redirect: "manual",
     signal: AbortSignal.timeout(20_000),
   });
-  const cookie = (landing.headers.getSetCookie?.() ?? []).map((c) => c.split(";")[0]).join("; ");
+  const cookie = (landing.headers.getSetCookie?.() ?? [])
+    .map((value) => value.split(";")[0])
+    .join("; ");
   const crumbRes = await fetch(`${YAHOO_ROOT}/v1/test/getcrumb`, {
     headers: { "User-Agent": USER_AGENT, Cookie: cookie },
     signal: AbortSignal.timeout(20_000),
   });
   if (!crumbRes.ok) throw new Error(`Yahoo crumb ${crumbRes.status}`);
   const crumb = (await crumbRes.text()).trim();
-  if (!crumb || crumb.includes("<") || crumb.length > 32) throw new Error("Yahoo crumb unavailable");
+  if (!crumb || crumb.includes("<") || crumb.length > 32) {
+    throw new Error("Yahoo crumb unavailable");
+  }
   return { crumb, cookie };
 }
 
+async function yahooSession(): Promise<{ crumb: string; cookie: string }> {
+  if (!sessionPromise) {
+    sessionPromise = createYahooSession().catch((error) => {
+      sessionPromise = null;
+      throw error;
+    });
+  }
+  return sessionPromise;
+}
+
 async function fetchYahoo(ticker: string): Promise<YahooResult> {
-  const { crumb, cookie } = await yahooSession();
-  const modules = "financialData,recommendationTrend,earningsTrend,earningsHistory";
-  const url = `${YAHOO_ROOT}/v10/finance/quoteSummary/${encodeURIComponent(ticker)}?modules=${modules}&crumb=${encodeURIComponent(crumb)}`;
-  const res = await fetch(url, {
-    headers: { "User-Agent": USER_AGENT, Cookie: cookie },
-    signal: AbortSignal.timeout(30_000),
-  });
-  if (!res.ok) throw new Error(`Yahoo quoteSummary ${res.status}`);
-  const json = (await res.json()) as { quoteSummary?: { result?: YahooResult[] } };
-  const result = json.quoteSummary?.result?.[0];
-  if (!result) throw new Error(`Yahoo returned no data for ${ticker}`);
-  return result;
+  const modules =
+    "financialData,recommendationTrend,earningsTrend,earningsHistory";
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    const { crumb, cookie } = await yahooSession();
+    const url = `${YAHOO_ROOT}/v10/finance/quoteSummary/${encodeURIComponent(
+      ticker,
+    )}?modules=${modules}&crumb=${encodeURIComponent(crumb)}`;
+    const res = await fetch(url, {
+      headers: { "User-Agent": USER_AGENT, Cookie: cookie },
+      signal: AbortSignal.timeout(30_000),
+    });
+    if (res.status === 401 || res.status === 403) {
+      // The cached crumb expired; get a fresh one and retry this ticker.
+      sessionPromise = null;
+      continue;
+    }
+    if (!res.ok) throw new Error(`Yahoo quoteSummary ${res.status}`);
+    const json = (await res.json()) as {
+      quoteSummary?: { result?: YahooResult[] };
+    };
+    const result = json.quoteSummary?.result?.[0];
+    if (!result) throw new Error(`Yahoo returned no data for ${ticker}`);
+    return result;
+  }
+  throw new Error(`Yahoo authorization failed for ${ticker}`);
 }
 
 async function fetchNasdaq<T>(path: string): Promise<T> {
@@ -166,7 +214,11 @@ async function fetchNasdaq<T>(path: string): Promise<T> {
   return (await res.json()) as T;
 }
 
-function yahooEstimate(trend: YahooTrend | undefined, period: string, endDate: string | null): ConsensusEstimate | null {
+function yahooEstimate(
+  trend: YahooTrend | undefined,
+  period: string,
+  endDate: string | null,
+): ConsensusEstimate | null {
   if (!trend) return null;
   return {
     period,
@@ -179,7 +231,10 @@ function yahooEstimate(trend: YahooTrend | undefined, period: string, endDate: s
   };
 }
 
-function nasdaqEstimate(row: NasdaqRow, period: string): ConsensusEstimate | null {
+function nasdaqEstimate(
+  row: NasdaqRow,
+  period: string,
+): ConsensusEstimate | null {
   const fiscalEnd = typeof row.fiscalEnd === "string" ? row.fiscalEnd : "";
   const endDate = fiscalEnd ? endOfMonth(fiscalEnd) : null;
   const eps = nnum(row.consensusEPSForecast);
@@ -202,7 +257,9 @@ function yahooConsensus(
   asOf: string,
 ): Consensus {
   const history = (result.earningsHistory?.history ?? []).slice(-5);
-  const latestReportedEnd = history.length ? historyEnd(history[history.length - 1]) : null;
+  const latestReportedEnd = history.length
+    ? historyEnd(history[history.length - 1])
+    : null;
 
   const trends = new Map<string, YahooTrend>();
   for (const trend of result.earningsTrend?.trend ?? []) {
@@ -216,10 +273,12 @@ function yahooConsensus(
 
   const yahooQuarterlyUsable =
     Boolean(q0?.endDate && q1?.endDate) &&
-    (!latestReportedEnd || (q0!.endDate! > latestReportedEnd && q1!.endDate! > q0!.endDate!));
+    (!latestReportedEnd ||
+      (q0!.endDate! > latestReportedEnd && q1!.endDate! > q0!.endDate!));
   const yahooAnnualUsable =
     Boolean(y0?.endDate && y1?.endDate) &&
-    (!latestReportedEnd || (y0!.endDate! > latestReportedEnd && y1!.endDate! > y0!.endDate!));
+    (!latestReportedEnd ||
+      (y0!.endDate! > latestReportedEnd && y1!.endDate! > y0!.endDate!));
 
   const estimates: ConsensusEstimate[] = [];
 
@@ -232,11 +291,15 @@ function yahooConsensus(
     // Yahoo's dates can lag by one quarter right after a fiscal-year close,
     // but its revenue estimates still line up with the next two quarters.
     nasdaq.quarterly.slice(0, 2).forEach((row, index) => {
-      const estimate = nasdaqEstimate(row, index === 0 ? "Next quarter" : "Following quarter");
+      const estimate = nasdaqEstimate(
+        row,
+        index === 0 ? "Next quarter" : "Following quarter",
+      );
       if (!estimate) return;
       const trend = index === 0 ? q0 : q1;
       estimate.revenueAvg = ynum(trend?.revenueEstimate?.avg);
-      estimate.revenueGrowth = ynum(trend?.revenueEstimate?.growth) ?? ynum(trend?.growth);
+      estimate.revenueGrowth =
+        ynum(trend?.revenueEstimate?.growth) ?? ynum(trend?.growth);
       estimates.push(estimate);
     });
   }
@@ -248,7 +311,10 @@ function yahooConsensus(
     if (b) estimates.push(b);
   } else {
     nasdaq.yearly.slice(0, 2).forEach((row, index) => {
-      const estimate = nasdaqEstimate(row, index === 0 ? "Current fiscal year" : "Next fiscal year");
+      const estimate = nasdaqEstimate(
+        row,
+        index === 0 ? "Current fiscal year" : "Next fiscal year",
+      );
       if (estimate) estimates.push(estimate);
     });
   }
@@ -265,10 +331,15 @@ function yahooConsensus(
     : null;
 
   const distributionTotal = distribution
-    ? distribution.strongBuy + distribution.buy + distribution.hold + distribution.sell + distribution.strongSell
+    ? distribution.strongBuy +
+      distribution.buy +
+      distribution.hold +
+      distribution.sell +
+      distribution.strongSell
     : null;
 
-  const currentQuarter = estimates.find((estimate) => estimate.period === "Next quarter") ?? null;
+  const currentQuarter =
+    estimates.find((estimate) => estimate.period === "Next quarter") ?? null;
   const revisionTrend = y0 ?? q0;
   const currentEps = ynum(revisionTrend?.epsTrend?.current);
   const revision = (previous: YahooValue): number | null => {
@@ -279,14 +350,16 @@ function yahooConsensus(
 
   return {
     ticker,
-    provider: "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
+    provider:
+      "Yahoo Finance analyst consensus (estimates cross-checked with Nasdaq)",
     asOf,
     sourceUrl: `https://finance.yahoo.com/quote/${encodeURIComponent(ticker)}/analysis`,
     targetMean: ynum(result.financialData?.targetMeanPrice),
     targetHigh: ynum(result.financialData?.targetHighPrice),
     targetLow: ynum(result.financialData?.targetLowPrice),
     recommendationKey: result.financialData?.recommendationKey ?? null,
-    analystCount: ynum(result.financialData?.numberOfAnalystOpinions) ?? distributionTotal,
+    analystCount:
+      ynum(result.financialData?.numberOfAnalystOpinions) ?? distributionTotal,
     distribution,
     estimates,
     history: history.map((row) => ({
@@ -327,11 +400,17 @@ function nasdaqConsensus(
   const estimates: ConsensusEstimate[] = [];
 
   quarterly.slice(0, 2).forEach((row, index) => {
-    const estimate = nasdaqEstimate(row, index === 0 ? "Next quarter" : "Following quarter");
+    const estimate = nasdaqEstimate(
+      row,
+      index === 0 ? "Next quarter" : "Following quarter",
+    );
     if (estimate) estimates.push(estimate);
   });
   yearly.slice(0, 2).forEach((row, index) => {
-    const estimate = nasdaqEstimate(row, index === 0 ? "Current fiscal year" : "Next fiscal year");
+    const estimate = nasdaqEstimate(
+      row,
+      index === 0 ? "Current fiscal year" : "Next fiscal year",
+    );
     if (estimate) estimates.push(estimate);
   });
 
@@ -351,30 +430,46 @@ function nasdaqConsensus(
     analystCount: analystMatch ? Number(analystMatch[1]) : null,
     distribution: null,
     estimates,
-    history: (surprise.data?.earningsSurpriseTable?.rows ?? []).slice(0, 5).map((row) => {
-      const fiscalEnd = typeof row.fiscalQtrEnd === "string" ? row.fiscalQtrEnd : "";
-      const endDate = fiscalEnd ? endOfMonth(fiscalEnd) : null;
-      return {
-        quarter: fiscalEnd,
-        endDate,
-        epsActual: nnum(row.eps),
-        epsEstimate: nnum(row.consensusForecast),
-        revenueActual: null,
-        revenueEstimate: null,
-      };
-    }),
-    currentQuarter: estimates.find((estimate) => estimate.period === "Next quarter") ?? null,
+    history: (surprise.data?.earningsSurpriseTable?.rows ?? [])
+      .slice(0, 5)
+      .map((row) => {
+        const fiscalEnd =
+          typeof row.fiscalQtrEnd === "string" ? row.fiscalQtrEnd : "";
+        const endDate = fiscalEnd ? endOfMonth(fiscalEnd) : null;
+        return {
+          quarter: fiscalEnd,
+          endDate,
+          epsActual: nnum(row.eps),
+          epsEstimate: nnum(row.consensusForecast),
+          revenueActual: null,
+          revenueEstimate: null,
+        };
+      }),
+    currentQuarter:
+      estimates.find((estimate) => estimate.period === "Next quarter") ?? null,
   };
 }
 
 /** Fetch third-party analyst consensus. Never a Stockmonk rating or target. */
-export async function fetchConsensus(ticker: string, asOf = new Date().toISOString().slice(0, 10)): Promise<Consensus> {
-  const [forecast, nasdaqSummary, nasdaqRatings, nasdaqSurprise] = await Promise.all([
-    fetchNasdaq<NasdaqForecast>(`/analyst/${ticker}/earnings-forecast`).catch(() => ({}) as NasdaqForecast),
-    fetchNasdaq<NasdaqSummary>(`/quote/${ticker}/summary?assetclass=stocks`).catch(() => ({}) as NasdaqSummary),
-    fetchNasdaq<NasdaqRatings>(`/analyst/${ticker}/ratings`).catch(() => ({}) as NasdaqRatings),
-    fetchNasdaq<NasdaqSurprise>(`/company/${ticker}/earnings-surprise`).catch(() => ({}) as NasdaqSurprise),
-  ]);
+export async function fetchConsensus(
+  ticker: string,
+  asOf = new Date().toISOString().slice(0, 10),
+): Promise<Consensus> {
+  const [forecast, nasdaqSummary, nasdaqRatings, nasdaqSurprise] =
+    await Promise.all([
+      fetchNasdaq<NasdaqForecast>(`/analyst/${ticker}/earnings-forecast`).catch(
+        () => ({}) as NasdaqForecast,
+      ),
+      fetchNasdaq<NasdaqSummary>(
+        `/quote/${ticker}/summary?assetclass=stocks`,
+      ).catch(() => ({}) as NasdaqSummary),
+      fetchNasdaq<NasdaqRatings>(`/analyst/${ticker}/ratings`).catch(
+        () => ({}) as NasdaqRatings,
+      ),
+      fetchNasdaq<NasdaqSurprise>(`/company/${ticker}/earnings-surprise`).catch(
+        () => ({}) as NasdaqSurprise,
+      ),
+    ]);
 
   try {
     const yahoo = await fetchYahoo(ticker);
@@ -388,7 +483,16 @@ export async function fetchConsensus(ticker: string, asOf = new Date().toISOStri
       asOf,
     );
   } catch (error) {
-    console.warn(`[consensus] Yahoo unavailable for ${ticker}: ${(error as Error).message}`);
-    return nasdaqConsensus(ticker, nasdaqSummary, nasdaqRatings, forecast, nasdaqSurprise, asOf);
+    console.warn(
+      `[consensus] Yahoo unavailable for ${ticker}: ${(error as Error).message}`,
+    );
+    return nasdaqConsensus(
+      ticker,
+      nasdaqSummary,
+      nasdaqRatings,
+      forecast,
+      nasdaqSurprise,
+      asOf,
+    );
   }
 }

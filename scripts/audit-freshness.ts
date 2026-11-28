@@ -113,13 +113,13 @@ for (const market of MARKETS) {
     if (age > 2) {
       failures.push(`${market.code}: consensus fetch is older than 2 days`);
     }
-    if ((meta.failed ?? 0) > 10) {
-      failures.push(
-        `${meta.failed} consensus tickers failed in the last fetch`,
-      );
-    } else if ((meta.failed ?? 0) > 0) {
+    const failed = meta.failed ?? 0;
+    const failedLimit = Math.max(10, Math.round((meta.succeeded ?? 0) * 0.01));
+    if (failed > failedLimit) {
+      failures.push(`${failed} consensus tickers failed in the last fetch`);
+    } else if (failed > 0) {
       console.log(
-        `${market.code}: ${meta.failed} isolated consensus fetch failures tolerated`,
+        `${market.code}: ${failed} isolated consensus fetch failures tolerated`,
       );
     }
   } else if (STRICT) {

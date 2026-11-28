@@ -33,6 +33,7 @@ jobs:
         run: |
           hour=$(TZ=America/New_York date +%H)
           today=$(TZ=America/New_York date +%F)
+          yesterday=$(TZ=America/New_York date -d 'yesterday' +%F)
           last=$(node -e "try{const f=require('./data/weekly-sec-refresh.json'); process.stdout.write((f.generatedAt||'').slice(0,10))}catch{process.stdout.write('')}")
           echo "America/New_York date: $today, hour: $hour"
           echo "last weekly refresh date: ${last:-missing}"
@@ -42,6 +43,9 @@ jobs:
           elif [ "$hour" -ge 12 ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
             echo "Queuing the weekly refresh."
+          elif [ -z "$last" ] || [ "$last" \< "$yesterday" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Catching up a missed weekly refresh."
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
             echo "Waiting for the noon US Eastern window."

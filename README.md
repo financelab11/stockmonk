@@ -106,8 +106,9 @@ watchlist_items, company_snapshots, ingestion_runs, data_freshness and story_fre
 - Realtime is enabled for snapshots, news, freshness, consensus targets and
   watchlists.
 - `pg_cron` refreshes `company_snapshots` at 03:30 UTC and `data_freshness`
-  at 03:45 UTC daily. `story_freshness` records the data/narrative status for
-  every report.
+  at 03:45 UTC as a safety net; the Supabase sync also refreshes both after
+  each successful data run. `story_freshness` records the data/narrative status
+  for every report.
 
 Environment:
 
@@ -129,9 +130,11 @@ Build with `pnpm build`; static and dynamic routes use the same Next.js output.
 Required environment variables are the Supabase values above plus
 `NEXT_PUBLIC_SITE_URL`; refresh jobs need no vendor key.
 
-The daily data workflow is `.github/workflows/daily-refresh.yml`. It refreshes
-the US file datasets, syncs Supabase, and commits updated data. Configure
-`NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` (or
+The daily data workflow is `.github/workflows/daily-refresh.yml`. It opens at
+03:00 America/New_York, refreshes the US file datasets, syncs Supabase, and
+commits updated data. GitHub cron can start late, so the workflow retries
+across 07:00–12:00 UTC and uses a date guard instead of an exact-hour guard.
+Configure `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY` (or
 `SUPABASE_DB_PASSWORD`) as GitHub Actions secrets.
 
 ## Data pipeline

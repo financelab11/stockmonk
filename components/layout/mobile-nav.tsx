@@ -12,7 +12,6 @@ import {
   Info,
   Menu,
   SlidersHorizontal,
-  Sparkles,
   Star,
   X,
 } from "lucide-react";
@@ -33,7 +32,6 @@ const MORE_LINKS = [
   },
   { href: "/data-sources", label: "Data sources", icon: Database },
   { href: "/about", label: "About Stockmonk", icon: Info },
-  { href: "/discover#pro", label: "Stockmonk Pro", icon: Sparkles },
 ] as const;
 
 const MORE_PATHS = MORE_LINKS.filter((link) => !link.href.includes("#")).map(

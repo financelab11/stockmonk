@@ -2,11 +2,13 @@ name: Weekly SEC fundamentals refresh
 
 on:
   schedule:
-    # Saturday 12:00 America/New_York, after the daily 03:00 run has finished.
-    # GitHub cron is UTC, so try both 16:00 and 17:00 UTC and let the guard
-    # pick the 12:00 run.
+    # Saturday noon America/New_York, after the daily 03:00 run has finished.
+    # GitHub cron is UTC and can be delayed, so try a window of attempts and
+    # let the guard pick the first one after noon local time.
     - cron: "0 16 * * 6"
     - cron: "0 17 * * 6"
+    - cron: "0 18 * * 6"
+    - cron: "0 19 * * 6"
   workflow_dispatch:
 
 permissions:
@@ -14,7 +16,9 @@ permissions:
   issues: write
 
 concurrency:
-  group: daily-market-data-refresh
+  # Separate from the daily refresh so a long daily run cannot cancel the
+  # weekly rebuild. Both workflows rebase before pushing to avoid races on main.
+  group: weekly-sec-refresh
   cancel-in-progress: false
 
 jobs:
@@ -23,18 +27,27 @@ jobs:
     outputs:
       run: ${{ steps.clock.outputs.run }}
     steps:
-      - name: Check noon US Eastern
+      - uses: actions/checkout@v4
+      - name: Check whether this week's refresh already completed
         id: clock
         run: |
           hour=$(TZ=America/New_York date +%H)
-          echo "America/New_York hour: $hour"
-          if [ "$hour" = "12" ]; then
+          today=$(TZ=America/New_York date +%F)
+          last=$(node -e "try{const f=require('./data/weekly-sec-refresh.json'); process.stdout.write((f.generatedAt||'').slice(0,10))}catch{process.stdout.write('')}")
+          echo "America/New_York date: $today, hour: $hour"
+          echo "last weekly refresh date: ${last:-missing}"
+          if [ "$last" = "$today" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "This week's refresh already completed; skipping."
+          elif [ "$hour" -ge 12 ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Queuing the weekly refresh."
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Waiting for the noon US Eastern window."
           fi
 
-  refresh:
+  sec:
     needs: guard
     if: needs.guard.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
@@ -61,36 +74,176 @@ jobs:
           SKIP_SUBMISSIONS: "1"
         run: pnpm ingest:edgar
 
-      - name: Rebuild price and profile datasets
-        run: pnpm ingest:fundamentals
-
-      - name: Refresh consensus
-        run: pnpm ingest:consensus
-
-      - name: Rebuild public datasets and scores
+      - name: Rebuild segment and earnings evidence
         run: |
-          pnpm build:data
-          pnpm build:scores
-          pnpm build:kpis
-          pnpm build:screener
-          pnpm ingest:logos
-          pnpm build:runtime
-          pnpm build:seo
+          set -euo pipefail
+          retry() {
+            for attempt in 1 2 3; do
+              "$@" && return 0
+              sleep $((attempt * 30))
+            done
+            return 1
+          }
+          retry pnpm ingest:segments || echo "::warning::segment refresh failed; keeping the previous snapshot"
+          retry pnpm ingest:earnings || echo "::warning::earnings refresh failed; keeping the previous snapshot"
 
-      - name: Commit refreshed fundamentals
+      - name: Commit SEC statements
         run: |
           git config user.name "stockmonk-data-bot"
           git config user.email "data-bot@stockmonk.app"
           git add data public/data public/logos
           if git diff --cached --quiet; then
+            echo "No SEC changes to commit."
+          else
+            git commit -m "chore: weekly SEC statements"
+            for attempt in 1 2 3; do
+              git push && break
+              sleep $((attempt * 10))
+              git pull --rebase --autostash origin main
+            done
+          fi
+
+  market:
+    # Fresh checkout of main so this job sees the SEC statements committed by
+    # the previous job. Splitting the work keeps each job under the 6-hour
+    # GitHub-hosted runner limit.
+    needs: sec
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.34.9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Refresh prices, profiles, consensus and benchmarks
+        run: |
+          set -euo pipefail
+          retry() {
+            for attempt in 1 2 3; do
+              "$@" && return 0
+              sleep $((attempt * 30))
+            done
+            return 1
+          }
+          retry pnpm ingest:fundamentals
+          retry pnpm ingest:consensus || echo "::warning::consensus refresh failed; keeping the previous snapshot"
+          retry pnpm ingest:benchmark || echo "::warning::benchmark refresh failed; keeping the previous snapshot"
+
+      - name: Rebuild public datasets, scores and portfolios
+        run: |
+          pnpm build:data
+          pnpm build:scores
+          pnpm build:kpis
+          pnpm build:screener
+          pnpm build:portfolios
+          pnpm build:portfolio-logos
+          pnpm ingest:logos
+          pnpm build:runtime
+          pnpm build:seo
+
+      - name: Refresh the story freshness manifest
+        run: pnpm detect:events
+
+      - name: Check freshness and content
+        run: |
+          pnpm audit:freshness
+          pnpm audit:stories
+          pnpm audit:research
+          pnpm audit:numbers
+          pnpm validate:content
+          pnpm validate:portfolios
+          pnpm typecheck
+
+      - name: Commit refreshed fundamentals
+        run: |
+          git config user.name "stockmonk-data-bot"
+          git config user.email "data-bot@stockmonk.app"
+          git add data public/data public/logos public/portfolio-logos
+          if git diff --cached --quiet; then
             echo "No fundamental changes to commit."
           else
             git commit -m "chore: weekly SEC fundamentals refresh"
-            git push
+            for attempt in 1 2 3; do
+              git push && break
+              sleep $((attempt * 10))
+              git pull --rebase --autostash origin main
+            done
           fi
 
+  publish:
+    needs: market
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.34.9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Sync Supabase
+        run: |
+          if [ -n "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            pnpm sync:supabase
+          elif [ -n "$SUPABASE_DB_PASSWORD" ]; then
+            pnpm sync:supabase:direct
+          else
+            echo "No Supabase credential configured" >&2
+            exit 1
+          fi
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+          SUPABASE_DB_HOST: ${{ secrets.SUPABASE_DB_HOST }}
+          SUPABASE_DB_USER: ${{ secrets.SUPABASE_DB_USER }}
+
+      - name: Sync normalized research and portfolio tables
+        run: |
+          pnpm sync:v2
+          pnpm sync:portfolios
+        env:
+          SUPABASE_DB_PASSWORD: ${{ secrets.SUPABASE_DB_PASSWORD }}
+          SUPABASE_DB_HOST: ${{ secrets.SUPABASE_DB_HOST }}
+          SUPABASE_DB_USER: ${{ secrets.SUPABASE_DB_USER }}
+
+      - name: Record the completed weekly run
+        run: |
+          node -e "const fs=require('node:fs'); fs.writeFileSync('data/weekly-sec-refresh.json', JSON.stringify({ generatedAt: new Date().toISOString() }, null, 2) + '\n')"
+          git add data/weekly-sec-refresh.json
+          git commit -m "chore: record weekly SEC refresh"
+          for attempt in 1 2 3; do
+            git push && break
+            sleep $((attempt * 10))
+            git pull --rebase --autostash origin main
+          done
+
+  report:
+    needs: [sec, market, publish]
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
       - name: Open or update the failure issue
-        if: failure()
         uses: actions/github-script@v7
         with:
           script: |
@@ -103,7 +256,7 @@ jobs:
               `Commit: ${context.sha}`,
               `Time: ${new Date().toISOString()}`,
               "",
-              "Check the bulk companyfacts download and the ingestion logs.",
+              "Check the bulk companyfacts download, the ingestion logs and the completed jobs.",
             ].join("\n");
             const { data: issues } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,

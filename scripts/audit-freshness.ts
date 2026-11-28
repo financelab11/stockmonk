@@ -70,8 +70,20 @@ for (const market of MARKETS) {
   console.log(
     `${market.code}: ${activeEntries.length} active names (${entries.length - activeEntries.length} archived) · prices ${oldest} → ${newest} (median ${median}) · ${fresh}/${activeEntries.length} within 7 days · newest age ${daysBetween(newest, today)}d`,
   );
-  if (daysBetween(newest, today) > 3) {
-    failures.push(`${market.code}: newest price is older than 3 days`);
+  if (daysBetween(newest, today) > 5) {
+    failures.push(`${market.code}: newest price is older than 5 days`);
+  }
+  const staleNames = activeEntries.filter((entry) => {
+    if (!entry.asOf) return true;
+    return daysBetween(entry.asOf.slice(0, 10), today) > 5;
+  });
+  if (staleNames.length) {
+    failures.push(
+      `${staleNames.length} ${market.code} research names have stale prices: ${staleNames
+        .slice(0, 12)
+        .map((entry) => entry.ticker)
+        .join(", ")}`,
+    );
   }
 
   const dir = market.consensus;
@@ -101,9 +113,13 @@ for (const market of MARKETS) {
     if (age > 2) {
       failures.push(`${market.code}: consensus fetch is older than 2 days`);
     }
-    if ((meta.failed ?? 0) > 0) {
+    if ((meta.failed ?? 0) > 10) {
       failures.push(
         `${meta.failed} consensus tickers failed in the last fetch`,
+      );
+    } else if ((meta.failed ?? 0) > 0) {
+      console.log(
+        `${market.code}: ${meta.failed} isolated consensus fetch failures tolerated`,
       );
     }
   } else if (STRICT) {

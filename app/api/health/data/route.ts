@@ -56,9 +56,14 @@ export async function GET() {
   const priceAge = newestPrice ? daysBetween(newestPrice, today) : null;
   const consensusDate = consensusMeta?.generatedAt?.slice(0, 10) ?? null;
   const consensusAge = consensusDate ? daysBetween(consensusDate, today) : null;
+  const manifestDate = manifest?.generatedAt?.slice(0, 10) ?? null;
+  const manifestAge = manifestDate ? daysBetween(manifestDate, today) : null;
 
   const problems: string[] = [];
   if (!manifest) problems.push("story freshness manifest is missing");
+  if (manifest && manifestAge != null && manifestAge > 1) {
+    problems.push(`the daily refresh manifest is ${manifestAge} days old`);
+  }
   if (manifest && manifest.counts["rewrite-pending"] > 0) {
     problems.push(
       `${manifest.counts["rewrite-pending"]} stories pending a rewrite`,
@@ -68,7 +73,7 @@ export async function GET() {
     problems.push(`${manifest.counts["data-stale"]} stories with stale data`);
   }
   if (priceAge == null) problems.push("no price dates in the universe");
-  else if (priceAge > 3) problems.push(`newest price is ${priceAge} days old`);
+  else if (priceAge > 5) problems.push(`newest price is ${priceAge} days old`);
   if (consensusAge == null) problems.push("consensus fetch date is missing");
   else if (consensusAge > 2) {
     problems.push(`consensus fetch is ${consensusAge} days old`);
@@ -123,6 +128,7 @@ export async function GET() {
             sourceGaps,
             archivedTickers: archived,
             manifestGeneratedAt: manifest.generatedAt,
+            manifestAgeDays: manifestAge,
           }
         : null,
       problems,

@@ -2,11 +2,16 @@ name: Daily market data refresh
 
 on:
   schedule:
-    # GitHub cron is UTC. Run at 07:00 and 08:00 UTC so one of the two
-    # attempts is 03:00 in America/New_York in both EDT and EST. The guard
-    # job below skips the duplicate.
+    # GitHub cron is UTC and can be delayed, so try a short window around
+    # 03:00 America/New_York. The guard runs the first attempt after 03:00
+    # local time when today's refresh has not completed, then later attempts
+    # act as retries. This also covers EDT/EST without a fixed UTC offset.
     - cron: "0 7 * * *"
     - cron: "0 8 * * *"
+    - cron: "0 9 * * *"
+    - cron: "0 10 * * *"
+    - cron: "0 11 * * *"
+    - cron: "0 12 * * *"
   workflow_dispatch:
     inputs:
       force_all:
@@ -24,7 +29,11 @@ permissions:
 
 concurrency:
   group: daily-market-data-refresh
-  cancel-in-progress: true
+  cancel-in-progress: false
+
+env:
+  FORCE_ALL: ${{ inputs.force_all }}
+  TICKERS: ${{ inputs.tickers }}
 
 jobs:
   guard:
@@ -32,15 +41,24 @@ jobs:
     outputs:
       run: ${{ steps.clock.outputs.run }}
     steps:
-      - name: Check 3am US Eastern
+      - uses: actions/checkout@v4
+      - name: Check whether today's refresh already completed
         id: clock
         run: |
           hour=$(TZ=America/New_York date +%H)
-          echo "America/New_York hour: $hour"
-          if [ "$hour" = "03" ]; then
+          today=$(TZ=America/New_York date +%F)
+          last=$(node -e "try{const f=require('./data/story-freshness.json'); process.stdout.write((f.generatedAt||'').slice(0,10))}catch{process.stdout.write('')}")
+          echo "America/New_York date: $today, hour: $hour"
+          echo "last freshness manifest date: ${last:-missing}"
+          if [ "$last" = "$today" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Today's refresh already completed; skipping."
+          elif [ "$hour" -ge 3 ]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Queuing today's refresh."
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Waiting for the 03:00 US Eastern window."
           fi
 
   refresh:
@@ -48,9 +66,6 @@ jobs:
     if: needs.guard.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     timeout-minutes: 360
-    env:
-      FORCE_ALL: ${{ inputs.force_all }}
-      TICKERS: ${{ inputs.tickers }}
     steps:
       - uses: actions/checkout@v4
 
@@ -78,10 +93,12 @@ jobs:
           # SEC statements are versioned and refreshed by the weekly bulk job.
           # The daily run rebuilds prices, consensus and scores from them.
           retry pnpm ingest:fundamentals
-          retry pnpm ingest:consensus
-          retry pnpm ingest:segments
-          retry pnpm ingest:benchmark
-          retry pnpm ingest:earnings
+          # Enrichment failures keep the previous dated snapshot; the strict
+          # freshness audit in the finalize job decides whether they are too old.
+          retry pnpm ingest:consensus || echo "::warning::consensus refresh failed; keeping the previous snapshot"
+          retry pnpm ingest:segments || echo "::warning::segment refresh failed; keeping the previous snapshot"
+          retry pnpm ingest:benchmark || echo "::warning::benchmark refresh failed; keeping the previous snapshot"
+          retry pnpm ingest:earnings || echo "::warning::earnings refresh failed; keeping the previous snapshot"
           pnpm build:data
           pnpm build:scores
           pnpm build:kpis
@@ -92,13 +109,6 @@ jobs:
           pnpm build:runtime
           pnpm build:seo
 
-      - name: Detect material story events
-        run: |
-          ARGS=""
-          if [ "$FORCE_ALL" = "true" ]; then ARGS="$ARGS --force-all"; fi
-          if [ -n "$TICKERS" ]; then ARGS="$ARGS --ticker=$TICKERS"; fi
-          pnpm detect:events $ARGS
-
       - name: Commit refreshed data
         run: |
           git config user.name "stockmonk-data-bot"
@@ -108,8 +118,42 @@ jobs:
             echo "No data changes to commit."
           else
             git commit -m "chore: daily market data refresh"
-            git push
+            for attempt in 1 2 3; do
+              git push && break
+              sleep $((attempt * 10))
+              git pull --rebase --autostash origin main
+            done
           fi
+
+  finalize:
+    # Run on a fresh checkout of main so this job sees the data committed by
+    # the refresh job. Keeping the work in two jobs avoids the 6-hour per-job
+    # runner limit as the daily universe grows.
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.34.9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Detect material story events
+        run: |
+          ARGS=""
+          if [ "$FORCE_ALL" = "true" ]; then ARGS="$ARGS --force-all"; fi
+          if [ -n "$TICKERS" ]; then ARGS="$ARGS --ticker=$TICKERS"; fi
+          pnpm detect:events $ARGS
 
       - name: Rewrite material stories
         env:
@@ -177,12 +221,16 @@ jobs:
 
       - name: Commit refreshed narratives
         run: |
-          git add content data public/data public/logos
+          git add content data public/data public/logos public/portfolio-logos
           if git diff --cached --quiet; then
             echo "No narrative changes to commit."
           else
             git commit -m "chore: refresh research narratives"
-            git push
+            for attempt in 1 2 3; do
+              git push && break
+              sleep $((attempt * 10))
+              git pull --rebase --autostash origin main
+            done
           fi
 
       - name: Verify production data health
@@ -191,8 +239,12 @@ jobs:
             --retry 12 --retry-delay 30 --retry-all-errors \
             https://stockmonk.vercel.app/api/health/data
 
+  report:
+    needs: [refresh, finalize]
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
       - name: Open or update the failure issue
-        if: failure()
         uses: actions/github-script@v7
         with:
           script: |

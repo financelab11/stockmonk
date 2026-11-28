@@ -2,9 +2,39 @@ import type { PricePoint } from "./schemas";
 
 const USER_AGENT =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36";
-const YAHOO_ROOT = "https://query1.finance.yahoo.com";
+const YAHOO_ROOTS = [
+  "https://query1.finance.yahoo.com",
+  "https://query2.finance.yahoo.com",
+];
+const YAHOO_ROOT = YAHOO_ROOTS[0];
+
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 let sessionPromise: Promise<{ crumb: string; cookie: string }> | null = null;
+
+/**
+ * Yahoo sometimes rate-limits or rejects one query host while the other keeps
+ * working. Try both hosts, then retry the pair once with a short backoff so a
+ * transient 429 does not drop a ticker from the daily refresh.
+ */
+async function yahooFetch(
+  pathname: string,
+  init: RequestInit,
+): Promise<Response | null> {
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    for (const root of YAHOO_ROOTS) {
+      try {
+        const response = await fetch(`${root}${pathname}`, init);
+        if (response.ok) return response;
+        if (response.status !== 429 && response.status < 500) continue;
+      } catch {
+        // try the next host
+      }
+    }
+    if (attempt === 0) await sleep(1200);
+  }
+  return null;
+}
 
 async function createSession(): Promise<{ crumb: string; cookie: string }> {
   const home = await fetch("https://fc.yahoo.com", {
@@ -142,18 +172,22 @@ export async function yahooQuoteSummary(
   modules: string,
 ): Promise<YahooQuoteSummary | null> {
   const { crumb, cookie } = await session();
-  const url = `${YAHOO_ROOT}/v10/finance/quoteSummary/${encodeURIComponent(
+  const pathname = `/v10/finance/quoteSummary/${encodeURIComponent(
     ticker,
   )}?modules=${modules}&crumb=${encodeURIComponent(crumb)}`;
-  const response = await fetch(url, {
+  const response = await yahooFetch(pathname, {
     headers: { "User-Agent": USER_AGENT, Cookie: cookie },
     signal: AbortSignal.timeout(45_000),
   });
-  if (!response.ok) return null;
-  const json = (await response.json()) as {
-    quoteSummary?: { result?: YahooQuoteSummary[] };
-  };
-  return json.quoteSummary?.result?.[0] ?? null;
+  if (!response) return null;
+  try {
+    const json = (await response.json()) as {
+      quoteSummary?: { result?: YahooQuoteSummary[] };
+    };
+    return json.quoteSummary?.result?.[0] ?? null;
+  } catch {
+    return null;
+  }
 }
 
 export type YahooChart = {
@@ -171,15 +205,15 @@ export async function yahooChart(
   ticker: string,
   range = "10y",
 ): Promise<YahooChart | null> {
-  const url = `${YAHOO_ROOT}/v8/finance/chart/${encodeURIComponent(
+  const pathname = `/v8/finance/chart/${encodeURIComponent(
     ticker,
   )}?range=${range}&interval=1d&includeAdjustedClose=true`;
-  const response = await fetch(url, {
+  const response = await yahooFetch(pathname, {
     headers: { "User-Agent": USER_AGENT },
     signal: AbortSignal.timeout(45_000),
   });
-  if (!response.ok) return null;
-  const json = (await response.json()) as {
+  if (!response) return null;
+  let json: {
     chart?: {
       result?: Array<{
         timestamp?: number[];
@@ -197,6 +231,11 @@ export async function yahooChart(
       }>;
     };
   };
+  try {
+    json = (await response.json()) as typeof json;
+  } catch {
+    return null;
+  }
   const result = json.chart?.result?.[0];
   if (!result?.timestamp || !result.indicators?.quote?.[0]) return null;
   const quote = result.indicators.quote[0];

@@ -155,13 +155,23 @@ async function main() {
 
   const records: TickerData[] = [];
   let failed = 0;
+  const failedTickers: string[] = [];
 
   for (const ticker of tickers) {
+    // If the provider is blocking the runner, stop after a small sample
+    // instead of spending the whole job on requests that cannot succeed. The
+    // next scheduled attempt gets a fresh runner and retries.
+    if (records.length === 0 && failed >= 25) {
+      throw new Error(
+        `systemic failure: ${failed} tickers failed before any record was written`,
+      );
+    }
     let sec = await readJson<SecFile>(tickerDir(ticker, "sec.json"));
     if (!sec || (sec.quarterly.length === 0 && sec.annual.length === 0)) {
       if (isResearchTicker(ticker)) {
         console.warn(`[fundamentals] ${ticker}: no SEC fundamentals`);
         failed += 1;
+        failedTickers.push(ticker);
         continue;
       }
       // OTC/community banks and other score-only names may not be in the SEC
@@ -220,6 +230,7 @@ async function main() {
       if (prices.length === 0) {
         console.warn(`[fundamentals] ${ticker}: no price history`);
         failed += 1;
+        failedTickers.push(ticker);
         await sleep(DELAY_MS);
         continue;
       }
@@ -266,6 +277,7 @@ async function main() {
       if (!computed.snapshot.asOf) {
         console.warn(`[fundamentals] ${ticker}: no dated close`);
         failed += 1;
+        failedTickers.push(ticker);
         await sleep(DELAY_MS);
         continue;
       }
@@ -401,6 +413,7 @@ async function main() {
       }
     } catch (error) {
       failed += 1;
+      failedTickers.push(ticker);
       console.warn(
         `[fundamentals] ${ticker}: ${
           error instanceof Error ? error.message : String(error)
@@ -418,7 +431,15 @@ async function main() {
       })),
     );
     for (const record of records) {
-      record.factorChips = chips[record.ticker] ?? [];
+      // Percentile chips are relative to the whole scored universe, so a
+      // filtered run must keep the existing chips instead of recomputing them
+      // from the subset.
+      const existing = await readJson<TickerData>(
+        tickerDir(record.ticker, "data.json"),
+      );
+      record.factorChips = existing?.factorChips?.length
+        ? existing.factorChips
+        : (chips[record.ticker] ?? []);
       await writeTicker(record, record.isResearch);
     }
     console.log(
@@ -509,6 +530,8 @@ async function main() {
     researchCompanies: universe.length,
     benchmark: BENCHMARK_TICKER,
     priceRanges: ["1M", "3M", "6M", "YTD", "1Y", "5Y", "MAX"],
+    failed,
+    failedTickers,
     missingRevenue: entries
       .filter((entry) => !entry.revenueTtm)
       .map((entry) => entry.ticker),
@@ -529,7 +552,19 @@ async function main() {
       failed ? `; ${failed} failed` : ""
     }`,
   );
-  if (failed > 0) process.exitCode = 1;
+  if (failedTickers.length) {
+    console.warn(
+      `[fundamentals] kept previous data for: ${failedTickers
+        .slice(0, 40)
+        .join(", ")}${failedTickers.length > 40 ? "..." : ""}`,
+    );
+  }
+  // A handful of Yahoo/OTC failures should not fail the whole daily refresh;
+  // they keep their last valid record and are retried on the next run. Only a
+  // systemic failure (no records or more than 5% failures) is fatal.
+  if (records.length === 0 || failed > Math.max(50, records.length * 0.05)) {
+    process.exitCode = 1;
+  }
 }
 
 async function writeTicker(record: TickerData, withChart: boolean) {

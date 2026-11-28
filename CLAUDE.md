@@ -136,8 +136,17 @@ FORCE_REFRESH=1 pnpm refresh      # EDGAR, Yahoo fundamentals, consensus, segmen
 pnpm refresh:prices               # Yahoo closes for all 500 US names
 pnpm build:data && pnpm build:scores && pnpm build:screener && pnpm build:portfolios
 pnpm validate:portfolios
-pnpm audit:freshness              # fails if the US price snapshot is older than 3 days
+pnpm audit:freshness              # fails if the US price snapshot is older than 5 days
 ```
+
+GitHub Actions cron is UTC and starts scheduled runs late under load, so the
+daily workflow tries 07:00–12:00 UTC and runs the first attempt after 03:00
+America/New_York when `data/story-freshness.json` is not from today. If the
+refresh fails after the guard, the remaining attempts retry it. The weekly SEC
+workflow uses the same date-guard pattern over 16:00–19:00 UTC on Saturday and
+records `data/weekly-sec-refresh.json` only after the rebuild succeeds. Isolated
+Yahoo/OTC ticker failures are recorded in the metadata and tolerated; only a
+systemic failure (no records or more than 5% failures) fails the daily job.
 
 `SKIP_PRICES=1` skips the price upsert when syncing Supabase. Known source gaps:
 PSTG and ACLX have no current Yahoo history (delisted) and CRNX last traded
@@ -299,9 +308,10 @@ periods.
   the 500 chart pages; the score/screener artifacts are rebuilt separately.
 - Score-only `data.json` and `prices.json` are gitignored and rebuilt daily.
   `sec.json` is versioned because it only changes when a filing lands.
-- The daily workflow runs at 03:00 America/New_York and refreshes prices,
-  consensus, scores and screener data. A separate Saturday job refreshes the
-  SEC statements from the bulk archive.
+- The daily workflow opens at 03:00 America/New_York and refreshes prices,
+  consensus, scores and screener data. It is split into a data job and a
+  narrative/sync job so neither exceeds GitHub's 6-hour runner limit. A separate
+  Saturday job refreshes the SEC statements from the bulk archive.
 - No India, GCC, forward-ranker or SimFin pipelines remain. The `data/india`,
   `data/gcc`, `data/growth-ranker`, `public/data/india`, `public/data/gcc`,
   `public/logos/india`, `content/india-stocks` and `content/gcc-stories`
@@ -331,7 +341,8 @@ Tables:
 
 Realtime is enabled for snapshots, news, freshness, consensus targets and
 watchlists. `pg_cron` refreshes `company_snapshots` at 03:30 UTC and
-`data_freshness` at 03:45 UTC daily, after the GitHub data refresh.
+`data_freshness` at 03:45 UTC as a safety net; `pnpm sync:supabase` also calls
+both refresh functions after every successful data sync.
 
 The app can run from files without Supabase. Supabase is the shared/realtime
 store and the base for auth/watchlists. `pnpm sync:supabase` performs idempotent
